@@ -67,8 +67,8 @@ include CMakeFiles/BankingApp_autogen_timestamp_deps.dir/compiler_depend.make
 include CMakeFiles/BankingApp_autogen_timestamp_deps.dir/progress.make
 
 CMakeFiles/BankingApp_autogen_timestamp_deps: /usr/lib/libQt5Widgets.so.5.15.12
-CMakeFiles/BankingApp_autogen_timestamp_deps: /usr/bin/moc
 CMakeFiles/BankingApp_autogen_timestamp_deps: /usr/bin/uic
+CMakeFiles/BankingApp_autogen_timestamp_deps: /usr/bin/moc
 CMakeFiles/BankingApp_autogen_timestamp_deps: /usr/lib/libQt5Sql.so.5.15.12
 
 BankingApp_autogen_timestamp_deps: CMakeFiles/BankingApp_autogen_timestamp_deps

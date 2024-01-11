@@ -43,8 +43,10 @@ file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/babsdevsys/BankingApp/*
 set(OLD_GLOB
   "/home/babsdevsys/BankingApp/UserRegistrationWidget.cpp"
   "/home/babsdevsys/BankingApp/build/CMakeFiles/3.28.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+  "/home/babsdevsys/BankingApp/customevent.cpp"
   "/home/babsdevsys/BankingApp/main.cpp"
   "/home/babsdevsys/BankingApp/mainwindow.cpp"
+  "/home/babsdevsys/BankingApp/user_registrationwidget.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -64,7 +66,9 @@ endif()
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/babsdevsys/BankingApp/*.h")
 set(OLD_GLOB
   "/home/babsdevsys/BankingApp/UserRegistrationWidget.h"
+  "/home/babsdevsys/BankingApp/customevent.h"
   "/home/babsdevsys/BankingApp/mainwindow.h"
+  "/home/babsdevsys/BankingApp/user_registrationwidget.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -165,6 +169,7 @@ endif()
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/babsdevsys/BankingApp/*.ui")
 set(OLD_GLOB
   "/home/babsdevsys/BankingApp/mainwindow.ui"
+  "/home/babsdevsys/BankingApp/user_registrationwidget.ui"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

@@ -1,4 +1,4 @@
-/home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/moc_mainwindow.cpp: /home/babsdevsys/BankingApp/mainwindow.h \
+/home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/moc_user_registrationwidget.cpp: /home/babsdevsys/BankingApp/user_registrationwidget.h \
   /home/babsdevsys/BankingApp/build/BankingApp_autogen/moc_predefs.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -291,36 +291,24 @@
   /usr/include/qt/QtGui/qfont.h \
   /usr/include/qt/QtGui/qfontinfo.h \
   /usr/include/qt/QtGui/qfontmetrics.h \
-  /usr/include/qt/QtGui/qicon.h \
   /usr/include/qt/QtGui/qimage.h \
   /usr/include/qt/QtGui/qkeysequence.h \
   /usr/include/qt/QtGui/qmatrix.h \
   /usr/include/qt/QtGui/qpaintdevice.h \
-  /usr/include/qt/QtGui/qpainter.h \
   /usr/include/qt/QtGui/qpalette.h \
-  /usr/include/qt/QtGui/qpen.h \
   /usr/include/qt/QtGui/qpixelformat.h \
   /usr/include/qt/QtGui/qpixmap.h \
   /usr/include/qt/QtGui/qpolygon.h \
   /usr/include/qt/QtGui/qregion.h \
   /usr/include/qt/QtGui/qrgb.h \
   /usr/include/qt/QtGui/qrgba64.h \
-  /usr/include/qt/QtGui/qtextoption.h \
   /usr/include/qt/QtGui/qtgui-config.h \
   /usr/include/qt/QtGui/qtguiglobal.h \
   /usr/include/qt/QtGui/qtransform.h \
   /usr/include/qt/QtGui/qwindowdefs.h \
-  /usr/include/qt/QtWidgets/QGraphicsScene \
-  /usr/include/qt/QtWidgets/QGraphicsView \
-  /usr/include/qt/QtWidgets/QMainWindow \
-  /usr/include/qt/QtWidgets/qabstractscrollarea.h \
-  /usr/include/qt/QtWidgets/qframe.h \
-  /usr/include/qt/QtWidgets/qgraphicsscene.h \
-  /usr/include/qt/QtWidgets/qgraphicsview.h \
-  /usr/include/qt/QtWidgets/qmainwindow.h \
-  /usr/include/qt/QtWidgets/qscrollarea.h \
+  /usr/include/qt/QtWidgets/QDialog \
+  /usr/include/qt/QtWidgets/qdialog.h \
   /usr/include/qt/QtWidgets/qsizepolicy.h \
-  /usr/include/qt/QtWidgets/qtabwidget.h \
   /usr/include/qt/QtWidgets/qtwidgets-config.h \
   /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
   /usr/include/qt/QtWidgets/qwidget.h \

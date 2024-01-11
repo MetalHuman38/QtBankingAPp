@@ -14,9 +14,13 @@ find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets LinguistTools)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets LinguistTools)
 find_package(Qt NAMES Qt6 Qt5 REQUIRED COMPONENTS Core Sql)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core Sql)
+find_package(Qt6 REQUIRED COMPONENTS Widgets Gui)
 
 # Include directories
 include_directories(${Qt${QT_VERSION_MAJOR}_INCLUDE_DIRS})
+
+# Assuming your UI file is named userregistrationwidget.ui
+qt5_wrap_ui(UI_FILES user_registrationwidget.ui)
 
 set(TS_FILES BankingApp_en_GB.ts)
 
@@ -28,6 +32,7 @@ set(PROJECT_SOURCES
         ${TS_FILES}
         UserRegistrationWidget.cpp
         UserRegistrationWidget.h
+        ${USER_REGISTRATION_UI_HEADERS}
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
@@ -53,6 +58,8 @@ else()
             ${PROJECT_SOURCES}
             UserRegistrationWidget.cpp
             UserRegistrationWidget.h
+            user_registrationwidget.h user_registrationwidget.cpp user_registrationwidget.ui
+            customevent.h customevent.cpp
         )
     endif()
 
@@ -61,10 +68,13 @@ else()
 endif()
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
+    target_link_libraries(BankingApp PRIVATE Qt6::Widgets Qt6::Gui)
     target_link_libraries(BankingApp PRIVATE Qt6::Widgets Qt6::Sql)
 else()
     target_link_libraries(BankingApp PRIVATE Qt${QT_VERSION_MAJOR}::Widgets Qt${QT_VERSION_MAJOR}::Sql)
 endif()
+
+
 
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

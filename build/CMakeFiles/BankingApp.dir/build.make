@@ -69,17 +69,21 @@ include CMakeFiles/BankingApp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/BankingApp.dir/flags.make
 
+ui_user_registrationwidget.h: /home/babsdevsys/BankingApp/user_registrationwidget.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/babsdevsys/BankingApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ui_user_registrationwidget.h"
+	/usr/bin/uic -o /home/babsdevsys/BankingApp/build/ui_user_registrationwidget.h /home/babsdevsys/BankingApp/user_registrationwidget.ui
+
 BankingApp_autogen/timestamp: /usr/bin/moc
 BankingApp_autogen/timestamp: /usr/bin/uic
 BankingApp_autogen/timestamp: CMakeFiles/BankingApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/babsdevsys/BankingApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target BankingApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/babsdevsys/BankingApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic MOC and UIC for target BankingApp"
 	/usr/bin/cmake -E cmake_autogen /home/babsdevsys/BankingApp/build/CMakeFiles/BankingApp_autogen.dir/AutogenInfo.json ""
 	/usr/bin/cmake -E touch /home/babsdevsys/BankingApp/build/BankingApp_autogen/timestamp
 
 CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.o: CMakeFiles/BankingApp.dir/flags.make
 CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.o: BankingApp_autogen/mocs_compilation.cpp
 CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.o: CMakeFiles/BankingApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/babsdevsys/BankingApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/babsdevsys/BankingApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.o -MF CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.o -c /home/babsdevsys/BankingApp/build/BankingApp_autogen/mocs_compilation.cpp
 
 CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.i: cmake_force
@@ -93,7 +97,7 @@ CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.s: cmake_force
 CMakeFiles/BankingApp.dir/main.cpp.o: CMakeFiles/BankingApp.dir/flags.make
 CMakeFiles/BankingApp.dir/main.cpp.o: /home/babsdevsys/BankingApp/main.cpp
 CMakeFiles/BankingApp.dir/main.cpp.o: CMakeFiles/BankingApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/babsdevsys/BankingApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/BankingApp.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/babsdevsys/BankingApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/BankingApp.dir/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BankingApp.dir/main.cpp.o -MF CMakeFiles/BankingApp.dir/main.cpp.o.d -o CMakeFiles/BankingApp.dir/main.cpp.o -c /home/babsdevsys/BankingApp/main.cpp
 
 CMakeFiles/BankingApp.dir/main.cpp.i: cmake_force
@@ -107,7 +111,7 @@ CMakeFiles/BankingApp.dir/main.cpp.s: cmake_force
 CMakeFiles/BankingApp.dir/mainwindow.cpp.o: CMakeFiles/BankingApp.dir/flags.make
 CMakeFiles/BankingApp.dir/mainwindow.cpp.o: /home/babsdevsys/BankingApp/mainwindow.cpp
 CMakeFiles/BankingApp.dir/mainwindow.cpp.o: CMakeFiles/BankingApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/babsdevsys/BankingApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/BankingApp.dir/mainwindow.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/babsdevsys/BankingApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/BankingApp.dir/mainwindow.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BankingApp.dir/mainwindow.cpp.o -MF CMakeFiles/BankingApp.dir/mainwindow.cpp.o.d -o CMakeFiles/BankingApp.dir/mainwindow.cpp.o -c /home/babsdevsys/BankingApp/mainwindow.cpp
 
 CMakeFiles/BankingApp.dir/mainwindow.cpp.i: cmake_force
@@ -121,7 +125,7 @@ CMakeFiles/BankingApp.dir/mainwindow.cpp.s: cmake_force
 CMakeFiles/BankingApp.dir/UserRegistrationWidget.cpp.o: CMakeFiles/BankingApp.dir/flags.make
 CMakeFiles/BankingApp.dir/UserRegistrationWidget.cpp.o: /home/babsdevsys/BankingApp/UserRegistrationWidget.cpp
 CMakeFiles/BankingApp.dir/UserRegistrationWidget.cpp.o: CMakeFiles/BankingApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/babsdevsys/BankingApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/BankingApp.dir/UserRegistrationWidget.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/babsdevsys/BankingApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/BankingApp.dir/UserRegistrationWidget.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BankingApp.dir/UserRegistrationWidget.cpp.o -MF CMakeFiles/BankingApp.dir/UserRegistrationWidget.cpp.o.d -o CMakeFiles/BankingApp.dir/UserRegistrationWidget.cpp.o -c /home/babsdevsys/BankingApp/UserRegistrationWidget.cpp
 
 CMakeFiles/BankingApp.dir/UserRegistrationWidget.cpp.i: cmake_force
@@ -132,12 +136,42 @@ CMakeFiles/BankingApp.dir/UserRegistrationWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BankingApp.dir/UserRegistrationWidget.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/babsdevsys/BankingApp/UserRegistrationWidget.cpp -o CMakeFiles/BankingApp.dir/UserRegistrationWidget.cpp.s
 
+CMakeFiles/BankingApp.dir/user_registrationwidget.cpp.o: CMakeFiles/BankingApp.dir/flags.make
+CMakeFiles/BankingApp.dir/user_registrationwidget.cpp.o: /home/babsdevsys/BankingApp/user_registrationwidget.cpp
+CMakeFiles/BankingApp.dir/user_registrationwidget.cpp.o: CMakeFiles/BankingApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/babsdevsys/BankingApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/BankingApp.dir/user_registrationwidget.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BankingApp.dir/user_registrationwidget.cpp.o -MF CMakeFiles/BankingApp.dir/user_registrationwidget.cpp.o.d -o CMakeFiles/BankingApp.dir/user_registrationwidget.cpp.o -c /home/babsdevsys/BankingApp/user_registrationwidget.cpp
+
+CMakeFiles/BankingApp.dir/user_registrationwidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BankingApp.dir/user_registrationwidget.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/babsdevsys/BankingApp/user_registrationwidget.cpp > CMakeFiles/BankingApp.dir/user_registrationwidget.cpp.i
+
+CMakeFiles/BankingApp.dir/user_registrationwidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BankingApp.dir/user_registrationwidget.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/babsdevsys/BankingApp/user_registrationwidget.cpp -o CMakeFiles/BankingApp.dir/user_registrationwidget.cpp.s
+
+CMakeFiles/BankingApp.dir/customevent.cpp.o: CMakeFiles/BankingApp.dir/flags.make
+CMakeFiles/BankingApp.dir/customevent.cpp.o: /home/babsdevsys/BankingApp/customevent.cpp
+CMakeFiles/BankingApp.dir/customevent.cpp.o: CMakeFiles/BankingApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/babsdevsys/BankingApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/BankingApp.dir/customevent.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BankingApp.dir/customevent.cpp.o -MF CMakeFiles/BankingApp.dir/customevent.cpp.o.d -o CMakeFiles/BankingApp.dir/customevent.cpp.o -c /home/babsdevsys/BankingApp/customevent.cpp
+
+CMakeFiles/BankingApp.dir/customevent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BankingApp.dir/customevent.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/babsdevsys/BankingApp/customevent.cpp > CMakeFiles/BankingApp.dir/customevent.cpp.i
+
+CMakeFiles/BankingApp.dir/customevent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BankingApp.dir/customevent.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/babsdevsys/BankingApp/customevent.cpp -o CMakeFiles/BankingApp.dir/customevent.cpp.s
+
 # Object files for target BankingApp
 BankingApp_OBJECTS = \
 "CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/BankingApp.dir/main.cpp.o" \
 "CMakeFiles/BankingApp.dir/mainwindow.cpp.o" \
-"CMakeFiles/BankingApp.dir/UserRegistrationWidget.cpp.o"
+"CMakeFiles/BankingApp.dir/UserRegistrationWidget.cpp.o" \
+"CMakeFiles/BankingApp.dir/user_registrationwidget.cpp.o" \
+"CMakeFiles/BankingApp.dir/customevent.cpp.o"
 
 # External object files for target BankingApp
 BankingApp_EXTERNAL_OBJECTS =
@@ -146,13 +180,15 @@ BankingApp: CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.o
 BankingApp: CMakeFiles/BankingApp.dir/main.cpp.o
 BankingApp: CMakeFiles/BankingApp.dir/mainwindow.cpp.o
 BankingApp: CMakeFiles/BankingApp.dir/UserRegistrationWidget.cpp.o
+BankingApp: CMakeFiles/BankingApp.dir/user_registrationwidget.cpp.o
+BankingApp: CMakeFiles/BankingApp.dir/customevent.cpp.o
 BankingApp: CMakeFiles/BankingApp.dir/build.make
 BankingApp: /usr/lib/libQt5Widgets.so.5.15.12
 BankingApp: /usr/lib/libQt5Sql.so.5.15.12
 BankingApp: /usr/lib/libQt5Gui.so.5.15.12
 BankingApp: /usr/lib/libQt5Core.so.5.15.12
 BankingApp: CMakeFiles/BankingApp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/babsdevsys/BankingApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable BankingApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/babsdevsys/BankingApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable BankingApp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BankingApp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -164,6 +200,7 @@ CMakeFiles/BankingApp.dir/clean:
 .PHONY : CMakeFiles/BankingApp.dir/clean
 
 CMakeFiles/BankingApp.dir/depend: BankingApp_autogen/timestamp
+CMakeFiles/BankingApp.dir/depend: ui_user_registrationwidget.h
 	cd /home/babsdevsys/BankingApp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/babsdevsys/BankingApp /home/babsdevsys/BankingApp /home/babsdevsys/BankingApp/build /home/babsdevsys/BankingApp/build /home/babsdevsys/BankingApp/build/CMakeFiles/BankingApp.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/BankingApp.dir/depend
 

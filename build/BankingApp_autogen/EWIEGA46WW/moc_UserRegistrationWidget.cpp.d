@@ -326,6 +326,7 @@
   /usr/include/qt/QtSql/qtsql-config.h \
   /usr/include/qt/QtSql/qtsqlglobal.h \
   /usr/include/qt/QtWidgets/QApplication \
+  /usr/include/qt/QtWidgets/QDialog \
   /usr/include/qt/QtWidgets/QLabel \
   /usr/include/qt/QtWidgets/QLineEdit \
   /usr/include/qt/QtWidgets/QPushButton \
@@ -334,6 +335,7 @@
   /usr/include/qt/QtWidgets/qabstractbutton.h \
   /usr/include/qt/QtWidgets/qapplication.h \
   /usr/include/qt/QtWidgets/qboxlayout.h \
+  /usr/include/qt/QtWidgets/qdialog.h \
   /usr/include/qt/QtWidgets/qframe.h \
   /usr/include/qt/QtWidgets/qgridlayout.h \
   /usr/include/qt/QtWidgets/qlabel.h \

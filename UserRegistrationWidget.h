@@ -11,27 +11,37 @@
 #include <QtSql/QSqlDatabase>
 #include <QtWidgets/QLabel>
 #include <QtSql/QSqlQuery>
+#include <QDialog>
 
 
-class UserRegistrationWidget : public QWidget {
+namespace Ui{
+class user_RegistrationWidget;
+}
+
+class UserRegistrationWidget : public QDialog {
     Q_OBJECT
 
 public:
-    UserRegistrationWidget(QWidget *parent = nullptr);
+    explicit UserRegistrationWidget(QWidget *parent = nullptr);
+    ~UserRegistrationWidget();
 
 public slots:
     void registerUser();
 
 private:
+
+    Ui::user_RegistrationWidget *ui;
+
     QLineEdit *firstNameLineEdit;
     QLineEdit *lastNameLineEdit;
     QLineEdit *usernameLineEdit;
     QLineEdit *passwordLineEdit;
+    QLineEdit *dateOfBirthLineEdit;
     QLineEdit *emailLineEdit;
     QLineEdit *phoneNumberLineEdit;
+    QLineEdit *addressLineEdit;
     QLabel *statusLabel;
     QPushButton *registerButton;
-
     void setupUi();
     void setupConnections();
 };

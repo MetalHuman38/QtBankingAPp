@@ -11,8 +11,10 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "BankingApp_autogen/timestamp" "custom" "BankingApp_autogen/deps"
   "/home/babsdevsys/BankingApp/build/BankingApp_autogen/mocs_compilation.cpp" "CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.o.d"
   "/home/babsdevsys/BankingApp/UserRegistrationWidget.cpp" "CMakeFiles/BankingApp.dir/UserRegistrationWidget.cpp.o" "gcc" "CMakeFiles/BankingApp.dir/UserRegistrationWidget.cpp.o.d"
+  "/home/babsdevsys/BankingApp/customevent.cpp" "CMakeFiles/BankingApp.dir/customevent.cpp.o" "gcc" "CMakeFiles/BankingApp.dir/customevent.cpp.o.d"
   "/home/babsdevsys/BankingApp/main.cpp" "CMakeFiles/BankingApp.dir/main.cpp.o" "gcc" "CMakeFiles/BankingApp.dir/main.cpp.o.d"
   "/home/babsdevsys/BankingApp/mainwindow.cpp" "CMakeFiles/BankingApp.dir/mainwindow.cpp.o" "gcc" "CMakeFiles/BankingApp.dir/mainwindow.cpp.o.d"
+  "/home/babsdevsys/BankingApp/user_registrationwidget.cpp" "CMakeFiles/BankingApp.dir/user_registrationwidget.cpp.o" "gcc" "CMakeFiles/BankingApp.dir/user_registrationwidget.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
