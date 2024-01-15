@@ -489,6 +489,12 @@
 			null
 		],
 		[
+			"/home/babsdevsys/BankingApp/custombackground.h",
+			"MU",
+			"EWIEGA46WW/moc_custombackground.cpp",
+			null
+		],
+		[
 			"/home/babsdevsys/BankingApp/customcolormanager.h",
 			"MU",
 			"EWIEGA46WW/moc_customcolormanager.cpp",
@@ -583,6 +589,7 @@
 	[
 		[ "/home/babsdevsys/BankingApp/UserRegistrationWidget.cpp", "MU", null ],
 		[ "/home/babsdevsys/BankingApp/aboutusdialogbox.cpp", "MU", null ],
+		[ "/home/babsdevsys/BankingApp/custombackground.cpp", "MU", null ],
 		[ "/home/babsdevsys/BankingApp/customcolormanager.cpp", "MU", null ],
 		[ "/home/babsdevsys/BankingApp/customevent.cpp", "MU", null ],
 		[ "/home/babsdevsys/BankingApp/main.cpp", "MU", null ],

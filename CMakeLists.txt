@@ -62,6 +62,7 @@ else()
             customevent.h customevent.cpp
             customcolormanager.h customcolormanager.cpp
             aboutusdialogbox.h aboutusdialogbox.cpp
+            custombackground.h custombackground.cpp
         )
     endif()
 

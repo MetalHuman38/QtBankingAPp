@@ -30,16 +30,19 @@ private slots:
     void handleButtonClick();
     void handleRegisterButtonClick();
     void handleAboutUsButtonClick();
-    void openRegistrationPage();
+
 
 
 
 private:
     Ui::MainWindow *ui;
+
+    void addLabelToGraphicsView();
     QStackedWidget *stackedWidget;
     // Private function to add QLabel to QGraphicsView
     QPushButton *btnRegister;
     user_RegistrationWidget registrationWidget;
-    void addLabelToGraphicsView();
+
+
 };
 #endif // MAINWINDOW_H

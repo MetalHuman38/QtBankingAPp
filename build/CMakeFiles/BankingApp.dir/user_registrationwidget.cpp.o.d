@@ -250,4 +250,16 @@ CMakeFiles/BankingApp.dir/user_registrationwidget.cpp.o: \
  /usr/include/qt/QtCore/qcoreevent.h /usr/include/qt/QtCore/qeventloop.h \
  /usr/include/qt/QtGui/qguiapplication.h \
  /usr/include/qt/QtGui/qinputmethod.h /usr/include/qt/QtCore/qlocale.h \
- /usr/include/qt/QtCore/qvariant.h /usr/include/qt/QtWidgets/QDialog
+ /usr/include/qt/QtCore/qvariant.h /usr/include/qt/QtWidgets/QDialog \
+ /usr/include/qt/QtWidgets/QWidget /usr/include/qt/QtWidgets/qwidget.h \
+ /usr/include/qt/QtWidgets/QVBoxLayout \
+ /usr/include/qt/QtWidgets/qboxlayout.h \
+ /usr/include/qt/QtWidgets/qlayout.h \
+ /usr/include/qt/QtWidgets/qlayoutitem.h \
+ /usr/include/qt/QtWidgets/qboxlayout.h \
+ /usr/include/qt/QtWidgets/qgridlayout.h \
+ /usr/include/qt/QtWidgets/QLineEdit \
+ /usr/include/qt/QtWidgets/qlineedit.h /usr/include/qt/QtWidgets/qframe.h \
+ /usr/include/qt/QtGui/qtextcursor.h /usr/include/qt/QtGui/qtextformat.h \
+ /usr/include/qt/QtGui/qpen.h /usr/include/qt/QtGui/qtextoption.h \
+ /usr/include/qt/QtWidgets/QLabel /usr/include/qt/QtWidgets/qlabel.h

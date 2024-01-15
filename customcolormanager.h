@@ -5,8 +5,12 @@
 #include <QColor>
 #include <QHash>
 #include <QString>
+#include <QtWidgets/QWidget>
+#include <QtGui>
+#include <QtCore>
+#include <QLabel>
 
-class CustomColorManager
+class CustomColorManager :  public QObject
 {
 public:
     static CustomColorManager& getInstance();

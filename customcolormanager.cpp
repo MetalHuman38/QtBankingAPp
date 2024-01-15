@@ -1,4 +1,7 @@
 #include "customcolormanager.h"
+#include <QtWidgets>
+#include <QLabel>
+#include <QFont>
 
 
 CustomColorManager& CustomColorManager::getInstance() {
@@ -13,12 +16,12 @@ CustomColorManager::CustomColorManager()
     // Set initial custom colors
     setCustomColor("Text", QColor(Qt::white));
     setCustomColor("ButtonBackground", QColor(Qt::blue));
+
     // ... other color settings ...
     QLinearGradient gradient;
     gradient.setColorAt(0, Qt::red);
     gradient.setColorAt(1, Qt::yellow);
     //CustomColorManager::getInstance().setGradientColor("TextGradient", gradient);
-
 
 }
 
@@ -32,6 +35,15 @@ CustomColorManager::~CustomColorManager()
 void CustomColorManager::setCustomColor(const QString& key, const QColor& color) {
     customColors[key] = color;
 }
+
+QColor CustomColorManager::getCustomColor(const QString& key) const{
+    if(customColors.contains(key)){
+        return customColors[key];
+    }else{
+        return QColor();
+    }
+}
+
 
 void CustomColorManager::setGradientColor(const QString& key, const QGradient& gradient) {
     customGradients[key] = gradient;
@@ -47,12 +59,5 @@ QGradient CustomColorManager::getGradientColor(const QString& key) const {
 }
 
 
-QColor CustomColorManager::getCustomColor(const QString& key) const{
-    if(customColors.contains(key)){
-        return customColors[key];
-    }else{
-        return QColor();
-    }
-}
 
 

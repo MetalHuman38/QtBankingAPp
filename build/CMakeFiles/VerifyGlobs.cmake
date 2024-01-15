@@ -44,6 +44,7 @@ set(OLD_GLOB
   "/home/babsdevsys/BankingApp/UserRegistrationWidget.cpp"
   "/home/babsdevsys/BankingApp/aboutusdialogbox.cpp"
   "/home/babsdevsys/BankingApp/build/CMakeFiles/3.28.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+  "/home/babsdevsys/BankingApp/custombackground.cpp"
   "/home/babsdevsys/BankingApp/customcolormanager.cpp"
   "/home/babsdevsys/BankingApp/customevent.cpp"
   "/home/babsdevsys/BankingApp/main.cpp"
@@ -69,6 +70,7 @@ file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/babsdevsys/BankingApp/*
 set(OLD_GLOB
   "/home/babsdevsys/BankingApp/UserRegistrationWidget.h"
   "/home/babsdevsys/BankingApp/aboutusdialogbox.h"
+  "/home/babsdevsys/BankingApp/custombackground.h"
   "/home/babsdevsys/BankingApp/customcolormanager.h"
   "/home/babsdevsys/BankingApp/customevent.h"
   "/home/babsdevsys/BankingApp/mainwindow.h"

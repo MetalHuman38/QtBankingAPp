@@ -589,4 +589,10 @@ CMakeFiles/BankingApp.dir/mainwindow.cpp.o: \
  /usr/include/qt/QtCore/QVariant /usr/include/qt/QtGui/QGradient \
  /usr/include/qt/QtWidgets/QAction /usr/include/qt/QtWidgets/qaction.h \
  /usr/include/qt/QtWidgets/qactiongroup.h \
- /usr/include/qt/QtWidgets/qaction.h
+ /usr/include/qt/QtWidgets/qaction.h \
+ /usr/include/qt/QtWidgets/QVBoxLayout \
+ /usr/include/qt/QtWidgets/qboxlayout.h \
+ /usr/include/qt/QtWidgets/qlayout.h \
+ /usr/include/qt/QtWidgets/qlayoutitem.h \
+ /usr/include/qt/QtWidgets/qboxlayout.h \
+ /usr/include/qt/QtWidgets/qgridlayout.h

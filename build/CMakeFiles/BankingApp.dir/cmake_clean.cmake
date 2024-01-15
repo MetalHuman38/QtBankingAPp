@@ -12,6 +12,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/BankingApp.dir/UserRegistrationWidget.cpp.o.d"
   "CMakeFiles/BankingApp.dir/aboutusdialogbox.cpp.o"
   "CMakeFiles/BankingApp.dir/aboutusdialogbox.cpp.o.d"
+  "CMakeFiles/BankingApp.dir/custombackground.cpp.o"
+  "CMakeFiles/BankingApp.dir/custombackground.cpp.o.d"
   "CMakeFiles/BankingApp.dir/customcolormanager.cpp.o"
   "CMakeFiles/BankingApp.dir/customcolormanager.cpp.o.d"
   "CMakeFiles/BankingApp.dir/customevent.cpp.o"

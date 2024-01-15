@@ -9,6 +9,7 @@
 #include <QGradient>
 #include <QAction>
 #include <QStackedWidget>
+#include <QVBoxLayout>
 
 
 MainWindow::MainWindow(QWidget *parent)
@@ -18,13 +19,6 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
 
     addLabelToGraphicsView();
-
-    stackedWidget = new QStackedWidget(this);
-    //setCentralWidget(stackedWidget);  // Set the stacked widget as the central widget
-
-    // Create and add pages to the stacked widget
-    QWidget *userRegistrationPage = new user_RegistrationWidget(this);
-    stackedWidget->addWidget(userRegistrationPage);
 }
 
 
@@ -133,11 +127,11 @@ void MainWindow::addLabelToGraphicsView()
 
 
         connect(button, &QPushButton::clicked, this, &MainWindow::handleButtonClick);
-        btnRegister->show();
+        button->show();
 
 
         connect(btnRegister, &QPushButton::clicked, this, &MainWindow::handleRegisterButtonClick);
-        button->show();
+        btnRegister->show();
 
     } else {
         qDebug() << "Error: QLabel 'BankMadeEasy' not found";
@@ -157,10 +151,11 @@ void MainWindow::handleButtonClick()
 void MainWindow::handleRegisterButtonClick()
 {
 
+    user_RegistrationWidget registrationDialog(this);
+    registrationDialog.exec();
     // Add your button click handling code here
-    registrationWidget.resize(900, 700);
-
-    registrationWidget.exec();
+    //registrationWidget.resize(1000, 700);
+    //registrationWidget.exec();
     qDebug() << "Successfully Registered!";
 }
 
@@ -170,11 +165,7 @@ void MainWindow::handleAboutUsButtonClick()
     // Add your button click handling code here
 }
 
-void MainWindow::openRegistrationPage()
-{
-    // Switch to the registration page when the button is clicked
-    stackedWidget->setCurrentIndex(0);  // Adjust the index based on the order of addition
-}
+
 
 
 

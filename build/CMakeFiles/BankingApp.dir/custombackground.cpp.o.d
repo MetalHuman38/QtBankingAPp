@@ -1,8 +1,11 @@
-CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.o: \
- /home/babsdevsys/BankingApp/build/BankingApp_autogen/mocs_compilation.cpp \
+CMakeFiles/BankingApp.dir/custombackground.cpp.o: \
+ /home/babsdevsys/BankingApp/custombackground.cpp \
  /usr/include/stdc-predef.h \
- /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/moc_UserRegistrationWidget.cpp \
- /usr/include/c++/13.2.1/memory /usr/include/c++/13.2.1/bits/memoryfwd.h \
+ /home/babsdevsys/BankingApp/custombackground.h \
+ /usr/include/qt/QtWidgets/QWidget /usr/include/qt/QtWidgets/qwidget.h \
+ /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
+ /usr/include/qt/QtGui/qtguiglobal.h /usr/include/qt/QtCore/qglobal.h \
+ /usr/include/c++/13.2.1/type_traits \
  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -11,146 +14,116 @@ CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.o: \
  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
  /usr/include/c++/13.2.1/pstl/pstl_config.h \
- /usr/include/c++/13.2.1/bits/allocator.h \
- /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
- /usr/include/c++/13.2.1/bits/new_allocator.h /usr/include/c++/13.2.1/new \
- /usr/include/c++/13.2.1/bits/exception.h \
- /usr/include/c++/13.2.1/bits/functexcept.h \
- /usr/include/c++/13.2.1/bits/exception_defines.h \
- /usr/include/c++/13.2.1/bits/move.h /usr/include/c++/13.2.1/type_traits \
- /usr/include/c++/13.2.1/bits/stl_tempbuf.h \
- /usr/include/c++/13.2.1/bits/stl_construct.h \
- /usr/include/c++/13.2.1/bits/stl_iterator_base_types.h \
- /usr/include/c++/13.2.1/bits/stl_iterator_base_funcs.h \
- /usr/include/c++/13.2.1/bits/concept_check.h \
- /usr/include/c++/13.2.1/debug/assertions.h \
- /usr/include/c++/13.2.1/bits/stl_pair.h \
- /usr/include/c++/13.2.1/bits/utility.h \
- /usr/include/c++/13.2.1/ext/numeric_traits.h \
- /usr/include/c++/13.2.1/bits/cpp_type_traits.h \
- /usr/include/c++/13.2.1/ext/type_traits.h \
- /usr/include/c++/13.2.1/bits/stl_uninitialized.h \
- /usr/include/c++/13.2.1/bits/stl_algobase.h \
- /usr/include/c++/13.2.1/bits/stl_iterator.h \
- /usr/include/c++/13.2.1/bits/ptr_traits.h \
- /usr/include/c++/13.2.1/debug/debug.h \
- /usr/include/c++/13.2.1/bits/predefined_ops.h \
- /usr/include/c++/13.2.1/bit /usr/include/c++/13.2.1/ext/alloc_traits.h \
- /usr/include/c++/13.2.1/bits/alloc_traits.h \
- /usr/include/c++/13.2.1/bits/stl_raw_storage_iter.h \
- /usr/include/c++/13.2.1/bits/align.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdint.h \
- /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
- /usr/include/bits/types.h /usr/include/bits/typesizes.h \
- /usr/include/bits/time64.h /usr/include/bits/wchar.h \
- /usr/include/bits/stdint-intn.h /usr/include/bits/stdint-uintn.h \
- /usr/include/c++/13.2.1/bits/uses_allocator.h \
- /usr/include/c++/13.2.1/bits/unique_ptr.h /usr/include/c++/13.2.1/tuple \
- /usr/include/c++/13.2.1/bits/invoke.h \
- /usr/include/c++/13.2.1/bits/stl_function.h \
- /usr/include/c++/13.2.1/backward/binders.h \
- /usr/include/c++/13.2.1/bits/functional_hash.h \
- /usr/include/c++/13.2.1/bits/hash_bytes.h \
- /usr/include/c++/13.2.1/bits/shared_ptr.h /usr/include/c++/13.2.1/iosfwd \
- /usr/include/c++/13.2.1/bits/requires_hosted.h \
- /usr/include/c++/13.2.1/bits/stringfwd.h \
- /usr/include/c++/13.2.1/bits/postypes.h /usr/include/c++/13.2.1/cwchar \
- /usr/include/wchar.h /usr/include/bits/floatn.h \
- /usr/include/bits/floatn-common.h \
+ /usr/include/c++/13.2.1/cstddef \
  /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdarg.h \
- /usr/include/bits/types/wint_t.h /usr/include/bits/types/mbstate_t.h \
- /usr/include/bits/types/__mbstate_t.h /usr/include/bits/types/__FILE.h \
- /usr/include/bits/types/FILE.h /usr/include/bits/types/locale_t.h \
- /usr/include/bits/types/__locale_t.h \
- /usr/include/c++/13.2.1/bits/shared_ptr_base.h \
- /usr/include/c++/13.2.1/typeinfo \
- /usr/include/c++/13.2.1/bits/allocated_ptr.h \
- /usr/include/c++/13.2.1/bits/refwrap.h \
- /usr/include/c++/13.2.1/ext/aligned_buffer.h \
- /usr/include/c++/13.2.1/ext/atomicity.h \
- /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
- /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
- /usr/include/pthread.h /usr/include/sched.h \
- /usr/include/bits/types/time_t.h \
- /usr/include/bits/types/struct_timespec.h /usr/include/bits/endian.h \
- /usr/include/bits/endianness.h /usr/include/bits/sched.h \
- /usr/include/bits/types/struct_sched_param.h /usr/include/bits/cpu-set.h \
- /usr/include/time.h /usr/include/bits/time.h /usr/include/bits/timex.h \
- /usr/include/bits/types/struct_timeval.h \
- /usr/include/bits/types/clock_t.h /usr/include/bits/types/struct_tm.h \
- /usr/include/bits/types/clockid_t.h /usr/include/bits/types/timer_t.h \
- /usr/include/bits/types/struct_itimerspec.h \
- /usr/include/bits/pthreadtypes.h /usr/include/bits/thread-shared-types.h \
- /usr/include/bits/pthreadtypes-arch.h \
- /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
- /usr/include/bits/struct_rwlock.h /usr/include/bits/setjmp.h \
- /usr/include/bits/types/__sigset_t.h \
- /usr/include/bits/types/struct___jmp_buf_tag.h \
- /usr/include/bits/pthread_stack_min-dynamic.h \
- /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
- /usr/include/sys/single_threaded.h \
- /usr/include/c++/13.2.1/ext/concurrence.h \
- /usr/include/c++/13.2.1/exception \
- /usr/include/c++/13.2.1/bits/exception_ptr.h \
- /usr/include/c++/13.2.1/bits/cxxabi_init_exception.h \
- /usr/include/c++/13.2.1/bits/nested_exception.h \
- /usr/include/c++/13.2.1/bits/shared_ptr_atomic.h \
- /usr/include/c++/13.2.1/bits/atomic_base.h \
- /usr/include/c++/13.2.1/bits/atomic_lockfree_defines.h \
- /usr/include/c++/13.2.1/backward/auto_ptr.h \
- /usr/include/c++/13.2.1/pstl/glue_memory_defs.h \
- /usr/include/c++/13.2.1/pstl/execution_defs.h \
- /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/../../../UserRegistrationWidget.h \
- /usr/include/qt/QtWidgets/QApplication \
- /usr/include/qt/QtWidgets/qapplication.h \
- /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
- /usr/include/qt/QtGui/qtguiglobal.h /usr/include/qt/QtCore/qglobal.h \
- /usr/include/c++/13.2.1/cstddef /usr/include/c++/13.2.1/utility \
+ /usr/include/c++/13.2.1/utility \
  /usr/include/c++/13.2.1/bits/stl_relops.h \
+ /usr/include/c++/13.2.1/bits/stl_pair.h \
+ /usr/include/c++/13.2.1/bits/move.h \
+ /usr/include/c++/13.2.1/bits/utility.h \
  /usr/include/c++/13.2.1/initializer_list /usr/include/assert.h \
  /usr/include/qt/QtCore/qconfig.h /usr/include/qt/QtCore/qtcore-config.h \
  /usr/include/qt/QtCore/qsystemdetection.h \
  /usr/include/qt/QtCore/qprocessordetection.h \
  /usr/include/qt/QtCore/qcompilerdetection.h \
  /usr/include/c++/13.2.1/algorithm \
- /usr/include/c++/13.2.1/bits/stl_algo.h \
+ /usr/include/c++/13.2.1/bits/stl_algobase.h \
+ /usr/include/c++/13.2.1/bits/functexcept.h \
+ /usr/include/c++/13.2.1/bits/exception_defines.h \
+ /usr/include/c++/13.2.1/bits/cpp_type_traits.h \
+ /usr/include/c++/13.2.1/ext/type_traits.h \
+ /usr/include/c++/13.2.1/ext/numeric_traits.h \
+ /usr/include/c++/13.2.1/bits/stl_iterator_base_types.h \
+ /usr/include/c++/13.2.1/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/13.2.1/bits/concept_check.h \
+ /usr/include/c++/13.2.1/debug/assertions.h \
+ /usr/include/c++/13.2.1/bits/stl_iterator.h \
+ /usr/include/c++/13.2.1/bits/ptr_traits.h \
+ /usr/include/c++/13.2.1/debug/debug.h \
+ /usr/include/c++/13.2.1/bits/predefined_ops.h \
+ /usr/include/c++/13.2.1/bit /usr/include/c++/13.2.1/bits/stl_algo.h \
  /usr/include/c++/13.2.1/bits/algorithmfwd.h \
  /usr/include/c++/13.2.1/bits/stl_heap.h \
  /usr/include/c++/13.2.1/bits/uniform_int_dist.h \
+ /usr/include/c++/13.2.1/bits/stl_tempbuf.h /usr/include/c++/13.2.1/new \
+ /usr/include/c++/13.2.1/bits/exception.h \
+ /usr/include/c++/13.2.1/bits/stl_construct.h \
  /usr/include/c++/13.2.1/cstdlib /usr/include/stdlib.h \
- /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
- /usr/include/sys/types.h /usr/include/endian.h \
- /usr/include/bits/byteswap.h /usr/include/bits/uintn-identity.h \
- /usr/include/sys/select.h /usr/include/bits/select.h \
- /usr/include/bits/types/sigset_t.h /usr/include/alloca.h \
+ /usr/include/bits/libc-header-start.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/bits/floatn.h \
+ /usr/include/bits/floatn-common.h /usr/include/bits/types/locale_t.h \
+ /usr/include/bits/types/__locale_t.h /usr/include/sys/types.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/time64.h /usr/include/bits/types/clock_t.h \
+ /usr/include/bits/types/clockid_t.h /usr/include/bits/types/time_t.h \
+ /usr/include/bits/types/timer_t.h /usr/include/bits/stdint-intn.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/endianness.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/uintn-identity.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/types/sigset_t.h \
+ /usr/include/bits/types/__sigset_t.h \
+ /usr/include/bits/types/struct_timeval.h \
+ /usr/include/bits/types/struct_timespec.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/bits/thread-shared-types.h \
+ /usr/include/bits/pthreadtypes-arch.h \
+ /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
+ /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/bits/stdlib-float.h /usr/include/c++/13.2.1/bits/std_abs.h \
  /usr/include/c++/13.2.1/pstl/glue_algorithm_defs.h \
+ /usr/include/c++/13.2.1/pstl/execution_defs.h \
  /usr/include/qt/QtCore/qtypeinfo.h /usr/include/qt/QtCore/qsysinfo.h \
  /usr/include/qt/QtCore/qlogging.h /usr/include/qt/QtCore/qflags.h \
  /usr/include/qt/QtCore/qatomic.h /usr/include/qt/QtCore/qbasicatomic.h \
  /usr/include/qt/QtCore/qatomic_cxx11.h \
  /usr/include/qt/QtCore/qgenericatomic.h /usr/include/c++/13.2.1/atomic \
+ /usr/include/c++/13.2.1/bits/atomic_base.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/wchar.h \
+ /usr/include/bits/stdint-uintn.h \
+ /usr/include/c++/13.2.1/bits/atomic_lockfree_defines.h \
  /usr/include/qt/QtCore/qglobalstatic.h /usr/include/qt/QtCore/qnumeric.h \
  /usr/include/qt/QtCore/qversiontagging.h \
  /usr/include/qt/QtGui/qtgui-config.h \
  /usr/include/qt/QtWidgets/qtwidgets-config.h \
- /usr/include/qt/QtCore/qcoreapplication.h \
- /usr/include/qt/QtCore/qstring.h /usr/include/qt/QtCore/qchar.h \
- /usr/include/qt/QtCore/qbytearray.h /usr/include/qt/QtCore/qrefcount.h \
- /usr/include/qt/QtCore/qnamespace.h /usr/include/qt/QtCore/qarraydata.h \
+ /usr/include/qt/QtGui/qwindowdefs.h /usr/include/qt/QtCore/qobjectdefs.h \
+ /usr/include/qt/QtCore/qnamespace.h \
+ /usr/include/qt/QtCore/qobjectdefs_impl.h \
+ /usr/include/qt/QtCore/qobject.h /usr/include/qt/QtCore/qstring.h \
+ /usr/include/qt/QtCore/qchar.h /usr/include/qt/QtCore/qbytearray.h \
+ /usr/include/qt/QtCore/qrefcount.h /usr/include/qt/QtCore/qarraydata.h \
  /usr/include/string.h /usr/include/strings.h \
- /usr/include/c++/13.2.1/stdlib.h /usr/include/c++/13.2.1/string \
+ /usr/include/c++/13.2.1/stdlib.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdarg.h \
+ /usr/include/c++/13.2.1/string \
+ /usr/include/c++/13.2.1/bits/requires_hosted.h \
+ /usr/include/c++/13.2.1/bits/stringfwd.h \
+ /usr/include/c++/13.2.1/bits/memoryfwd.h \
  /usr/include/c++/13.2.1/bits/char_traits.h \
+ /usr/include/c++/13.2.1/bits/postypes.h /usr/include/c++/13.2.1/cwchar \
+ /usr/include/wchar.h /usr/include/bits/types/wint_t.h \
+ /usr/include/bits/types/mbstate_t.h \
+ /usr/include/bits/types/__mbstate_t.h /usr/include/bits/types/__FILE.h \
+ /usr/include/bits/types/FILE.h /usr/include/c++/13.2.1/bits/allocator.h \
+ /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+ /usr/include/c++/13.2.1/bits/new_allocator.h \
  /usr/include/c++/13.2.1/bits/localefwd.h \
  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
  /usr/include/c++/13.2.1/clocale /usr/include/locale.h \
- /usr/include/bits/locale.h /usr/include/c++/13.2.1/cctype \
- /usr/include/ctype.h /usr/include/c++/13.2.1/bits/ostream_insert.h \
+ /usr/include/bits/locale.h /usr/include/c++/13.2.1/iosfwd \
+ /usr/include/c++/13.2.1/cctype /usr/include/ctype.h \
+ /usr/include/c++/13.2.1/bits/ostream_insert.h \
  /usr/include/c++/13.2.1/bits/cxxabi_forced.h \
+ /usr/include/c++/13.2.1/bits/stl_function.h \
+ /usr/include/c++/13.2.1/backward/binders.h \
+ /usr/include/c++/13.2.1/bits/refwrap.h \
+ /usr/include/c++/13.2.1/bits/invoke.h \
  /usr/include/c++/13.2.1/bits/range_access.h \
  /usr/include/c++/13.2.1/bits/basic_string.h \
+ /usr/include/c++/13.2.1/ext/alloc_traits.h \
+ /usr/include/c++/13.2.1/bits/alloc_traits.h \
  /usr/include/c++/13.2.1/string_view \
+ /usr/include/c++/13.2.1/bits/functional_hash.h \
+ /usr/include/c++/13.2.1/bits/hash_bytes.h \
  /usr/include/c++/13.2.1/bits/string_view.tcc \
  /usr/include/c++/13.2.1/ext/string_conversions.h \
  /usr/include/c++/13.2.1/cstdio /usr/include/stdio.h \
@@ -165,23 +138,38 @@ CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.o: \
  /usr/include/c++/13.2.1/bits/charconv.h \
  /usr/include/c++/13.2.1/bits/basic_string.tcc \
  /usr/include/c++/13.2.1/bits/memory_resource.h \
+ /usr/include/c++/13.2.1/bits/uses_allocator.h \
  /usr/include/c++/13.2.1/bits/uses_allocator_args.h \
- /usr/include/c++/13.2.1/iterator \
+ /usr/include/c++/13.2.1/tuple /usr/include/c++/13.2.1/iterator \
  /usr/include/c++/13.2.1/bits/stream_iterator.h \
  /usr/include/c++/13.2.1/bits/streambuf_iterator.h \
  /usr/include/c++/13.2.1/streambuf \
  /usr/include/c++/13.2.1/bits/ios_base.h \
+ /usr/include/c++/13.2.1/ext/atomicity.h \
+ /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+ /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
+ /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
+ /usr/include/bits/types/struct_sched_param.h /usr/include/bits/cpu-set.h \
+ /usr/include/time.h /usr/include/bits/time.h /usr/include/bits/timex.h \
+ /usr/include/bits/types/struct_tm.h \
+ /usr/include/bits/types/struct_itimerspec.h /usr/include/bits/setjmp.h \
+ /usr/include/bits/types/struct___jmp_buf_tag.h \
+ /usr/include/bits/pthread_stack_min-dynamic.h \
+ /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
+ /usr/include/sys/single_threaded.h \
  /usr/include/c++/13.2.1/bits/locale_classes.h \
  /usr/include/c++/13.2.1/bits/locale_classes.tcc \
  /usr/include/c++/13.2.1/system_error \
  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
- /usr/include/c++/13.2.1/stdexcept \
+ /usr/include/c++/13.2.1/stdexcept /usr/include/c++/13.2.1/exception \
+ /usr/include/c++/13.2.1/bits/exception_ptr.h \
+ /usr/include/c++/13.2.1/bits/cxxabi_init_exception.h \
+ /usr/include/c++/13.2.1/typeinfo \
+ /usr/include/c++/13.2.1/bits/nested_exception.h \
  /usr/include/c++/13.2.1/bits/streambuf.tcc \
  /usr/include/qt/QtCore/qstringliteral.h \
  /usr/include/qt/QtCore/qstringalgorithms.h \
- /usr/include/qt/QtCore/qstringview.h /usr/include/qt/QtCore/qobject.h \
- /usr/include/qt/QtCore/qobjectdefs.h \
- /usr/include/qt/QtCore/qobjectdefs_impl.h /usr/include/qt/QtCore/qlist.h \
+ /usr/include/qt/QtCore/qstringview.h /usr/include/qt/QtCore/qlist.h \
  /usr/include/qt/QtCore/qalgorithms.h /usr/include/qt/QtCore/qiterator.h \
  /usr/include/qt/QtCore/qhashfunctions.h /usr/include/qt/QtCore/qpair.h \
  /usr/include/c++/13.2.1/numeric \
@@ -193,15 +181,18 @@ CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.o: \
  /usr/include/c++/13.2.1/bits/unordered_map.h \
  /usr/include/c++/13.2.1/bits/hashtable.h \
  /usr/include/c++/13.2.1/bits/hashtable_policy.h \
+ /usr/include/c++/13.2.1/ext/aligned_buffer.h \
  /usr/include/c++/13.2.1/bits/enable_special_members.h \
  /usr/include/c++/13.2.1/bits/node_handle.h \
  /usr/include/c++/13.2.1/bits/erase_if.h /usr/include/c++/13.2.1/vector \
+ /usr/include/c++/13.2.1/bits/stl_uninitialized.h \
  /usr/include/c++/13.2.1/bits/stl_vector.h \
  /usr/include/c++/13.2.1/bits/stl_bvector.h \
  /usr/include/c++/13.2.1/bits/vector.tcc /usr/include/c++/13.2.1/array \
  /usr/include/c++/13.2.1/compare /usr/include/qt/QtCore/qvector.h \
  /usr/include/qt/QtCore/qcontainertools_impl.h \
  /usr/include/c++/13.2.1/list /usr/include/c++/13.2.1/bits/stl_list.h \
+ /usr/include/c++/13.2.1/bits/allocated_ptr.h \
  /usr/include/c++/13.2.1/bits/list.tcc \
  /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/limits.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/syslimits.h \
@@ -223,16 +214,9 @@ CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.o: \
  /usr/include/c++/13.2.1/cstdint /usr/include/c++/13.2.1/limits \
  /usr/include/c++/13.2.1/ctime \
  /usr/include/c++/13.2.1/bits/parse_numbers.h \
- /usr/include/qt/QtCore/qcoreevent.h /usr/include/qt/QtCore/qeventloop.h \
- /usr/include/qt/QtGui/qwindowdefs.h /usr/include/qt/QtCore/qpoint.h \
- /usr/include/qt/QtCore/qsize.h /usr/include/qt/QtCore/qmargins.h \
- /usr/include/qt/QtGui/qcursor.h /usr/include/qt/QtGui/qguiapplication.h \
- /usr/include/qt/QtGui/qinputmethod.h /usr/include/qt/QtCore/qlocale.h \
- /usr/include/qt/QtCore/qvariant.h /usr/include/qt/QtCore/qmap.h \
- /usr/include/qt/QtCore/qhash.h /usr/include/c++/13.2.1/variant \
- /usr/include/qt/QtCore/qshareddata.h /usr/include/qt/QtWidgets/QWidget \
- /usr/include/qt/QtWidgets/qwidget.h /usr/include/qt/QtGui/qpaintdevice.h \
- /usr/include/qt/QtCore/qrect.h /usr/include/qt/QtGui/qpalette.h \
+ /usr/include/qt/QtCore/qmargins.h /usr/include/qt/QtGui/qpaintdevice.h \
+ /usr/include/qt/QtCore/qrect.h /usr/include/qt/QtCore/qsize.h \
+ /usr/include/qt/QtCore/qpoint.h /usr/include/qt/QtGui/qpalette.h \
  /usr/include/qt/QtGui/qcolor.h /usr/include/qt/QtGui/qrgb.h \
  /usr/include/qt/QtGui/qrgba64.h /usr/include/qt/QtGui/qbrush.h \
  /usr/include/qt/QtGui/qmatrix.h /usr/include/qt/QtGui/qpolygon.h \
@@ -241,43 +225,33 @@ CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt/QtGui/qtransform.h /usr/include/qt/QtGui/qimage.h \
  /usr/include/qt/QtGui/qpixelformat.h /usr/include/qt/QtGui/qpixmap.h \
  /usr/include/qt/QtCore/qsharedpointer.h \
+ /usr/include/qt/QtCore/qshareddata.h /usr/include/qt/QtCore/qhash.h \
  /usr/include/qt/QtCore/qsharedpointer_impl.h \
+ /usr/include/c++/13.2.1/memory \
+ /usr/include/c++/13.2.1/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/13.2.1/bits/align.h \
+ /usr/include/c++/13.2.1/bits/unique_ptr.h \
+ /usr/include/c++/13.2.1/bits/shared_ptr.h \
+ /usr/include/c++/13.2.1/bits/shared_ptr_base.h \
+ /usr/include/c++/13.2.1/ext/concurrence.h \
+ /usr/include/c++/13.2.1/bits/shared_ptr_atomic.h \
+ /usr/include/c++/13.2.1/backward/auto_ptr.h \
+ /usr/include/c++/13.2.1/pstl/glue_memory_defs.h \
  /usr/include/qt/QtGui/qfont.h /usr/include/qt/QtGui/qfontmetrics.h \
  /usr/include/qt/QtGui/qfontinfo.h \
- /usr/include/qt/QtWidgets/qsizepolicy.h \
- /usr/include/qt/QtGui/qkeysequence.h \
- /usr/include/qt/QtWidgets/QVBoxLayout \
- /usr/include/qt/QtWidgets/qboxlayout.h \
- /usr/include/qt/QtWidgets/qlayout.h \
- /usr/include/qt/QtWidgets/qlayoutitem.h \
- /usr/include/qt/QtWidgets/qboxlayout.h \
- /usr/include/qt/QtWidgets/qgridlayout.h \
- /usr/include/qt/QtWidgets/QLineEdit \
- /usr/include/qt/QtWidgets/qlineedit.h /usr/include/qt/QtWidgets/qframe.h \
- /usr/include/qt/QtWidgets/qwidget.h /usr/include/qt/QtGui/qtextcursor.h \
- /usr/include/qt/QtGui/qtextformat.h /usr/include/qt/QtGui/qpen.h \
- /usr/include/qt/QtGui/qtextoption.h \
- /usr/include/qt/QtWidgets/QPushButton \
- /usr/include/qt/QtWidgets/qpushbutton.h \
- /usr/include/qt/QtWidgets/qabstractbutton.h \
- /usr/include/qt/QtGui/qicon.h /usr/include/qt/QtWidgets/QLabel \
- /usr/include/qt/QtWidgets/qlabel.h /usr/include/qt/QtSql/QSqlDatabase \
- /usr/include/qt/QtSql/qsqldatabase.h /usr/include/qt/QtSql/qtsqlglobal.h \
- /usr/include/qt/QtSql/qtsql-config.h /usr/include/qt/QtWidgets/QLabel \
- /usr/include/qt/QtSql/QSqlQuery /usr/include/qt/QtSql/qsqlquery.h \
- /usr/include/qt/QtSql/qsqldatabase.h /usr/include/qt/QtWidgets/QDialog \
- /usr/include/qt/QtWidgets/qdialog.h \
- /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/moc_custombackground.cpp \
- /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/../../../custombackground.h \
- /usr/include/qt/QtGui/QPaintEvent /usr/include/qt/QtGui/qevent.h \
- /usr/include/qt/QtCore/qset.h /usr/include/qt/QtCore/qurl.h \
- /usr/include/qt/QtCore/qfile.h /usr/include/qt/QtCore/qfiledevice.h \
- /usr/include/qt/QtGui/qvector2d.h /usr/include/qt/QtGui/qtouchdevice.h \
- /usr/include/qt/QtWidgets/QtWidgets \
+ /usr/include/qt/QtWidgets/qsizepolicy.h /usr/include/qt/QtGui/qcursor.h \
+ /usr/include/qt/QtGui/qkeysequence.h /usr/include/qt/QtGui/QPaintEvent \
+ /usr/include/qt/QtGui/qevent.h /usr/include/qt/QtCore/qcoreevent.h \
+ /usr/include/qt/QtCore/qvariant.h /usr/include/qt/QtCore/qmap.h \
+ /usr/include/c++/13.2.1/variant /usr/include/qt/QtCore/qset.h \
+ /usr/include/qt/QtCore/qurl.h /usr/include/qt/QtCore/qfile.h \
+ /usr/include/qt/QtCore/qfiledevice.h /usr/include/qt/QtGui/qvector2d.h \
+ /usr/include/qt/QtGui/qtouchdevice.h /usr/include/qt/QtWidgets/QtWidgets \
  /usr/include/qt/QtWidgets/QtWidgetsDepends /usr/include/qt/QtCore/QtCore \
  /usr/include/qt/QtCore/QtCoreDepends /usr/include/qt/QtCore/qglobal.h \
  /usr/include/qt/QtCore/qabstractanimation.h \
  /usr/include/qt/QtCore/qabstracteventdispatcher.h \
+ /usr/include/qt/QtCore/qeventloop.h \
  /usr/include/qt/QtCore/qabstractitemmodel.h \
  /usr/include/qt/QtCore/qabstractnativeeventfilter.h \
  /usr/include/qt/QtCore/qabstractproxymodel.h \
@@ -296,9 +270,10 @@ CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt/QtCore/qbytearraylist.h \
  /usr/include/qt/QtCore/qbytearraymatcher.h \
  /usr/include/qt/QtCore/qcache.h /usr/include/qt/QtCore/qcalendar.h \
- /usr/include/qt/QtCore/qcborarray.h /usr/include/qt/QtCore/qcborvalue.h \
- /usr/include/qt/QtCore/qdatetime.h /usr/include/qt/QtCore/qcborcommon.h \
- /usr/include/qt/QtCore/qdebug.h /usr/include/qt/QtCore/qtextstream.h \
+ /usr/include/qt/QtCore/qlocale.h /usr/include/qt/QtCore/qcborarray.h \
+ /usr/include/qt/QtCore/qcborvalue.h /usr/include/qt/QtCore/qdatetime.h \
+ /usr/include/qt/QtCore/qcborcommon.h /usr/include/qt/QtCore/qdebug.h \
+ /usr/include/qt/QtCore/qtextstream.h \
  /usr/include/qt/QtCore/qcontiguouscache.h \
  /usr/include/qt/QtCore/qregularexpression.h \
  /usr/include/qt/QtCore/quuid.h /usr/include/qt/QtCore/qcborcommon.h \
@@ -312,6 +287,7 @@ CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt/QtCore/qcollator.h \
  /usr/include/qt/QtCore/qcommandlineoption.h \
  /usr/include/qt/QtCore/qcommandlineparser.h \
+ /usr/include/qt/QtCore/qcoreapplication.h \
  /usr/include/qt/QtCore/qcommandlineoption.h \
  /usr/include/qt/QtCore/qcompilerdetection.h \
  /usr/include/qt/QtCore/qconcatenatetablesproxymodel.h \
@@ -475,8 +451,10 @@ CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt/QtGui/QtGuiDepends /usr/include/qt/QtGui/qtguiglobal.h \
  /usr/include/qt/QtGui/qabstracttextdocumentlayout.h \
  /usr/include/qt/QtGui/qtextlayout.h /usr/include/qt/QtGui/qevent.h \
- /usr/include/qt/QtGui/qglyphrun.h /usr/include/qt/QtGui/qrawfont.h \
- /usr/include/qt/QtGui/qfontdatabase.h \
+ /usr/include/qt/QtGui/qtextformat.h /usr/include/qt/QtGui/qpen.h \
+ /usr/include/qt/QtGui/qtextoption.h /usr/include/qt/QtGui/qglyphrun.h \
+ /usr/include/qt/QtGui/qrawfont.h /usr/include/qt/QtGui/qfontdatabase.h \
+ /usr/include/qt/QtGui/qtextcursor.h \
  /usr/include/qt/QtGui/qtextdocument.h \
  /usr/include/qt/QtGui/qaccessible.h \
  /usr/include/qt/QtGui/qaccessiblebridge.h \
@@ -487,9 +465,10 @@ CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt/QtGui/qbackingstore.h /usr/include/qt/QtGui/qwindow.h \
  /usr/include/qt/QtCore/QEvent /usr/include/qt/QtCore/QMargins \
  /usr/include/qt/QtCore/QRect /usr/include/qt/QtGui/qsurface.h \
- /usr/include/qt/QtGui/qsurfaceformat.h /usr/include/qt/QtGui/qbitmap.h \
- /usr/include/qt/QtGui/qbrush.h /usr/include/qt/QtGui/qclipboard.h \
- /usr/include/qt/QtGui/qcolor.h /usr/include/qt/QtGui/qcolorspace.h \
+ /usr/include/qt/QtGui/qsurfaceformat.h /usr/include/qt/QtGui/qicon.h \
+ /usr/include/qt/QtGui/qbitmap.h /usr/include/qt/QtGui/qbrush.h \
+ /usr/include/qt/QtGui/qclipboard.h /usr/include/qt/QtGui/qcolor.h \
+ /usr/include/qt/QtGui/qcolorspace.h \
  /usr/include/qt/QtGui/qcolortransform.h \
  /usr/include/qt/QtGui/qcolortransform.h /usr/include/qt/QtGui/qcursor.h \
  /usr/include/qt/QtGui/qdesktopservices.h \
@@ -500,7 +479,8 @@ CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt/QtGui/qgenericplugin.h \
  /usr/include/qt/QtGui/qgenericpluginfactory.h \
  /usr/include/qt/QtGui/qglyphrun.h \
- /usr/include/qt/QtGui/qguiapplication.h /usr/include/qt/QtGui/qicon.h \
+ /usr/include/qt/QtGui/qguiapplication.h \
+ /usr/include/qt/QtGui/qinputmethod.h /usr/include/qt/QtGui/qicon.h \
  /usr/include/qt/QtGui/qiconengine.h \
  /usr/include/qt/QtGui/qiconengineplugin.h /usr/include/qt/QtGui/qimage.h \
  /usr/include/qt/QtGui/qimageiohandler.h \
@@ -581,6 +561,7 @@ CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt/QtGui/qtguiversion.h \
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
  /usr/include/qt/QtWidgets/qabstractbutton.h \
+ /usr/include/qt/QtWidgets/qwidget.h \
  /usr/include/qt/QtWidgets/qabstractitemdelegate.h \
  /usr/include/qt/QtWidgets/qstyleoption.h \
  /usr/include/qt/QtWidgets/qabstractspinbox.h \
@@ -589,6 +570,7 @@ CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt/QtWidgets/qstyle.h /usr/include/qt/QtWidgets/qtabbar.h \
  /usr/include/qt/QtWidgets/qtabwidget.h \
  /usr/include/qt/QtWidgets/qrubberband.h \
+ /usr/include/qt/QtWidgets/qframe.h \
  /usr/include/qt/QtWidgets/qabstractitemview.h \
  /usr/include/qt/QtWidgets/qabstractscrollarea.h \
  /usr/include/qt/QtCore/qitemselectionmodel.h \
@@ -602,9 +584,17 @@ CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt/QtWidgets/qactiongroup.h \
  /usr/include/qt/QtWidgets/qaction.h \
  /usr/include/qt/QtWidgets/qactiongroup.h \
+ /usr/include/qt/QtWidgets/qapplication.h \
+ /usr/include/qt/QtGui/qguiapplication.h \
+ /usr/include/qt/QtWidgets/qboxlayout.h \
+ /usr/include/qt/QtWidgets/qlayout.h \
+ /usr/include/qt/QtWidgets/qlayoutitem.h \
+ /usr/include/qt/QtWidgets/qboxlayout.h \
+ /usr/include/qt/QtWidgets/qgridlayout.h \
  /usr/include/qt/QtWidgets/qbuttongroup.h \
  /usr/include/qt/QtWidgets/qcalendarwidget.h \
  /usr/include/qt/QtWidgets/qcheckbox.h \
+ /usr/include/qt/QtWidgets/qabstractbutton.h \
  /usr/include/qt/QtWidgets/qcolordialog.h \
  /usr/include/qt/QtWidgets/qdialog.h \
  /usr/include/qt/QtWidgets/qcolormap.h \
@@ -619,7 +609,7 @@ CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt/QtWidgets/qdatetimeedit.h \
  /usr/include/qt/QtCore/qcalendar.h \
  /usr/include/qt/QtWidgets/qdesktopwidget.h \
- /usr/include/qt/QtWidgets/qdial.h \
+ /usr/include/qt/QtWidgets/qdial.h /usr/include/qt/QtWidgets/qdialog.h \
  /usr/include/qt/QtWidgets/qdialogbuttonbox.h \
  /usr/include/qt/QtWidgets/qdirmodel.h \
  /usr/include/qt/QtWidgets/qfileiconprovider.h \
@@ -670,8 +660,10 @@ CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt/QtWidgets/qkeyeventtransition.h \
  /usr/include/qt/QtCore/qeventtransition.h \
  /usr/include/qt/QtWidgets/qkeysequenceedit.h \
+ /usr/include/qt/QtWidgets/qlabel.h \
  /usr/include/qt/QtWidgets/qlayoutitem.h \
  /usr/include/qt/QtWidgets/qlcdnumber.h \
+ /usr/include/qt/QtWidgets/qlineedit.h \
  /usr/include/qt/QtWidgets/qlistview.h \
  /usr/include/qt/QtWidgets/qlistwidget.h \
  /usr/include/qt/QtWidgets/qlistview.h \
@@ -691,6 +683,7 @@ CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt/QtWidgets/qprogressdialog.h \
  /usr/include/qt/QtWidgets/qproxystyle.h \
  /usr/include/qt/QtWidgets/QCommonStyle \
+ /usr/include/qt/QtWidgets/qpushbutton.h \
  /usr/include/qt/QtWidgets/qradiobutton.h \
  /usr/include/qt/QtWidgets/qrubberband.h \
  /usr/include/qt/QtWidgets/qscrollarea.h \
@@ -737,16 +730,10 @@ CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt/QtWidgets/qwhatsthis.h \
  /usr/include/qt/QtWidgets/qwidgetaction.h \
  /usr/include/qt/QtWidgets/qwizard.h \
- /usr/include/qt/QtWidgets/qtwidgetsversion.h /usr/include/qt/QtGui/QFont \
- /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/moc_customevent.cpp \
- /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/../../../customevent.h \
+ /usr/include/qt/QtWidgets/qtwidgetsversion.h \
+ /usr/include/qt/QtWidgets/QLabel /usr/include/qt/QtGui/QFont \
+ /home/babsdevsys/BankingApp/customcolormanager.h \
+ /usr/include/qt/QtWidgets/QColorDialog /usr/include/qt/QtGui/QColor \
+ /usr/include/qt/QtCore/QHash /usr/include/qt/QtCore/QString \
  /usr/include/qt/QtGui/QtGui /usr/include/qt/QtCore/QtCore \
- /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/moc_mainwindow.cpp \
- /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/../../../mainwindow.h \
- /usr/include/qt/QtWidgets/QGraphicsView \
- /usr/include/qt/QtWidgets/QGraphicsScene \
- /usr/include/qt/QtWidgets/QStackedWidget \
- /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/../../../user_registrationwidget.h \
- /usr/include/qt/QtWidgets/QMainWindow \
- /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/moc_user_registrationwidget.cpp \
- /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/../../../user_registrationwidget.h
+ /usr/include/qt/QtGui/QPainter

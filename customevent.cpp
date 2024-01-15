@@ -6,6 +6,8 @@
 
 CustomEvent::CustomEvent(QWidget *parent) : QLabel(parent) {}
 
+
+
 void CustomEvent::paintEvent(QPaintEvent *)
 {
     QPainter painter(this);
@@ -16,3 +18,4 @@ void CustomEvent::paintEvent(QPaintEvent *)
     painter.fillRect(RectLiner, Liner);
 
 }
+

@@ -7,6 +7,8 @@ BankingApp_autogen/timestamp: \
 	/home/babsdevsys/BankingApp/build/BankingApp_autogen/moc_predefs.h \
 	/home/babsdevsys/BankingApp/build/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake \
 	/home/babsdevsys/BankingApp/build/CMakeFiles/3.28.1/CMakeSystem.cmake \
+	/home/babsdevsys/BankingApp/custombackground.cpp \
+	/home/babsdevsys/BankingApp/custombackground.h \
 	/home/babsdevsys/BankingApp/customcolormanager.cpp \
 	/home/babsdevsys/BankingApp/customcolormanager.h \
 	/home/babsdevsys/BankingApp/customevent.cpp \
@@ -273,13 +275,16 @@ BankingApp_autogen/timestamp: \
 	/usr/include/qt/QtCore/QEvent \
 	/usr/include/qt/QtCore/QList \
 	/usr/include/qt/QtCore/QMargins \
+	/usr/include/qt/QtCore/QMetaType \
 	/usr/include/qt/QtCore/QObject \
+	/usr/include/qt/QtCore/QPointF \
 	/usr/include/qt/QtCore/QRect \
 	/usr/include/qt/QtCore/QScopedPointer \
 	/usr/include/qt/QtCore/QSharedDataPointer \
 	/usr/include/qt/QtCore/QSize \
 	/usr/include/qt/QtCore/QSizeF \
 	/usr/include/qt/QtCore/QStringList \
+	/usr/include/qt/QtCore/QVariant \
 	/usr/include/qt/QtCore/QtCore \
 	/usr/include/qt/QtCore/QtCoreDepends \
 	/usr/include/qt/QtCore/qabstractanimation.h \
@@ -475,14 +480,17 @@ BankingApp_autogen/timestamp: \
 	/usr/include/qt/QtCore/qwaitcondition.h \
 	/usr/include/qt/QtCore/qwineventnotifier.h \
 	/usr/include/qt/QtCore/qxmlstream.h \
+	/usr/include/qt/QtGui/QFont \
 	/usr/include/qt/QtGui/QImage \
 	/usr/include/qt/QtGui/QMatrix3x3 \
 	/usr/include/qt/QtGui/QMatrix4x4 \
 	/usr/include/qt/QtGui/QOpenGLContext \
 	/usr/include/qt/QtGui/QPaintDevice \
 	/usr/include/qt/QtGui/QPaintDeviceWindow \
+	/usr/include/qt/QtGui/QPaintEvent \
 	/usr/include/qt/QtGui/QSurfaceFormat \
 	/usr/include/qt/QtGui/QTransform \
+	/usr/include/qt/QtGui/QVector3D \
 	/usr/include/qt/QtGui/QWindow \
 	/usr/include/qt/QtGui/QtGui \
 	/usr/include/qt/QtGui/QtGuiDepends \
@@ -600,38 +608,150 @@ BankingApp_autogen/timestamp: \
 	/usr/include/qt/QtSql/qtsql-config.h \
 	/usr/include/qt/QtSql/qtsqlglobal.h \
 	/usr/include/qt/QtWidgets/QApplication \
+	/usr/include/qt/QtWidgets/QCommonStyle \
 	/usr/include/qt/QtWidgets/QDialog \
 	/usr/include/qt/QtWidgets/QGraphicsScene \
 	/usr/include/qt/QtWidgets/QGraphicsView \
 	/usr/include/qt/QtWidgets/QLabel \
+	/usr/include/qt/QtWidgets/QLayout \
 	/usr/include/qt/QtWidgets/QLineEdit \
 	/usr/include/qt/QtWidgets/QMainWindow \
 	/usr/include/qt/QtWidgets/QPushButton \
+	/usr/include/qt/QtWidgets/QScrollerProperties \
 	/usr/include/qt/QtWidgets/QStackedWidget \
 	/usr/include/qt/QtWidgets/QVBoxLayout \
 	/usr/include/qt/QtWidgets/QWidget \
+	/usr/include/qt/QtWidgets/QtWidgets \
+	/usr/include/qt/QtWidgets/QtWidgetsDepends \
 	/usr/include/qt/QtWidgets/qabstractbutton.h \
+	/usr/include/qt/QtWidgets/qabstractitemdelegate.h \
+	/usr/include/qt/QtWidgets/qabstractitemview.h \
 	/usr/include/qt/QtWidgets/qabstractscrollarea.h \
+	/usr/include/qt/QtWidgets/qabstractslider.h \
+	/usr/include/qt/QtWidgets/qabstractspinbox.h \
+	/usr/include/qt/QtWidgets/qaccessiblewidget.h \
+	/usr/include/qt/QtWidgets/qaction.h \
+	/usr/include/qt/QtWidgets/qactiongroup.h \
 	/usr/include/qt/QtWidgets/qapplication.h \
 	/usr/include/qt/QtWidgets/qboxlayout.h \
+	/usr/include/qt/QtWidgets/qbuttongroup.h \
+	/usr/include/qt/QtWidgets/qcalendarwidget.h \
+	/usr/include/qt/QtWidgets/qcheckbox.h \
+	/usr/include/qt/QtWidgets/qcolordialog.h \
+	/usr/include/qt/QtWidgets/qcolormap.h \
+	/usr/include/qt/QtWidgets/qcolumnview.h \
+	/usr/include/qt/QtWidgets/qcombobox.h \
+	/usr/include/qt/QtWidgets/qcommandlinkbutton.h \
+	/usr/include/qt/QtWidgets/qcommonstyle.h \
+	/usr/include/qt/QtWidgets/qcompleter.h \
+	/usr/include/qt/QtWidgets/qdatawidgetmapper.h \
+	/usr/include/qt/QtWidgets/qdatetimeedit.h \
+	/usr/include/qt/QtWidgets/qdesktopwidget.h \
+	/usr/include/qt/QtWidgets/qdial.h \
 	/usr/include/qt/QtWidgets/qdialog.h \
+	/usr/include/qt/QtWidgets/qdialogbuttonbox.h \
+	/usr/include/qt/QtWidgets/qdirmodel.h \
+	/usr/include/qt/QtWidgets/qdockwidget.h \
+	/usr/include/qt/QtWidgets/qdrawutil.h \
+	/usr/include/qt/QtWidgets/qerrormessage.h \
+	/usr/include/qt/QtWidgets/qfiledialog.h \
+	/usr/include/qt/QtWidgets/qfileiconprovider.h \
+	/usr/include/qt/QtWidgets/qfilesystemmodel.h \
+	/usr/include/qt/QtWidgets/qfocusframe.h \
+	/usr/include/qt/QtWidgets/qfontcombobox.h \
+	/usr/include/qt/QtWidgets/qfontdialog.h \
+	/usr/include/qt/QtWidgets/qformlayout.h \
 	/usr/include/qt/QtWidgets/qframe.h \
+	/usr/include/qt/QtWidgets/qgesture.h \
+	/usr/include/qt/QtWidgets/qgesturerecognizer.h \
+	/usr/include/qt/QtWidgets/qgraphicsanchorlayout.h \
+	/usr/include/qt/QtWidgets/qgraphicseffect.h \
+	/usr/include/qt/QtWidgets/qgraphicsgridlayout.h \
+	/usr/include/qt/QtWidgets/qgraphicsitem.h \
+	/usr/include/qt/QtWidgets/qgraphicsitemanimation.h \
+	/usr/include/qt/QtWidgets/qgraphicslayout.h \
+	/usr/include/qt/QtWidgets/qgraphicslayoutitem.h \
+	/usr/include/qt/QtWidgets/qgraphicslinearlayout.h \
+	/usr/include/qt/QtWidgets/qgraphicsproxywidget.h \
 	/usr/include/qt/QtWidgets/qgraphicsscene.h \
+	/usr/include/qt/QtWidgets/qgraphicssceneevent.h \
+	/usr/include/qt/QtWidgets/qgraphicstransform.h \
 	/usr/include/qt/QtWidgets/qgraphicsview.h \
+	/usr/include/qt/QtWidgets/qgraphicswidget.h \
 	/usr/include/qt/QtWidgets/qgridlayout.h \
+	/usr/include/qt/QtWidgets/qgroupbox.h \
+	/usr/include/qt/QtWidgets/qheaderview.h \
+	/usr/include/qt/QtWidgets/qinputdialog.h \
+	/usr/include/qt/QtWidgets/qitemdelegate.h \
+	/usr/include/qt/QtWidgets/qitemeditorfactory.h \
+	/usr/include/qt/QtWidgets/qkeyeventtransition.h \
+	/usr/include/qt/QtWidgets/qkeysequenceedit.h \
 	/usr/include/qt/QtWidgets/qlabel.h \
 	/usr/include/qt/QtWidgets/qlayout.h \
 	/usr/include/qt/QtWidgets/qlayoutitem.h \
+	/usr/include/qt/QtWidgets/qlcdnumber.h \
 	/usr/include/qt/QtWidgets/qlineedit.h \
+	/usr/include/qt/QtWidgets/qlistview.h \
+	/usr/include/qt/QtWidgets/qlistwidget.h \
 	/usr/include/qt/QtWidgets/qmainwindow.h \
+	/usr/include/qt/QtWidgets/qmdiarea.h \
+	/usr/include/qt/QtWidgets/qmdisubwindow.h \
+	/usr/include/qt/QtWidgets/qmenu.h \
+	/usr/include/qt/QtWidgets/qmenubar.h \
+	/usr/include/qt/QtWidgets/qmessagebox.h \
+	/usr/include/qt/QtWidgets/qmouseeventtransition.h \
+	/usr/include/qt/QtWidgets/qopenglwidget.h \
+	/usr/include/qt/QtWidgets/qplaintextedit.h \
+	/usr/include/qt/QtWidgets/qprogressbar.h \
+	/usr/include/qt/QtWidgets/qprogressdialog.h \
+	/usr/include/qt/QtWidgets/qproxystyle.h \
 	/usr/include/qt/QtWidgets/qpushbutton.h \
+	/usr/include/qt/QtWidgets/qradiobutton.h \
+	/usr/include/qt/QtWidgets/qrubberband.h \
 	/usr/include/qt/QtWidgets/qscrollarea.h \
+	/usr/include/qt/QtWidgets/qscrollbar.h \
+	/usr/include/qt/QtWidgets/qscroller.h \
+	/usr/include/qt/QtWidgets/qscrollerproperties.h \
+	/usr/include/qt/QtWidgets/qshortcut.h \
+	/usr/include/qt/QtWidgets/qsizegrip.h \
 	/usr/include/qt/QtWidgets/qsizepolicy.h \
+	/usr/include/qt/QtWidgets/qslider.h \
+	/usr/include/qt/QtWidgets/qspinbox.h \
+	/usr/include/qt/QtWidgets/qsplashscreen.h \
+	/usr/include/qt/QtWidgets/qsplitter.h \
+	/usr/include/qt/QtWidgets/qstackedlayout.h \
 	/usr/include/qt/QtWidgets/qstackedwidget.h \
+	/usr/include/qt/QtWidgets/qstatusbar.h \
+	/usr/include/qt/QtWidgets/qstyle.h \
+	/usr/include/qt/QtWidgets/qstyleditemdelegate.h \
+	/usr/include/qt/QtWidgets/qstylefactory.h \
+	/usr/include/qt/QtWidgets/qstyleoption.h \
+	/usr/include/qt/QtWidgets/qstylepainter.h \
+	/usr/include/qt/QtWidgets/qstyleplugin.h \
+	/usr/include/qt/QtWidgets/qsystemtrayicon.h \
+	/usr/include/qt/QtWidgets/qtabbar.h \
+	/usr/include/qt/QtWidgets/qtableview.h \
+	/usr/include/qt/QtWidgets/qtablewidget.h \
 	/usr/include/qt/QtWidgets/qtabwidget.h \
+	/usr/include/qt/QtWidgets/qtextbrowser.h \
+	/usr/include/qt/QtWidgets/qtextedit.h \
+	/usr/include/qt/QtWidgets/qtoolbar.h \
+	/usr/include/qt/QtWidgets/qtoolbox.h \
+	/usr/include/qt/QtWidgets/qtoolbutton.h \
+	/usr/include/qt/QtWidgets/qtooltip.h \
+	/usr/include/qt/QtWidgets/qtreeview.h \
+	/usr/include/qt/QtWidgets/qtreewidget.h \
+	/usr/include/qt/QtWidgets/qtreewidgetitemiterator.h \
 	/usr/include/qt/QtWidgets/qtwidgets-config.h \
 	/usr/include/qt/QtWidgets/qtwidgetsglobal.h \
+	/usr/include/qt/QtWidgets/qtwidgetsversion.h \
+	/usr/include/qt/QtWidgets/qundogroup.h \
+	/usr/include/qt/QtWidgets/qundostack.h \
+	/usr/include/qt/QtWidgets/qundoview.h \
+	/usr/include/qt/QtWidgets/qwhatsthis.h \
 	/usr/include/qt/QtWidgets/qwidget.h \
+	/usr/include/qt/QtWidgets/qwidgetaction.h \
+	/usr/include/qt/QtWidgets/qwizard.h \
 	/usr/include/sched.h \
 	/usr/include/stdc-predef.h \
 	/usr/include/stdio.h \

@@ -19,4 +19,5 @@ public:
     using QLabel::QLabel;
 };
 
+
 #endif // CUSTOMEVENT_H
