@@ -245,9 +245,16 @@ CMakeFiles/BankingApp.dir/main.cpp.o: \
  /usr/include/qt/QtWidgets/qgraphicsscene.h \
  /usr/include/qt/QtWidgets/QGraphicsScene \
  /usr/include/qt/QtWidgets/qgraphicsscene.h \
+ /usr/include/qt/QtWidgets/QPushButton \
+ /usr/include/qt/QtWidgets/qpushbutton.h \
+ /usr/include/qt/QtWidgets/qabstractbutton.h \
+ /usr/include/qt/QtGui/qicon.h /usr/include/qt/QtWidgets/QStackedWidget \
+ /usr/include/qt/QtWidgets/qstackedwidget.h \
+ /home/babsdevsys/BankingApp/user_registrationwidget.h \
+ /usr/include/qt/QtWidgets/QDialog /usr/include/qt/QtWidgets/qdialog.h \
  /usr/include/qt/QtWidgets/QMainWindow \
  /usr/include/qt/QtWidgets/qmainwindow.h \
- /usr/include/qt/QtWidgets/qtabwidget.h /usr/include/qt/QtGui/qicon.h \
+ /usr/include/qt/QtWidgets/qtabwidget.h \
  /usr/include/qt/QtWidgets/QApplication \
  /usr/include/qt/QtWidgets/qapplication.h \
  /usr/include/qt/QtCore/qcoreapplication.h \
@@ -603,7 +610,6 @@ CMakeFiles/BankingApp.dir/main.cpp.o: \
  /usr/include/qt/QtWidgets/qbuttongroup.h \
  /usr/include/qt/QtWidgets/qcalendarwidget.h \
  /usr/include/qt/QtWidgets/qcheckbox.h \
- /usr/include/qt/QtWidgets/qabstractbutton.h \
  /usr/include/qt/QtWidgets/qcolordialog.h \
  /usr/include/qt/QtWidgets/qdialog.h \
  /usr/include/qt/QtWidgets/qcolormap.h \
@@ -618,7 +624,7 @@ CMakeFiles/BankingApp.dir/main.cpp.o: \
  /usr/include/qt/QtWidgets/qdatetimeedit.h \
  /usr/include/qt/QtCore/qcalendar.h \
  /usr/include/qt/QtWidgets/qdesktopwidget.h \
- /usr/include/qt/QtWidgets/qdial.h /usr/include/qt/QtWidgets/qdialog.h \
+ /usr/include/qt/QtWidgets/qdial.h \
  /usr/include/qt/QtWidgets/qdialogbuttonbox.h \
  /usr/include/qt/QtWidgets/qdirmodel.h \
  /usr/include/qt/QtWidgets/qfileiconprovider.h \
@@ -687,7 +693,6 @@ CMakeFiles/BankingApp.dir/main.cpp.o: \
  /usr/include/qt/QtWidgets/qprogressdialog.h \
  /usr/include/qt/QtWidgets/qproxystyle.h \
  /usr/include/qt/QtWidgets/QCommonStyle \
- /usr/include/qt/QtWidgets/qpushbutton.h \
  /usr/include/qt/QtWidgets/qradiobutton.h \
  /usr/include/qt/QtWidgets/qrubberband.h \
  /usr/include/qt/QtWidgets/qscrollarea.h \
@@ -703,7 +708,6 @@ CMakeFiles/BankingApp.dir/main.cpp.o: \
  /usr/include/qt/QtWidgets/qsplashscreen.h \
  /usr/include/qt/QtWidgets/qsplitter.h \
  /usr/include/qt/QtWidgets/qstackedlayout.h \
- /usr/include/qt/QtWidgets/qstackedwidget.h \
  /usr/include/qt/QtWidgets/qstatusbar.h \
  /usr/include/qt/QtWidgets/qstyle.h \
  /usr/include/qt/QtWidgets/qstyleditemdelegate.h \

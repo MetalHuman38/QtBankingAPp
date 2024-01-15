@@ -164,6 +164,34 @@ CMakeFiles/BankingApp.dir/customevent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BankingApp.dir/customevent.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/babsdevsys/BankingApp/customevent.cpp -o CMakeFiles/BankingApp.dir/customevent.cpp.s
 
+CMakeFiles/BankingApp.dir/customcolormanager.cpp.o: CMakeFiles/BankingApp.dir/flags.make
+CMakeFiles/BankingApp.dir/customcolormanager.cpp.o: /home/babsdevsys/BankingApp/customcolormanager.cpp
+CMakeFiles/BankingApp.dir/customcolormanager.cpp.o: CMakeFiles/BankingApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/babsdevsys/BankingApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/BankingApp.dir/customcolormanager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BankingApp.dir/customcolormanager.cpp.o -MF CMakeFiles/BankingApp.dir/customcolormanager.cpp.o.d -o CMakeFiles/BankingApp.dir/customcolormanager.cpp.o -c /home/babsdevsys/BankingApp/customcolormanager.cpp
+
+CMakeFiles/BankingApp.dir/customcolormanager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BankingApp.dir/customcolormanager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/babsdevsys/BankingApp/customcolormanager.cpp > CMakeFiles/BankingApp.dir/customcolormanager.cpp.i
+
+CMakeFiles/BankingApp.dir/customcolormanager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BankingApp.dir/customcolormanager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/babsdevsys/BankingApp/customcolormanager.cpp -o CMakeFiles/BankingApp.dir/customcolormanager.cpp.s
+
+CMakeFiles/BankingApp.dir/aboutusdialogbox.cpp.o: CMakeFiles/BankingApp.dir/flags.make
+CMakeFiles/BankingApp.dir/aboutusdialogbox.cpp.o: /home/babsdevsys/BankingApp/aboutusdialogbox.cpp
+CMakeFiles/BankingApp.dir/aboutusdialogbox.cpp.o: CMakeFiles/BankingApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/babsdevsys/BankingApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/BankingApp.dir/aboutusdialogbox.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BankingApp.dir/aboutusdialogbox.cpp.o -MF CMakeFiles/BankingApp.dir/aboutusdialogbox.cpp.o.d -o CMakeFiles/BankingApp.dir/aboutusdialogbox.cpp.o -c /home/babsdevsys/BankingApp/aboutusdialogbox.cpp
+
+CMakeFiles/BankingApp.dir/aboutusdialogbox.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BankingApp.dir/aboutusdialogbox.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/babsdevsys/BankingApp/aboutusdialogbox.cpp > CMakeFiles/BankingApp.dir/aboutusdialogbox.cpp.i
+
+CMakeFiles/BankingApp.dir/aboutusdialogbox.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BankingApp.dir/aboutusdialogbox.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/babsdevsys/BankingApp/aboutusdialogbox.cpp -o CMakeFiles/BankingApp.dir/aboutusdialogbox.cpp.s
+
 # Object files for target BankingApp
 BankingApp_OBJECTS = \
 "CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.o" \
@@ -171,7 +199,9 @@ BankingApp_OBJECTS = \
 "CMakeFiles/BankingApp.dir/mainwindow.cpp.o" \
 "CMakeFiles/BankingApp.dir/UserRegistrationWidget.cpp.o" \
 "CMakeFiles/BankingApp.dir/user_registrationwidget.cpp.o" \
-"CMakeFiles/BankingApp.dir/customevent.cpp.o"
+"CMakeFiles/BankingApp.dir/customevent.cpp.o" \
+"CMakeFiles/BankingApp.dir/customcolormanager.cpp.o" \
+"CMakeFiles/BankingApp.dir/aboutusdialogbox.cpp.o"
 
 # External object files for target BankingApp
 BankingApp_EXTERNAL_OBJECTS =
@@ -182,13 +212,15 @@ BankingApp: CMakeFiles/BankingApp.dir/mainwindow.cpp.o
 BankingApp: CMakeFiles/BankingApp.dir/UserRegistrationWidget.cpp.o
 BankingApp: CMakeFiles/BankingApp.dir/user_registrationwidget.cpp.o
 BankingApp: CMakeFiles/BankingApp.dir/customevent.cpp.o
+BankingApp: CMakeFiles/BankingApp.dir/customcolormanager.cpp.o
+BankingApp: CMakeFiles/BankingApp.dir/aboutusdialogbox.cpp.o
 BankingApp: CMakeFiles/BankingApp.dir/build.make
 BankingApp: /usr/lib/libQt5Widgets.so.5.15.12
 BankingApp: /usr/lib/libQt5Sql.so.5.15.12
 BankingApp: /usr/lib/libQt5Gui.so.5.15.12
 BankingApp: /usr/lib/libQt5Core.so.5.15.12
 BankingApp: CMakeFiles/BankingApp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/babsdevsys/BankingApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable BankingApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/babsdevsys/BankingApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable BankingApp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BankingApp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

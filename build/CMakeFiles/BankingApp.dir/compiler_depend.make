@@ -4,9 +4,13 @@
 BankingApp_autogen/timestamp: /home/babsdevsys/BankingApp/CMakeLists.txt \
   /home/babsdevsys/BankingApp/UserRegistrationWidget.cpp \
   /home/babsdevsys/BankingApp/UserRegistrationWidget.h \
+  /home/babsdevsys/BankingApp/aboutusdialogbox.cpp \
+  /home/babsdevsys/BankingApp/aboutusdialogbox.h \
   BankingApp_autogen/moc_predefs.h \
   CMakeFiles/3.28.1/CMakeCXXCompiler.cmake \
   CMakeFiles/3.28.1/CMakeSystem.cmake \
+  /home/babsdevsys/BankingApp/customcolormanager.cpp \
+  /home/babsdevsys/BankingApp/customcolormanager.h \
   /home/babsdevsys/BankingApp/customevent.cpp \
   /home/babsdevsys/BankingApp/customevent.h \
   /home/babsdevsys/BankingApp/main.cpp \
@@ -608,6 +612,7 @@ BankingApp_autogen/timestamp: /home/babsdevsys/BankingApp/CMakeLists.txt \
   /usr/include/qt/QtWidgets/QLineEdit \
   /usr/include/qt/QtWidgets/QMainWindow \
   /usr/include/qt/QtWidgets/QPushButton \
+  /usr/include/qt/QtWidgets/QStackedWidget \
   /usr/include/qt/QtWidgets/QVBoxLayout \
   /usr/include/qt/QtWidgets/QWidget \
   /usr/include/qt/QtWidgets/qabstractbutton.h \
@@ -627,6 +632,7 @@ BankingApp_autogen/timestamp: /home/babsdevsys/BankingApp/CMakeLists.txt \
   /usr/include/qt/QtWidgets/qpushbutton.h \
   /usr/include/qt/QtWidgets/qscrollarea.h \
   /usr/include/qt/QtWidgets/qsizepolicy.h \
+  /usr/include/qt/QtWidgets/qstackedwidget.h \
   /usr/include/qt/QtWidgets/qtabwidget.h \
   /usr/include/qt/QtWidgets/qtwidgets-config.h \
   /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
@@ -1375,10 +1381,6 @@ BankingApp_autogen/timestamp: /home/babsdevsys/BankingApp/CMakeLists.txt \
 
 /usr/lib/cmake/Qt5Sql/Qt5Sql_QODBCDriverPlugin.cmake:
 
-/usr/lib/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake:
-
-/usr/lib/cmake/Qt5Sql/Qt5Sql_QMYSQLDriverPlugin.cmake:
-
 /usr/lib/cmake/Qt5Sql/Qt5Sql_QIBaseDriverPlugin.cmake:
 
 /usr/lib/cmake/Qt5Sql/Qt5SqlConfigVersion.cmake:
@@ -1456,6 +1458,8 @@ BankingApp_autogen/timestamp: /home/babsdevsys/BankingApp/CMakeLists.txt \
 /usr/include/qt/QtWidgets/qwidget.h:
 
 /usr/include/qt/QtWidgets/qtabwidget.h:
+
+/usr/include/qt/QtWidgets/qstackedwidget.h:
 
 /usr/include/qt/QtWidgets/qsizepolicy.h:
 
@@ -1551,12 +1555,6 @@ BankingApp_autogen/timestamp: /home/babsdevsys/BankingApp/CMakeLists.txt \
 
 /usr/include/qt/QtGui/qsurfaceformat.h:
 
-/usr/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake:
-
-/usr/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake:
-
-/usr/include/qt/QtGui/qsurface.h:
-
 /usr/include/qt/QtGui/qstandarditemmodel.h:
 
 /usr/include/qt/QtGui/qsessionmanager.h:
@@ -1597,25 +1595,17 @@ BankingApp_autogen/timestamp: /home/babsdevsys/BankingApp/CMakeLists.txt \
 
 /usr/include/qt/QtGui/qpagelayout.h:
 
-/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h:
+/usr/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake:
 
-/usr/include/qt/QtCore/qpropertyanimation.h:
+/usr/include/qt/QtGui/qopenglwindow.h:
 
-/usr/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake:
+/usr/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginConfig.cmake:
 
-/usr/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:
+/usr/include/qt/QtGui/qopenglvertexarrayobject.h:
 
-/usr/lib/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake:
+/usr/include/qt/QtGui/qopenglversionfunctions.h:
 
-/usr/include/qt/QtCore/qscopeguard.h:
-
-/usr/include/qt/QtCore/qxmlstream.h:
-
-/usr/include/qt/QtGui/qaccessiblebridge.h:
-
-/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h:
-
-/usr/include/qt/QtCore/qsharedpointer_impl.h:
+/usr/include/qt/QtGui/qopengltimerquery.h:
 
 /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++locale.h:
 
@@ -1632,10 +1622,6 @@ BankingApp_autogen/timestamp: /home/babsdevsys/BankingApp/CMakeLists.txt \
 /usr/include/c++/13.2.1/unordered_map:
 
 /usr/include/qt/QtCore/qfiledevice.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginConfig.cmake:
-
-/usr/include/c++/13.2.1/tr1/riemann_zeta.tcc:
 
 /usr/include/qt/QtGui/qtextobject.h:
 
@@ -1759,10 +1745,6 @@ BankingApp_autogen/timestamp: /home/babsdevsys/BankingApp/CMakeLists.txt \
 
 /usr/include/c++/13.2.1/bits/stl_construct.h:
 
-/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h:
-
-/usr/include/qt/QtCore/qwaitcondition.h:
-
 /usr/include/c++/13.2.1/tr1/exp_integral.tcc:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/syslimits.h:
@@ -1835,6 +1817,18 @@ BankingApp_autogen/timestamp: /home/babsdevsys/BankingApp/CMakeLists.txt \
 
 /usr/include/c++/13.2.1/bits/move.h:
 
+/usr/include/c++/13.2.1/bits/mofunc_impl.h:
+
+/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:
+
+/home/babsdevsys/BankingApp/user_registrationwidget.ui:
+
+/usr/include/qt/QtCore/qmetatype.h:
+
+/usr/lib/cmake/Qt6Gui/Qt6QTsLibPluginConfig.cmake:
+
+/usr/include/c++/13.2.1/tr1/gamma.tcc:
+
 /usr/include/features.h:
 
 /usr/lib/cmake/Qt6/3rdparty/kwin/FindXKB.cmake:
@@ -1859,14 +1853,6 @@ BankingApp_autogen/timestamp: /home/babsdevsys/BankingApp/CMakeLists.txt \
 
 /usr/include/qt/QtCore/qfutureinterface.h:
 
-/usr/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake:
-
-/usr/include/bits/typesizes.h:
-
-/usr/include/qt/QtCore/qtextstream.h:
-
-/usr/include/qt/QtCore/qsemaphore.h:
-
 /usr/include/qt/QtCore/qcontainertools_impl.h:
 
 /usr/include/bits/types/struct_timespec.h:
@@ -1885,14 +1871,6 @@ BankingApp_autogen/timestamp: /home/babsdevsys/BankingApp/CMakeLists.txt \
 
 /usr/include/bits/types/cookie_io_functions_t.h:
 
-/usr/include/c++/13.2.1/bits/mofunc_impl.h:
-
-/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:
-
-/home/babsdevsys/BankingApp/user_registrationwidget.ui:
-
-/usr/include/qt/QtCore/qmetatype.h:
-
 /usr/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake:
 
 /usr/include/c++/13.2.1/debug/assertions.h:
@@ -1902,10 +1880,6 @@ BankingApp_autogen/timestamp: /home/babsdevsys/BankingApp/CMakeLists.txt \
 /usr/include/qt/QtGui/qfontmetrics.h:
 
 /usr/include/qt/QtGui/qbitmap.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginConfig.cmake:
-
-/usr/include/qt/QtGui/qopenglvertexarrayobject.h:
 
 /usr/include/c++/13.2.1/bits/string_view.tcc:
 
@@ -1921,6 +1895,10 @@ BankingApp_autogen/timestamp: /home/babsdevsys/BankingApp/CMakeLists.txt \
 
 /usr/include/qt/QtCore/qfactoryinterface.h:
 
+/usr/include/c++/13.2.1/clocale:
+
+/usr/include/bits/endian.h:
+
 /usr/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets-relwithdebinfo.cmake:
 
 /usr/include/c++/13.2.1/pstl/execution_defs.h:
@@ -1932,10 +1910,6 @@ BankingApp_autogen/timestamp: /home/babsdevsys/BankingApp/CMakeLists.txt \
 /usr/include/qt/QtGui/QSurfaceFormat:
 
 /usr/include/asm/errno.h:
-
-/usr/include/c++/13.2.1/clocale:
-
-/usr/include/bits/endian.h:
 
 /usr/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake:
 
@@ -1960,6 +1934,170 @@ BankingApp_autogen/timestamp: /home/babsdevsys/BankingApp/CMakeLists.txt \
 /usr/include/sys/cdefs.h:
 
 /usr/include/qt/QtCore/qmath.h:
+
+/usr/include/qt/QtWidgets/qtwidgetsglobal.h:
+
+/usr/include/c++/13.2.1/compare:
+
+/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:
+
+/usr/include/GL/gl.h:
+
+/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:
+
+/usr/include/qt/QtCore/qtimezone.h:
+
+/usr/include/qt/QtCore/qobjectdefs.h:
+
+/usr/include/qt/QtCore/qstringmatcher.h:
+
+/usr/include/c++/13.2.1/bits/functional_hash.h:
+
+/usr/include/c++/13.2.1/tuple:
+
+/usr/include/bits/endianness.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/c++/13.2.1/optional:
+
+/usr/include/bits/types/mbstate_t.h:
+
+/usr/include/c++/13.2.1/bits/cpp_type_traits.h:
+
+/usr/include/qt/QtCore/qregularexpression.h:
+
+/usr/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake:
+
+/usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake:
+
+/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h:
+
+/usr/share/cmake/Modules/FindOpenGL.cmake:
+
+/usr/include/bits/types/struct___jmp_buf_tag.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/qt/QtCore/qresultstore.h:
+
+/home/babsdevsys/BankingApp/main.cpp:
+
+/usr/include/qt/QtCore/qglobal.h:
+
+/usr/include/c++/13.2.1/ext/type_traits.h:
+
+/usr/include/qt/QtCore/qstringlist.h:
+
+/usr/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginConfig.cmake:
+
+/usr/include/c++/13.2.1/tr1/riemann_zeta.tcc:
+
+/usr/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake:
+
+/usr/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake:
+
+/usr/include/qt/QtGui/qsurface.h:
+
+/home/babsdevsys/BankingApp/aboutusdialogbox.h:
+
+/usr/include/bits/thread-shared-types.h:
+
+/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:
+
+/usr/include/qt/QtCore/qmimedatabase.h:
+
+/usr/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginConfig.cmake:
+
+/usr/include/bits/getopt_posix.h:
+
+/usr/include/bits/types/struct_FILE.h:
+
+/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:
+
+/usr/include/qt/QtCore/qmutex.h:
+
+/usr/include/qt/QtCore/qcborvalue.h:
+
+/usr/include/c++/13.2.1/bits/stl_iterator_base_funcs.h:
+
+/usr/share/cmake/Modules/CMakeParseArguments.cmake:
+
+/usr/include/bits/unistd_ext.h:
+
+/usr/include/qt/QtCore/qabstracteventdispatcher.h:
+
+/usr/include/bits/setjmp.h:
+
+/usr/include/qt/QtGui/qvector3d.h:
+
+/usr/include/qt/QtCore/qcoreapplication.h:
+
+/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake:
+
+/usr/include/qt/QtCore/qstatemachine.h:
+
+/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h:
+
+/usr/include/qt/QtCore/qsharedpointer_impl.h:
+
+/usr/include/c++/13.2.1/ext/alloc_traits.h:
+
+/usr/include/bits/struct_mutex.h:
+
+/usr/include/c++/13.2.1/bits/stl_function.h:
+
+BankingApp_autogen/moc_predefs.h:
+
+/usr/include/qt/QtGui/qbrush.h:
+
+/usr/include/c++/13.2.1/bits/allocated_ptr.h:
+
+/usr/include/c++/13.2.1/bits/vector.tcc:
+
+/usr/include/bits/libc-header-start.h:
+
+/usr/include/c++/13.2.1/bits/std_mutex.h:
+
+/usr/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake:
+
+/usr/include/qt/QtCore/qtextstream.h:
+
+/usr/include/qt/QtCore/qsemaphore.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/qt/QtCore/qwaitcondition.h:
+
+/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/limits.h:
+
+/usr/include/bits/confname.h:
+
+/usr/include/c++/13.2.1/bits/atomic_base.h:
+
+/usr/include/asm/unistd.h:
+
+/usr/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets.cmake:
+
+/usr/include/qt/QtCore/qcalendar.h:
+
+/usr/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake:
+
+/usr/include/bits/sched.h:
+
+/usr/include/bits/struct_rwlock.h:
+
+/usr/include/bits/types/struct_itimerspec.h:
+
+/usr/include/c++/13.2.1/bits/range_access.h:
+
+/usr/include/bits/pthreadtypes-arch.h:
+
+/usr/include/qt/QtWidgets/qgridlayout.h:
+
+/usr/include/qt/QtCore/qrect.h:
 
 /usr/include/c++/13.2.1/cerrno:
 
@@ -1987,38 +2125,6 @@ BankingApp_autogen/timestamp: /home/babsdevsys/BankingApp/CMakeLists.txt \
 
 /usr/include/asm-generic/errno.h:
 
-/usr/include/bits/stdio_lim.h:
-
-/usr/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake:
-
-/usr/include/qt/QtCore/qdir.h:
-
-/usr/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake:
-
-/usr/include/bits/types/__mbstate_t.h:
-
-/usr/include/qt/QtCore/qmimetype.h:
-
-/usr/include/c++/13.2.1/bits/cpp_type_traits.h:
-
-/usr/include/qt/QtCore/qregularexpression.h:
-
-/usr/include/c++/13.2.1/tuple:
-
-/usr/include/bits/endianness.h:
-
-/usr/include/bits/types.h:
-
-/usr/include/bits/thread-shared-types.h:
-
-/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:
-
-/usr/include/qt/QtCore/qmimedatabase.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginConfig.cmake:
-
-/usr/include/bits/getopt_posix.h:
-
 /usr/include/bits/timex.h:
 
 /usr/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginAdditionalTargetInfo.cmake:
@@ -2040,30 +2146,6 @@ BankingApp_autogen/timestamp: /home/babsdevsys/BankingApp/CMakeLists.txt \
 /home/babsdevsys/BankingApp/user_registrationwidget.h:
 
 /usr/include/qt/QtCore/qprocessordetection.h:
-
-/usr/include/c++/13.2.1/bits/shared_ptr_base.h:
-
-/usr/include/qt/QtCore/qbasictimer.h:
-
-/usr/include/qt/QtCore/QDeadlineTimer:
-
-/usr/include/c++/13.2.1/debug/debug.h:
-
-/usr/include/qt/QtCore/qstandardpaths.h:
-
-/usr/include/qt/QtGui/qscreen.h:
-
-/usr/include/c++/13.2.1/bits/refwrap.h:
-
-/usr/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake:
-
-/usr/include/c++/13.2.1/bits/iterator_concepts.h:
-
-/usr/include/qt/QtCore/qeventloop.h:
-
-/usr/include/qt/QtWidgets/qgraphicsscene.h:
-
-/usr/include/qt/QtGui/QPaintDevice:
 
 /usr/include/bits/posix_opt.h:
 
@@ -2091,17 +2173,55 @@ BankingApp_autogen/timestamp: /home/babsdevsys/BankingApp/CMakeLists.txt \
 
 /usr/include/c++/13.2.1/bits/locale_facets.h:
 
-/usr/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets.cmake:
+/usr/include/qt/QtCore/qcompilerdetection.h:
 
-/usr/include/qt/QtCore/qcalendar.h:
+/usr/include/bits/environments.h:
 
-/usr/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake:
+/usr/include/qt/QtGui/qopengltexture.h:
 
-/usr/include/bits/sched.h:
+/usr/include/c++/13.2.1/bits/shared_ptr_base.h:
 
-/usr/include/bits/struct_rwlock.h:
+/usr/include/qt/QtCore/qbasictimer.h:
 
-/usr/include/bits/types/struct_itimerspec.h:
+/usr/include/qt/QtCore/QDeadlineTimer:
+
+/usr/include/c++/13.2.1/debug/debug.h:
+
+/usr/include/qt/QtCore/qstandardpaths.h:
+
+/usr/include/qt/QtGui/qscreen.h:
+
+/usr/include/c++/13.2.1/bits/refwrap.h:
+
+/usr/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake:
+
+/usr/include/c++/13.2.1/bits/iterator_concepts.h:
+
+/usr/include/qt/QtCore/qeventloop.h:
+
+/usr/include/qt/QtWidgets/qgraphicsscene.h:
+
+/usr/include/qt/QtGui/QPaintDevice:
+
+/usr/include/c++/13.2.1/bits/specfun.h:
+
+/usr/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake:
+
+/usr/include/qt/QtCore/qcontiguouscache.h:
+
+/usr/include/c++/13.2.1/bits/basic_string.tcc:
+
+/usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake:
+
+/usr/include/c++/13.2.1/future:
+
+/usr/include/assert.h:
+
+/usr/include/qt/QtGui/qiconengineplugin.h:
+
+/usr/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake:
+
+/usr/include/c++/13.2.1/limits:
 
 /usr/include/c++/13.2.1/numbers:
 
@@ -2113,137 +2233,25 @@ BankingApp_autogen/timestamp: /home/babsdevsys/BankingApp/CMakeLists.txt \
 
 /usr/include/gnu/stubs.h:
 
-/usr/include/c++/13.2.1/bits/range_access.h:
-
-/usr/include/bits/pthreadtypes-arch.h:
-
-/usr/include/qt/QtWidgets/qgridlayout.h:
-
-/usr/include/qt/QtCore/qrect.h:
-
-/usr/include/c++/13.2.1/bits/stl_function.h:
-
-BankingApp_autogen/moc_predefs.h:
-
-/usr/include/qt/QtGui/qbrush.h:
-
-/usr/include/c++/13.2.1/bits/specfun.h:
-
-/usr/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake:
-
-/usr/include/qt/QtCore/qcontiguouscache.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QTsLibPluginConfig.cmake:
-
-/usr/include/c++/13.2.1/tr1/gamma.tcc:
-
-/usr/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake:
-
-/usr/include/c++/13.2.1/limits:
-
-/usr/include/c++/13.2.1/bits/basic_string.tcc:
-
-/usr/include/c++/13.2.1/bits/stl_iterator_base_funcs.h:
-
-/usr/share/cmake/Modules/CMakeParseArguments.cmake:
-
-/usr/include/bits/unistd_ext.h:
-
-/usr/include/qt/QtCore/qabstracteventdispatcher.h:
-
 /usr/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets-relwithdebinfo.cmake:
-
-/usr/include/bits/time.h:
 
 /usr/include/c++/13.2.1/bits/exception.h:
 
-/usr/include/qt/QtGui/qvector3d.h:
+/home/babsdevsys/BankingApp/customcolormanager.cpp:
 
-/usr/include/qt/QtCore/qcoreapplication.h:
+/usr/include/bits/time.h:
 
-/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake:
+/usr/include/bits/stdio_lim.h:
 
-/usr/include/qt/QtCore/qstatemachine.h:
+/usr/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake:
 
-/usr/include/bits/setjmp.h:
+/usr/include/qt/QtCore/qdir.h:
 
-/usr/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake:
+/usr/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake:
 
-/usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake:
+/usr/include/bits/types/__mbstate_t.h:
 
-/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h:
-
-/usr/share/cmake/Modules/FindOpenGL.cmake:
-
-/usr/include/bits/types/struct___jmp_buf_tag.h:
-
-/usr/include/bits/wchar.h:
-
-/usr/include/qt/QtCore/qresultstore.h:
-
-/home/babsdevsys/BankingApp/main.cpp:
-
-/usr/include/qt/QtCore/qglobal.h:
-
-/usr/include/c++/13.2.1/ext/type_traits.h:
-
-/usr/include/qt/QtCore/qstringlist.h:
-
-/usr/include/assert.h:
-
-/usr/include/qt/QtGui/qiconengineplugin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/limits.h:
-
-/usr/include/bits/confname.h:
-
-/usr/include/c++/13.2.1/bits/atomic_base.h:
-
-/usr/include/asm/unistd.h:
-
-/usr/include/c++/13.2.1/ext/alloc_traits.h:
-
-/usr/include/bits/struct_mutex.h:
-
-/usr/include/c++/13.2.1/bits/allocated_ptr.h:
-
-/usr/include/c++/13.2.1/bits/vector.tcc:
-
-/usr/include/bits/libc-header-start.h:
-
-/usr/include/c++/13.2.1/bits/std_mutex.h:
-
-/usr/include/qt/QtCore/qcborvalue.h:
-
-/usr/include/qt/QtGui/qopengltexture.h:
-
-/usr/include/qt/QtCore/qcompilerdetection.h:
-
-/usr/include/bits/environments.h:
-
-/usr/include/bits/types/struct_FILE.h:
-
-/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:
-
-/usr/include/qt/QtCore/qmutex.h:
-
-/usr/include/qt/QtWidgets/qtwidgetsglobal.h:
-
-/usr/include/c++/13.2.1/compare:
-
-/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:
-
-/usr/include/GL/gl.h:
-
-/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:
-
-/usr/include/qt/QtCore/qtimezone.h:
-
-/usr/include/qt/QtCore/qobjectdefs.h:
-
-/usr/include/qt/QtCore/qstringmatcher.h:
-
-/usr/include/c++/13.2.1/bits/functional_hash.h:
+/usr/include/qt/QtCore/qmimetype.h:
 
 /usr/lib/cmake/Qt5Sql/Qt5Sql_QPSQLDriverPlugin.cmake:
 
@@ -2253,11 +2261,13 @@ BankingApp_autogen/moc_predefs.h:
 
 /usr/include/qt/QtGui/QWindow:
 
+/usr/include/c++/13.2.1/bits/memoryfwd.h:
+
+/usr/include/c++/13.2.1/bits/locale_classes.tcc:
+
 /usr/include/c++/13.2.1/typeinfo:
 
 /usr/include/bits/types/error_t.h:
-
-/usr/include/qt/QtCore/qdatetime.h:
 
 /usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake:
 
@@ -2269,6 +2279,8 @@ BankingApp_autogen/moc_predefs.h:
 
 /usr/include/qt/QtCore/qpoint.h:
 
+/usr/include/qt/QtCore/qdatetime.h:
+
 /usr/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake:
 
 /usr/include/bits/types/locale_t.h:
@@ -2276,10 +2288,6 @@ BankingApp_autogen/moc_predefs.h:
 /usr/include/c++/13.2.1/bits/list.tcc:
 
 /usr/include/c++/13.2.1/bits/exception_defines.h:
-
-/usr/include/c++/13.2.1/optional:
-
-/usr/include/bits/types/mbstate_t.h:
 
 /usr/include/bits/types/struct_sched_param.h:
 
@@ -2308,6 +2316,30 @@ BankingApp_autogen/moc_predefs.h:
 /usr/include/ctype.h:
 
 /usr/include/qt/QtGui/qimage.h:
+
+/usr/include/c++/13.2.1/bits/ranges_algo.h:
+
+/usr/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake:
+
+/usr/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsConfig.cmake:
+
+CMakeFiles/3.28.1/CMakeSystem.cmake:
+
+/usr/include/qt/QtCore/qobjectcleanuphandler.h:
+
+/home/babsdevsys/BankingApp/customevent.cpp:
+
+/usr/include/c++/13.2.1/bits/basic_ios.h:
+
+/usr/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets.cmake:
+
+/usr/include/qt/QtGui/qpixmapcache.h:
+
+/usr/include/c++/13.2.1/array:
+
+/usr/include/c++/13.2.1/type_traits:
+
+/usr/include/bits/types/struct_tm.h:
 
 /usr/include/errno.h:
 
@@ -2348,16 +2380,6 @@ BankingApp_autogen/moc_predefs.h:
 /usr/include/bits/wctype-wchar.h:
 
 /home/babsdevsys/BankingApp/UserRegistrationWidget.cpp:
-
-/usr/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets.cmake:
-
-/usr/include/qt/QtGui/qpixmapcache.h:
-
-/usr/include/c++/13.2.1/array:
-
-/home/babsdevsys/BankingApp/customevent.cpp:
-
-/usr/include/c++/13.2.1/bits/basic_ios.h:
 
 /usr/include/c++/13.2.1/bits/locale_classes.h:
 
@@ -2421,25 +2443,17 @@ BankingApp_autogen/moc_predefs.h:
 
 /usr/include/c++/13.2.1/bits/atomic_wait.h:
 
-/usr/include/c++/13.2.1/bits/ranges_algo.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake:
-
-/usr/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsConfig.cmake:
-
-CMakeFiles/3.28.1/CMakeSystem.cmake:
-
-/usr/include/qt/QtCore/qobjectcleanuphandler.h:
-
-/usr/include/c++/13.2.1/type_traits:
-
-/usr/include/bits/types/struct_tm.h:
-
 /usr/include/c++/13.2.1/bits/basic_ios.tcc:
 
 /usr/include/gnu/stubs-64.h:
 
 /usr/include/qt/QtCore/qthreadstorage.h:
+
+/usr/lib/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake:
+
+/usr/lib/cmake/Qt5Sql/Qt5Sql_QMYSQLDriverPlugin.cmake:
+
+/home/babsdevsys/BankingApp/customcolormanager.h:
 
 /usr/include/c++/13.2.1/bits/char_traits.h:
 
@@ -2475,25 +2489,33 @@ CMakeFiles/3.28.1/CMakeCXXCompiler.cmake:
 
 /usr/include/c++/13.2.1/bits/enable_special_members.h:
 
-/usr/include/qt/QtCore/qtypeinfo.h:
-
-/usr/include/asm/unistd_64.h:
-
-/usr/include/c++/13.2.1/bits/exception_ptr.h:
-
 /usr/include/bits/timesize.h:
 
 /usr/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake:
 
 /usr/include/qt/QtCore/qwineventnotifier.h:
 
-/usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake:
+/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h:
 
-/usr/include/c++/13.2.1/future:
+/usr/include/qt/QtCore/qpropertyanimation.h:
 
-/usr/include/c++/13.2.1/bits/locale_classes.tcc:
+/usr/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake:
 
-/usr/include/c++/13.2.1/bits/memoryfwd.h:
+/usr/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:
+
+/usr/lib/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake:
+
+/usr/include/qt/QtCore/qscopeguard.h:
+
+/usr/include/asm/unistd_64.h:
+
+/usr/include/c++/13.2.1/bits/exception_ptr.h:
+
+/usr/include/qt/QtCore/qtypeinfo.h:
+
+/usr/include/qt/QtCore/qxmlstream.h:
+
+/usr/include/qt/QtGui/qaccessiblebridge.h:
 
 /usr/include/c++/13.2.1/bits/uniform_int_dist.h:
 
@@ -2580,6 +2602,8 @@ CMakeFiles/3.28.1/CMakeCXXCompiler.cmake:
 /usr/include/qt/QtCore/qbitarray.h:
 
 /usr/lib/cmake/Qt5/Qt5ConfigVersion.cmake:
+
+/usr/include/qt/QtWidgets/QStackedWidget:
 
 /usr/include/qt/QtCore/qbuffer.h:
 
@@ -2719,13 +2743,13 @@ CMakeFiles/3.28.1/CMakeCXXCompiler.cmake:
 
 /usr/include/qt/QtCore/qfuturesynchronizer.h:
 
+/home/babsdevsys/BankingApp/aboutusdialogbox.cpp:
+
 /usr/include/qt/QtCore/qfuturewatcher.h:
 
 /usr/include/qt/QtCore/qisenum.h:
 
 /usr/include/qt/QtCore/qglobalstatic.h:
-
-/usr/include/qt/QtGui/qopengltimerquery.h:
 
 /usr/include/c++/13.2.1/bits/stl_relops.h:
 
@@ -3050,9 +3074,3 @@ CMakeFiles/3.28.1/CMakeCXXCompiler.cmake:
 /usr/include/qt/QtGui/qopenglextrafunctions.h:
 
 /usr/include/qt/QtGui/qopenglframebufferobject.h:
-
-/usr/include/qt/QtGui/qopenglversionfunctions.h:
-
-/usr/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake:
-
-/usr/include/qt/QtGui/qopenglwindow.h:

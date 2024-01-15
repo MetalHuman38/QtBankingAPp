@@ -5,9 +5,13 @@
  /home/babsdevsys/BankingApp/CMakeLists.txt
  /home/babsdevsys/BankingApp/UserRegistrationWidget.cpp
  /home/babsdevsys/BankingApp/UserRegistrationWidget.h
+ /home/babsdevsys/BankingApp/aboutusdialogbox.cpp
+ /home/babsdevsys/BankingApp/aboutusdialogbox.h
  /home/babsdevsys/BankingApp/build/BankingApp_autogen/moc_predefs.h
  /home/babsdevsys/BankingApp/build/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake
  /home/babsdevsys/BankingApp/build/CMakeFiles/3.28.1/CMakeSystem.cmake
+ /home/babsdevsys/BankingApp/customcolormanager.cpp
+ /home/babsdevsys/BankingApp/customcolormanager.h
  /home/babsdevsys/BankingApp/customevent.cpp
  /home/babsdevsys/BankingApp/customevent.h
  /home/babsdevsys/BankingApp/main.cpp
@@ -609,6 +613,7 @@
  /usr/include/qt/QtWidgets/QLineEdit
  /usr/include/qt/QtWidgets/QMainWindow
  /usr/include/qt/QtWidgets/QPushButton
+ /usr/include/qt/QtWidgets/QStackedWidget
  /usr/include/qt/QtWidgets/QVBoxLayout
  /usr/include/qt/QtWidgets/QWidget
  /usr/include/qt/QtWidgets/qabstractbutton.h
@@ -628,6 +633,7 @@
  /usr/include/qt/QtWidgets/qpushbutton.h
  /usr/include/qt/QtWidgets/qscrollarea.h
  /usr/include/qt/QtWidgets/qsizepolicy.h
+ /usr/include/qt/QtWidgets/qstackedwidget.h
  /usr/include/qt/QtWidgets/qtabwidget.h
  /usr/include/qt/QtWidgets/qtwidgets-config.h
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h

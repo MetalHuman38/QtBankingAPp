@@ -60,6 +60,8 @@ else()
             UserRegistrationWidget.h
             user_registrationwidget.h user_registrationwidget.cpp user_registrationwidget.ui
             customevent.h customevent.cpp
+            customcolormanager.h customcolormanager.cpp
+            aboutusdialogbox.h aboutusdialogbox.cpp
         )
     endif()
 

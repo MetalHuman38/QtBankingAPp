@@ -588,6 +588,9 @@ CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt/QtWidgets/qgraphicsscene.h \
  /usr/include/qt/QtWidgets/QGraphicsScene \
  /usr/include/qt/QtWidgets/qgraphicsscene.h \
+ /usr/include/qt/QtWidgets/QStackedWidget \
+ /usr/include/qt/QtWidgets/qstackedwidget.h \
+ /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/../../../user_registrationwidget.h \
  /usr/include/qt/QtWidgets/QMainWindow \
  /usr/include/qt/QtWidgets/qmainwindow.h \
  /usr/include/qt/QtWidgets/qtabwidget.h \

@@ -245,9 +245,16 @@ CMakeFiles/BankingApp.dir/mainwindow.cpp.o: \
  /usr/include/qt/QtWidgets/qgraphicsscene.h \
  /usr/include/qt/QtWidgets/QGraphicsScene \
  /usr/include/qt/QtWidgets/qgraphicsscene.h \
+ /usr/include/qt/QtWidgets/QPushButton \
+ /usr/include/qt/QtWidgets/qpushbutton.h \
+ /usr/include/qt/QtWidgets/qabstractbutton.h \
+ /usr/include/qt/QtGui/qicon.h /usr/include/qt/QtWidgets/QStackedWidget \
+ /usr/include/qt/QtWidgets/qstackedwidget.h \
+ /home/babsdevsys/BankingApp/user_registrationwidget.h \
+ /usr/include/qt/QtWidgets/QDialog /usr/include/qt/QtWidgets/qdialog.h \
  /usr/include/qt/QtWidgets/QMainWindow \
  /usr/include/qt/QtWidgets/qmainwindow.h \
- /usr/include/qt/QtWidgets/qtabwidget.h /usr/include/qt/QtGui/qicon.h \
+ /usr/include/qt/QtWidgets/qtabwidget.h \
  /home/babsdevsys/BankingApp/build/BankingApp_autogen/include/./ui_mainwindow.h \
  /usr/include/qt/QtCore/QVariant /usr/include/qt/QtCore/qvariant.h \
  /usr/include/qt/QtCore/qmap.h /usr/include/c++/13.2.1/variant \
@@ -571,6 +578,15 @@ CMakeFiles/BankingApp.dir/mainwindow.cpp.o: \
  /usr/include/qt/QtGui/qvector2d.h /usr/include/qt/QtGui/qvector3d.h \
  /usr/include/qt/QtGui/qvector4d.h /usr/include/qt/QtGui/qwindowdefs.h \
  /usr/include/qt/QtGui/qtguiversion.h /usr/include/qt/QtCore/QtCore \
- /usr/include/qt/QtWidgets/QLabel /usr/include/qt/QtWidgets/QPushButton \
- /usr/include/qt/QtWidgets/qpushbutton.h \
- /usr/include/qt/QtWidgets/qabstractbutton.h
+ /usr/include/qt/QtWidgets/QLabel \
+ /home/babsdevsys/BankingApp/customcolormanager.h \
+ /usr/include/qt/QtWidgets/QColorDialog \
+ /usr/include/qt/QtWidgets/qcolordialog.h \
+ /usr/include/qt/QtWidgets/qdialog.h /usr/include/qt/QtGui/QColor \
+ /usr/include/qt/QtCore/QHash /usr/include/qt/QtCore/QString \
+ /usr/include/qt/QtWidgets/QGraphicsColorizeEffect \
+ /usr/include/qt/QtWidgets/qgraphicseffect.h \
+ /usr/include/qt/QtCore/QVariant /usr/include/qt/QtGui/QGradient \
+ /usr/include/qt/QtWidgets/QAction /usr/include/qt/QtWidgets/qaction.h \
+ /usr/include/qt/QtWidgets/qactiongroup.h \
+ /usr/include/qt/QtWidgets/qaction.h
