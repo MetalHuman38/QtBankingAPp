@@ -262,4 +262,8 @@ CMakeFiles/BankingApp.dir/user_registrationwidget.cpp.o: \
  /usr/include/qt/QtWidgets/qlineedit.h /usr/include/qt/QtWidgets/qframe.h \
  /usr/include/qt/QtGui/qtextcursor.h /usr/include/qt/QtGui/qtextformat.h \
  /usr/include/qt/QtGui/qpen.h /usr/include/qt/QtGui/qtextoption.h \
- /usr/include/qt/QtWidgets/QLabel /usr/include/qt/QtWidgets/qlabel.h
+ /usr/include/qt/QtWidgets/QLabel /usr/include/qt/QtWidgets/qlabel.h \
+ /usr/include/qt/QtWidgets/QLayout /usr/include/qt/QtWidgets/qlayout.h \
+ /usr/include/qt/QtWidgets/QFormLayout \
+ /usr/include/qt/QtWidgets/qformlayout.h \
+ /usr/include/qt/QtWidgets/QLayout
