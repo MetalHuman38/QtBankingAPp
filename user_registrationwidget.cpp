@@ -8,6 +8,7 @@
 #include <QLabel>
 #include <QLayout>
 #include <QFormLayout>
+#include <QPushButton>
 
 
 
@@ -40,36 +41,11 @@ user_RegistrationWidget::user_RegistrationWidget(QWidget *parent)
     mainLayout->setContentsMargins(50, 10, 0, 0);
     mainLayout->setAlignment(Qt::AlignLeft | Qt::AlignTop);
 
-    // Add a QLabel at the top of the page
-    QLabel *titleLabel = new QLabel("Registering for BankApp Online Banking.", this);
-    titleLabel->setFont(QFont("Arial", 16, QFont::Bold));
-    titleLabel->setAlignment(Qt::AlignLeft | Qt::AlignTop);
-    titleLabel->setMargin(0);
-    titleLabel->setContentsMargins(0,0,0,0);
-    titleLabel->setStyleSheet("color: White");
-    //titleLabel->setFixedSize(700, 70);
-    //titleLabel->show();
+    QLabel *titleLabel = createLabel("Registering for BankApp Online Banking.", 16, Qt::white, Qt::AlignLeft | Qt::AlignTop);
 
-    // Add a QLabel at the top of the page
-    QLabel *titleLabel1 = new QLabel("Who can Register?", this);
-    titleLabel1->setFont(QFont("Arial", 12, QFont::DemiBold));
-    titleLabel1->setAlignment(Qt::AlignLeft | Qt::AlignTop);
-    //titleLabel1->setFixedSize(200, 50);
-    titleLabel1->setContentsMargins(0,8,0,0);
-    titleLabel1->setStyleSheet("color: White");
-    //titleLabel1->show();
-    titleLabel1->setMargin(0);
+    QLabel *titleLabel1 = createLabel("Who can Register?", 12, Qt::white, Qt::AlignLeft | Qt::AlignTop);
 
-
-    // Add a QLabel at the top of the page
-    QLabel *titleLabel2 = new QLabel("Should be 18yrs and over.", this);
-    titleLabel2->setFont(QFont("Arial", 12, QFont::DemiBold));
-    titleLabel2->setAlignment(Qt::AlignLeft | Qt::AlignTop);
-    //titleLabel2->setFixedSize(200, 50);
-    titleLabel2->setContentsMargins(0,8,0,0);
-    titleLabel2->setStyleSheet("color: White");
-    titleLabel2->setMargin(0);
-    //titleLabel2->show();
+    QLabel *titleLabel2 = createLabel("Should be 18yrs and over", 12, Qt::white, Qt::AlignLeft | Qt::AlignTop);
 
     //Add Qlabel to the layout
     mainLayout->addWidget(titleLabel);
@@ -82,25 +58,161 @@ user_RegistrationWidget::user_RegistrationWidget(QWidget *parent)
     formLayout->setSpacing(0);
     formLayout->setContentsMargins(5, 10, 0, 0);
     formLayout->setAlignment(Qt::AlignLeft);
-    formLayout->setContentsMargins(0, 50, 0, 0);
+    formLayout->setContentsMargins(0, 40, 0, 0);
 
-    // Programmatically add a QLineEdit
-    QLineEdit *firstNameLineEdit = new QLineEdit(formWidget);
-    firstNameLineEdit->setPlaceholderText("Enter your First Name");
-    firstNameLineEdit->setFont(QFont("Arial", 12));
-    firstNameLineEdit->setFixedSize(200, 30);
+    QLineEdit *firstNameLineEdit = createLineEdit("Enter your First Name...", 12,200,30);
     formLayout->addRow("First Name:", firstNameLineEdit);
+    formLayout->addWidget(firstNameLineEdit);
 
-    // Add other QLabel and QLineEdit pairs as needed
-    QLineEdit *lastNameLineEdit = new QLineEdit(formWidget);
-    lastNameLineEdit->setPlaceholderText("Enter your Last Name");
-    lastNameLineEdit->setFont(QFont("Arial", 12));
-    lastNameLineEdit->setFixedSize(200, 30);
+    QLineEdit *lastNameLineEdit = createLineEdit("Enter your First Name...", 12,200,30);
     formLayout->addRow("Last Name:", lastNameLineEdit);
+    formLayout->addWidget(lastNameLineEdit);
 
+    QLineEdit *usernameLineEdit = createLineEdit("Enter your desired username...", 12,200,30);
+    formLayout->addRow("Username:", usernameLineEdit);
+    formLayout->addWidget(usernameLineEdit);
+
+    QLineEdit *passwordLineEdit = createLineEdit("Create a Password...", 12,200,30);
+    formLayout->addRow("Password:", passwordLineEdit);
+    formLayout->addWidget(passwordLineEdit);
+
+    QLineEdit *emailLineEdit = createLineEdit("Create a Password...", 12,200,30);
+    formLayout->addRow("Email:", emailLineEdit);
+    formLayout->addWidget(emailLineEdit);
+
+    QLineEdit *dateOfBirthLineEdit = createLineEdit("Create a Password...", 12,200,30);
+    formLayout->addRow("Date of Birth:", dateOfBirthLineEdit);
+    formLayout->addWidget(dateOfBirthLineEdit);
+
+    QLineEdit *phoneNumberLineEdit = createLineEdit("Create a Password...", 12,200,30);
+    formLayout->addRow("Phone:", phoneNumberLineEdit);
+    formLayout->addWidget(phoneNumberLineEdit);
 
     // Add the QLineEdit to the layout
     mainLayout->addWidget(formWidget);
+
+
+
+    // Create a QHBoxLayout for the buttons
+    QHBoxLayout *buttonLayout = new QHBoxLayout();
+
+    // Add spacing between buttons
+    buttonLayout->addSpacing(20);
+
+    // Create the "Cancel" button
+    QPushButton *cancelButton = new QPushButton("Cancel", this);
+    buttonLayout->addWidget(cancelButton);
+    cancelButton->setFont(QFont("Arial", 16));
+    cancelButton->setFixedSize(150, 40);
+    cancelButton->setObjectName("evilButton");
+    cancelButton->setStyleSheet("QPushButton#evilButton {"
+                          "    background-color: gold;"
+                          "    border-style: outset;"
+                          "    border-width: 1px;"
+                          "    border-radius: 5px;"
+                          "    border-color: blue;"
+                          "    font: bold 14px;"
+                          "    min-width: 5em;"
+                          "    padding: 6px;"
+                          "}"
+                          "QPushButton#evilButton:pressed {"
+                          "    background-color: rgb(224, 0, 0);"
+                          "    border-style: inset;"
+                          "}");
+    // int cancelButtonX = this->width() - cancelButton->width() - 50; // Adjust the margin as needed
+    // int cancelButtonY = 2; // Adjust the vertical position as needed
+    // cancelButton->move(cancelButtonX, cancelButtonY);
+
+    connect(cancelButton, &QPushButton::clicked, this, &user_RegistrationWidget::cancelButtonClick);
+    //cancelButton->show();
+
+    QPushButton *previewButton = new QPushButton("Preview Details", this);
+    buttonLayout->addWidget(previewButton);
+    previewButton->setFont(QFont("Arial", 16));
+    previewButton->setFixedSize(150, 40);
+    previewButton->setObjectName("evilButton");
+    previewButton->setStyleSheet("QPushButton#evilButton {"
+                                "    background-color: gold;"
+                                "    border-style: outset;"
+                                "    border-width: 1px;"
+                                "    border-radius: 5px;"
+                                "    border-color: blue;"
+                                "    font: bold 14px;"
+                                "    min-width: 5em;"
+                                "    padding: 6px;"
+                                "}"
+                                "QPushButton#evilButton:pressed {"
+                                "    background-color: rgb(224, 0, 0);"
+                                "    border-style: inset;"
+                                "}");
+
+
+
+    connect(previewButton, &QPushButton::clicked, this, &user_RegistrationWidget::previewDetailsButtonClick);
+    //cancelButton->show();
+
+    // Add the button layout to the main layout
+    mainLayout->addLayout(buttonLayout);
+}
+
+QLabel* user_RegistrationWidget::createLabel(const QString &text, int fontSize, const QColor &color,
+                                             Qt:: Alignment alignment, int leftMargin, int topMargin,
+                                             int rightMargin, int bottomMargin)
+{
+    QLabel *label = new QLabel(text, this);
+    label->setFont(QFont("Arial", fontSize, QFont::DemiBold));
+    label->setAlignment(alignment);
+    label->setContentsMargins(leftMargin, topMargin, rightMargin, bottomMargin);
+    label->setStyleSheet("color: " + color.name());
+    return label;
+
+}
+
+QLineEdit* user_RegistrationWidget::createLineEdit(const QString &placeholder, int fontSize, int width, int height)
+{
+    QLineEdit *lineEdit = new QLineEdit(this);
+    lineEdit->setPlaceholderText(placeholder);
+    lineEdit->setFont(QFont("Arial", fontSize));
+    lineEdit->setFixedSize(width, height);
+    return lineEdit;
+}
+
+QPushButton* user_RegistrationWidget::createButton(const QString &text, int fontSize, int width, int height, const QString &backgroundColor, const QString &borderColor)
+{
+    QPushButton *button = new QPushButton(text, this);
+    button->setFont(QFont("Arial", fontSize));
+    button->setFixedSize(width, height);
+
+    // Set up stylesheets for background color and border color
+    button->setStyleSheet("QPushButton {"
+                          "    background-color: " + backgroundColor + ";"
+                                              "    border-style: outset;"
+                                              "    border-width: 1px;"
+                                              "    border-radius: 5px;"
+                                              "    border-color: " + borderColor + ";"
+                                          "    font: bold " + QString::number(fontSize) + "px;"
+                                                        "    min-width: 5em;"
+                                                        "    padding: 6px;"
+                                                        "}"
+                                                        "QPushButton:pressed {"
+                                                        "    background-color: rgb(224, 0, 0);"
+                                                        "    border-style: inset;"
+                                                        "}");
+
+    return button;
+}
+
+
+void user_RegistrationWidget::cancelButtonClick(){
+
+
+
+}
+
+void user_RegistrationWidget::previewDetailsButtonClick(){
+
+
+
 }
 
 user_RegistrationWidget::~user_RegistrationWidget()

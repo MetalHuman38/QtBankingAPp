@@ -252,7 +252,12 @@ CMakeFiles/BankingApp.dir/main.cpp.o: \
  /usr/include/qt/QtWidgets/qstackedwidget.h \
  /home/babsdevsys/BankingApp/user_registrationwidget.h \
  /usr/include/qt/QtWidgets/QDialog /usr/include/qt/QtWidgets/qdialog.h \
- /usr/include/qt/QtWidgets/QMainWindow \
+ /usr/include/qt/QtWidgets/QLabel /usr/include/qt/QtWidgets/qlabel.h \
+ /usr/include/qt/QtWidgets/QLineEdit \
+ /usr/include/qt/QtWidgets/qlineedit.h \
+ /usr/include/qt/QtGui/qtextcursor.h /usr/include/qt/QtGui/qtextformat.h \
+ /usr/include/qt/QtCore/qvariant.h /usr/include/qt/QtCore/qmap.h \
+ /usr/include/c++/13.2.1/variant /usr/include/qt/QtWidgets/QMainWindow \
  /usr/include/qt/QtWidgets/qmainwindow.h \
  /usr/include/qt/QtWidgets/qtabwidget.h \
  /usr/include/qt/QtWidgets/QApplication \
@@ -261,18 +266,16 @@ CMakeFiles/BankingApp.dir/main.cpp.o: \
  /usr/include/qt/QtCore/qcoreevent.h /usr/include/qt/QtCore/qeventloop.h \
  /usr/include/qt/QtGui/qguiapplication.h \
  /usr/include/qt/QtGui/qinputmethod.h /usr/include/qt/QtCore/qlocale.h \
- /usr/include/qt/QtCore/qvariant.h /usr/include/qt/QtCore/qmap.h \
- /usr/include/c++/13.2.1/variant /usr/include/qt/QtCore/QLocale \
- /usr/include/qt/QtCore/qlocale.h /usr/include/qt/QtCore/QTranslator \
- /usr/include/qt/QtCore/qtranslator.h /usr/include/qt/QtCore/QDebug \
- /usr/include/qt/QtCore/qdebug.h /usr/include/qt/QtCore/qtextstream.h \
- /usr/include/qt/QtCore/qset.h /usr/include/qt/QtCore/qcontiguouscache.h \
- /usr/include/qt/QtGui/QPixmap /usr/include/qt/QtGui/qpixmap.h \
- /usr/include/qt/QtGui/QLinearGradient /usr/include/qt/QtGui/qbrush.h \
- /usr/include/qt/QtGui/QBrush /usr/include/qt/QtGui/QGradient \
- /usr/include/qt/QtGui/QtGui /usr/include/qt/QtGui/QtGuiDepends \
- /usr/include/qt/QtCore/QtCore /usr/include/qt/QtCore/QtCoreDepends \
- /usr/include/qt/QtCore/qglobal.h \
+ /usr/include/qt/QtCore/QLocale /usr/include/qt/QtCore/qlocale.h \
+ /usr/include/qt/QtCore/QTranslator /usr/include/qt/QtCore/qtranslator.h \
+ /usr/include/qt/QtCore/QDebug /usr/include/qt/QtCore/qdebug.h \
+ /usr/include/qt/QtCore/qtextstream.h /usr/include/qt/QtCore/qset.h \
+ /usr/include/qt/QtCore/qcontiguouscache.h /usr/include/qt/QtGui/QPixmap \
+ /usr/include/qt/QtGui/qpixmap.h /usr/include/qt/QtGui/QLinearGradient \
+ /usr/include/qt/QtGui/qbrush.h /usr/include/qt/QtGui/QBrush \
+ /usr/include/qt/QtGui/QGradient /usr/include/qt/QtGui/QtGui \
+ /usr/include/qt/QtGui/QtGuiDepends /usr/include/qt/QtCore/QtCore \
+ /usr/include/qt/QtCore/QtCoreDepends /usr/include/qt/QtCore/qglobal.h \
  /usr/include/qt/QtCore/qabstractanimation.h \
  /usr/include/qt/QtCore/qabstracteventdispatcher.h \
  /usr/include/qt/QtCore/qabstractitemmodel.h \
@@ -473,9 +476,8 @@ CMakeFiles/BankingApp.dir/main.cpp.o: \
  /usr/include/qt/QtGui/qabstracttextdocumentlayout.h \
  /usr/include/qt/QtGui/qtextlayout.h /usr/include/qt/QtGui/qevent.h \
  /usr/include/qt/QtGui/qvector2d.h /usr/include/qt/QtGui/qtouchdevice.h \
- /usr/include/qt/QtGui/qtextformat.h /usr/include/qt/QtGui/qglyphrun.h \
- /usr/include/qt/QtGui/qrawfont.h /usr/include/qt/QtGui/qfontdatabase.h \
- /usr/include/qt/QtGui/qtextcursor.h \
+ /usr/include/qt/QtGui/qglyphrun.h /usr/include/qt/QtGui/qrawfont.h \
+ /usr/include/qt/QtGui/qfontdatabase.h \
  /usr/include/qt/QtGui/qtextdocument.h \
  /usr/include/qt/QtGui/qaccessible.h \
  /usr/include/qt/QtGui/qaccessiblebridge.h \
@@ -671,10 +673,8 @@ CMakeFiles/BankingApp.dir/main.cpp.o: \
  /usr/include/qt/QtWidgets/qkeyeventtransition.h \
  /usr/include/qt/QtCore/qeventtransition.h \
  /usr/include/qt/QtWidgets/qkeysequenceedit.h \
- /usr/include/qt/QtWidgets/qlabel.h \
  /usr/include/qt/QtWidgets/qlayoutitem.h \
  /usr/include/qt/QtWidgets/qlcdnumber.h \
- /usr/include/qt/QtWidgets/qlineedit.h \
  /usr/include/qt/QtWidgets/qlistview.h \
  /usr/include/qt/QtWidgets/qlistwidget.h \
  /usr/include/qt/QtWidgets/qlistview.h \

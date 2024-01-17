@@ -252,20 +252,23 @@ CMakeFiles/BankingApp.dir/mainwindow.cpp.o: \
  /usr/include/qt/QtWidgets/qstackedwidget.h \
  /home/babsdevsys/BankingApp/user_registrationwidget.h \
  /usr/include/qt/QtWidgets/QDialog /usr/include/qt/QtWidgets/qdialog.h \
- /usr/include/qt/QtWidgets/QMainWindow \
+ /usr/include/qt/QtWidgets/QLabel /usr/include/qt/QtWidgets/qlabel.h \
+ /usr/include/qt/QtWidgets/QLineEdit \
+ /usr/include/qt/QtWidgets/qlineedit.h \
+ /usr/include/qt/QtGui/qtextcursor.h /usr/include/qt/QtGui/qtextformat.h \
+ /usr/include/qt/QtCore/qvariant.h /usr/include/qt/QtCore/qmap.h \
+ /usr/include/c++/13.2.1/variant /usr/include/qt/QtWidgets/QMainWindow \
  /usr/include/qt/QtWidgets/qmainwindow.h \
  /usr/include/qt/QtWidgets/qtabwidget.h \
  /home/babsdevsys/BankingApp/build/BankingApp_autogen/include/./ui_mainwindow.h \
  /usr/include/qt/QtCore/QVariant /usr/include/qt/QtCore/qvariant.h \
- /usr/include/qt/QtCore/qmap.h /usr/include/c++/13.2.1/variant \
  /usr/include/qt/QtWidgets/QApplication \
  /usr/include/qt/QtWidgets/qapplication.h \
  /usr/include/qt/QtCore/qcoreapplication.h \
  /usr/include/qt/QtCore/qcoreevent.h /usr/include/qt/QtCore/qeventloop.h \
  /usr/include/qt/QtGui/qguiapplication.h \
  /usr/include/qt/QtGui/qinputmethod.h /usr/include/qt/QtCore/qlocale.h \
- /usr/include/qt/QtCore/qvariant.h /usr/include/qt/QtWidgets/QLabel \
- /usr/include/qt/QtWidgets/qlabel.h /usr/include/qt/QtWidgets/QMainWindow \
+ /usr/include/qt/QtWidgets/QLabel /usr/include/qt/QtWidgets/QMainWindow \
  /usr/include/qt/QtWidgets/QWidget /usr/include/qt/QtWidgets/qwidget.h \
  /home/babsdevsys/BankingApp/customevent.h /usr/include/qt/QtGui/QtGui \
  /usr/include/qt/QtGui/QtGuiDepends /usr/include/qt/QtCore/QtCore \
@@ -472,9 +475,8 @@ CMakeFiles/BankingApp.dir/mainwindow.cpp.o: \
  /usr/include/qt/QtGui/qabstracttextdocumentlayout.h \
  /usr/include/qt/QtGui/qtextlayout.h /usr/include/qt/QtGui/qevent.h \
  /usr/include/qt/QtGui/qvector2d.h /usr/include/qt/QtGui/qtouchdevice.h \
- /usr/include/qt/QtGui/qtextformat.h /usr/include/qt/QtGui/qglyphrun.h \
- /usr/include/qt/QtGui/qrawfont.h /usr/include/qt/QtGui/qfontdatabase.h \
- /usr/include/qt/QtGui/qtextcursor.h \
+ /usr/include/qt/QtGui/qglyphrun.h /usr/include/qt/QtGui/qrawfont.h \
+ /usr/include/qt/QtGui/qfontdatabase.h \
  /usr/include/qt/QtGui/qtextdocument.h \
  /usr/include/qt/QtGui/qaccessible.h \
  /usr/include/qt/QtGui/qaccessiblebridge.h \
@@ -578,7 +580,6 @@ CMakeFiles/BankingApp.dir/mainwindow.cpp.o: \
  /usr/include/qt/QtGui/qvector2d.h /usr/include/qt/QtGui/qvector3d.h \
  /usr/include/qt/QtGui/qvector4d.h /usr/include/qt/QtGui/qwindowdefs.h \
  /usr/include/qt/QtGui/qtguiversion.h /usr/include/qt/QtCore/QtCore \
- /usr/include/qt/QtWidgets/QLabel \
  /home/babsdevsys/BankingApp/customcolormanager.h \
  /usr/include/qt/QtWidgets/QColorDialog \
  /usr/include/qt/QtWidgets/qcolordialog.h \
