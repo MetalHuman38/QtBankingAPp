@@ -1,6 +1,8 @@
 #include "user_registrationwidget.h"
 #include "user_registrationwidget.h"
 #include "ui_user_registrationwidget.h"
+#include "UserRegistrationWidget.h"
+#include "previewdialog.h"
 #include <QWidget>
 #include <QDialog>
 #include <QVBoxLayout>
@@ -37,7 +39,7 @@ user_RegistrationWidget::user_RegistrationWidget(QWidget *parent)
 
     // Create a QVBoxLayout for the user_RegistrationWidget
     QVBoxLayout *mainLayout = new QVBoxLayout(this);
-    mainLayout->setSpacing(0);
+    mainLayout->setSpacing(8);
     mainLayout->setContentsMargins(50, 10, 0, 0);
     mainLayout->setAlignment(Qt::AlignLeft | Qt::AlignTop);
 
@@ -55,42 +57,49 @@ user_RegistrationWidget::user_RegistrationWidget(QWidget *parent)
     QWidget *formWidget = new QWidget(this);
 
     QFormLayout *formLayout = new QFormLayout(formWidget);
-    formLayout->setSpacing(0);
-    formLayout->setContentsMargins(5, 10, 0, 0);
-    formLayout->setAlignment(Qt::AlignLeft);
-    formLayout->setContentsMargins(0, 40, 0, 0);
+    formLayout->setSpacing(20);
+    //formLayout->setContentsMargins(5, 5, 0, 0);
+    formLayout->setAlignment(Qt::AlignCenter);
+    formLayout->setContentsMargins(0, 40, 0, 40);
+
+
 
     QLineEdit *firstNameLineEdit = createLineEdit("Enter your First Name...", 12,200,30);
-    formLayout->addRow("First Name:", firstNameLineEdit);
-    formLayout->addWidget(firstNameLineEdit);
+    QLabel *firstNameLabel = createLabel("First Name:", 12, Qt::yellow, Qt::AlignCenter);
+    formLayout->addRow(firstNameLabel, firstNameLineEdit);
 
-    QLineEdit *lastNameLineEdit = createLineEdit("Enter your First Name...", 12,200,30);
-    formLayout->addRow("Last Name:", lastNameLineEdit);
-    formLayout->addWidget(lastNameLineEdit);
+
+    QLineEdit *lastNameLineEdit = createLineEdit("Enter your Last Name...", 12,200,30);
+    QLabel *lastNameLabel = createLabel("Last Name:", 12, Qt::yellow, Qt::AlignCenter);
+    formLayout->addRow(lastNameLabel, lastNameLineEdit);
+
 
     QLineEdit *usernameLineEdit = createLineEdit("Enter your desired username...", 12,200,30);
-    formLayout->addRow("Username:", usernameLineEdit);
-    formLayout->addWidget(usernameLineEdit);
+    QLabel *usernameLabel = createLabel("Username:", 12, Qt::yellow, Qt::AlignCenter);
+    formLayout->addRow(usernameLabel, usernameLineEdit);
+
 
     QLineEdit *passwordLineEdit = createLineEdit("Create a Password...", 12,200,30);
-    formLayout->addRow("Password:", passwordLineEdit);
-    formLayout->addWidget(passwordLineEdit);
+    QLabel *passwordLabel = createLabel("Password:", 12, Qt::yellow, Qt::AlignCenter);
+    formLayout->addRow(passwordLabel, passwordLineEdit);
 
-    QLineEdit *emailLineEdit = createLineEdit("Create a Password...", 12,200,30);
-    formLayout->addRow("Email:", emailLineEdit);
-    formLayout->addWidget(emailLineEdit);
 
-    QLineEdit *dateOfBirthLineEdit = createLineEdit("Create a Password...", 12,200,30);
-    formLayout->addRow("Date of Birth:", dateOfBirthLineEdit);
-    formLayout->addWidget(dateOfBirthLineEdit);
+    QLineEdit *emailLineEdit = createLineEdit("Enter your Email Address...", 12,200,30);
+    QLabel *emailLabel = createLabel("Email:", 12, Qt::yellow, Qt::AlignCenter);
+    formLayout->addRow(emailLabel, emailLineEdit);
 
-    QLineEdit *phoneNumberLineEdit = createLineEdit("Create a Password...", 12,200,30);
-    formLayout->addRow("Phone:", phoneNumberLineEdit);
-    formLayout->addWidget(phoneNumberLineEdit);
+
+    QLineEdit *dateOfBirthLineEdit = createLineEdit("Enter Date of Birth...", 12,200,30);
+    QLabel *dateOfBirthLabel = createLabel("Date of Birth:", 12, Qt::yellow, Qt::AlignCenter);
+    formLayout->addRow(dateOfBirthLabel, dateOfBirthLineEdit);
+
+    QLineEdit *phoneNumberLineEdit = createLineEdit("Enter your phone number...", 12,200,30);
+    QLabel *phoneNumberLabel = createLabel("Phone No:", 12, Qt::yellow, Qt::AlignCenter);
+    formLayout->addRow(phoneNumberLabel, phoneNumberLineEdit);
+
 
     // Add the QLineEdit to the layout
     mainLayout->addWidget(formWidget);
-
 
 
     // Create a QHBoxLayout for the buttons
@@ -100,56 +109,16 @@ user_RegistrationWidget::user_RegistrationWidget(QWidget *parent)
     buttonLayout->addSpacing(20);
 
     // Create the "Cancel" button
-    QPushButton *cancelButton = new QPushButton("Cancel", this);
-    buttonLayout->addWidget(cancelButton);
-    cancelButton->setFont(QFont("Arial", 16));
-    cancelButton->setFixedSize(150, 40);
-    cancelButton->setObjectName("evilButton");
-    cancelButton->setStyleSheet("QPushButton#evilButton {"
-                          "    background-color: gold;"
-                          "    border-style: outset;"
-                          "    border-width: 1px;"
-                          "    border-radius: 5px;"
-                          "    border-color: blue;"
-                          "    font: bold 14px;"
-                          "    min-width: 5em;"
-                          "    padding: 6px;"
-                          "}"
-                          "QPushButton#evilButton:pressed {"
-                          "    background-color: rgb(224, 0, 0);"
-                          "    border-style: inset;"
-                          "}");
-    // int cancelButtonX = this->width() - cancelButton->width() - 50; // Adjust the margin as needed
-    // int cancelButtonY = 2; // Adjust the vertical position as needed
-    // cancelButton->move(cancelButtonX, cancelButtonY);
-
+    QPushButton *cancelButton = createButton("Cancel", 16, 150, 40, "gold", "blue");
     connect(cancelButton, &QPushButton::clicked, this, &user_RegistrationWidget::cancelButtonClick);
-    //cancelButton->show();
+    buttonLayout->addWidget(cancelButton);
 
-    QPushButton *previewButton = new QPushButton("Preview Details", this);
+
+    // Create the "Preview Detail" button
+    QPushButton *previewButton = createButton("Preview", 16, 150, 40, "gold", "blue");
+    connect(previewButton, &QPushButton::clicked, this, &user_RegistrationWidget::previewButtonClick);
     buttonLayout->addWidget(previewButton);
-    previewButton->setFont(QFont("Arial", 16));
-    previewButton->setFixedSize(150, 40);
-    previewButton->setObjectName("evilButton");
-    previewButton->setStyleSheet("QPushButton#evilButton {"
-                                "    background-color: gold;"
-                                "    border-style: outset;"
-                                "    border-width: 1px;"
-                                "    border-radius: 5px;"
-                                "    border-color: blue;"
-                                "    font: bold 14px;"
-                                "    min-width: 5em;"
-                                "    padding: 6px;"
-                                "}"
-                                "QPushButton#evilButton:pressed {"
-                                "    background-color: rgb(224, 0, 0);"
-                                "    border-style: inset;"
-                                "}");
 
-
-
-    connect(previewButton, &QPushButton::clicked, this, &user_RegistrationWidget::previewDetailsButtonClick);
-    //cancelButton->show();
 
     // Add the button layout to the main layout
     mainLayout->addLayout(buttonLayout);
@@ -185,19 +154,19 @@ QPushButton* user_RegistrationWidget::createButton(const QString &text, int font
 
     // Set up stylesheets for background color and border color
     button->setStyleSheet("QPushButton {"
-                          "    background-color: " + backgroundColor + ";"
-                                              "    border-style: outset;"
-                                              "    border-width: 1px;"
-                                              "    border-radius: 5px;"
-                                              "    border-color: " + borderColor + ";"
-                                          "    font: bold " + QString::number(fontSize) + "px;"
-                                                        "    min-width: 5em;"
-                                                        "    padding: 6px;"
-                                                        "}"
-                                                        "QPushButton:pressed {"
-                                                        "    background-color: rgb(224, 0, 0);"
-                                                        "    border-style: inset;"
-                                                        "}");
+                          "background-color: " + backgroundColor + ";"
+                          "    border-style: outset;"
+                          "    border-width: 1px;"
+                          "    border-radius: 5px;"
+                          "    border-color: " + borderColor + ";"
+                          "    font: bold " + QString::number(fontSize) + "px;"
+                          "    min-width: 5em;"
+                          "    padding: 6px;"
+                          "}"
+                          "QPushButton:pressed {"
+                          "    background-color: rgb(224, 0, 0);"
+                          "    border-style: inset;"
+                          "}");
 
     return button;
 }
@@ -209,11 +178,30 @@ void user_RegistrationWidget::cancelButtonClick(){
 
 }
 
-void user_RegistrationWidget::previewDetailsButtonClick(){
+void user_RegistrationWidget::previewButtonClick(){
 
+    // Get the text from the QLineEdit fields
+    QString firstNameText = firstNameLineEdit->text();
+    QString lastNameText = lastNameLineEdit->text();
+    QString usernameText = usernameLineEdit->text();
+    QString passwordText = passwordLineEdit->text();
+    QString emailText = emailLineEdit->text();
+    QString dateOfBirthText = dateOfBirthLineEdit->text();
+    QString phoneNumberText = phoneNumberLineEdit->text();
 
+    // Create and configure the preview dialog
+    previewDialog* previewDialogBox = new previewDialog(this);
+    previewDialogBox->setUserData(firstNameText, lastNameText, usernameText, passwordText, emailText, dateOfBirthText, phoneNumberText);
 
+    // Show the preview dialog
+    if (previewDialogBox->exec() == QDialog::Accepted) {
+        // User confirmed the details, proceed with saving
+        //saveUserData(); // Implement this function to save the user data
+    } else {
+        // User chose to edit, no action needed
+    }
 }
+
 
 user_RegistrationWidget::~user_RegistrationWidget()
 {

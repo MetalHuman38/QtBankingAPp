@@ -16,6 +16,8 @@ BankingApp_autogen/timestamp: \
 	/home/babsdevsys/BankingApp/main.cpp \
 	/home/babsdevsys/BankingApp/mainwindow.cpp \
 	/home/babsdevsys/BankingApp/mainwindow.h \
+	/home/babsdevsys/BankingApp/previewdialog.cpp \
+	/home/babsdevsys/BankingApp/previewdialog.h \
 	/home/babsdevsys/BankingApp/user_registrationwidget.cpp \
 	/home/babsdevsys/BankingApp/user_registrationwidget.h \
 	/usr/include/GL/gl.h \

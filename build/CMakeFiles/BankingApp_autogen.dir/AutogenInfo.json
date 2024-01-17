@@ -513,6 +513,12 @@
 			null
 		],
 		[
+			"/home/babsdevsys/BankingApp/previewdialog.h",
+			"MU",
+			"EWIEGA46WW/moc_previewdialog.cpp",
+			null
+		],
+		[
 			"/home/babsdevsys/BankingApp/user_registrationwidget.h",
 			"MU",
 			"EWIEGA46WW/moc_user_registrationwidget.cpp",
@@ -594,6 +600,7 @@
 		[ "/home/babsdevsys/BankingApp/customevent.cpp", "MU", null ],
 		[ "/home/babsdevsys/BankingApp/main.cpp", "MU", null ],
 		[ "/home/babsdevsys/BankingApp/mainwindow.cpp", "MU", null ],
+		[ "/home/babsdevsys/BankingApp/previewdialog.cpp", "MU", null ],
 		[ "/home/babsdevsys/BankingApp/user_registrationwidget.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],

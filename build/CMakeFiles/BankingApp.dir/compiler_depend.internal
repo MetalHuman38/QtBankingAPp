@@ -20,6 +20,8 @@
  /home/babsdevsys/BankingApp/mainwindow.cpp
  /home/babsdevsys/BankingApp/mainwindow.h
  /home/babsdevsys/BankingApp/mainwindow.ui
+ /home/babsdevsys/BankingApp/previewdialog.cpp
+ /home/babsdevsys/BankingApp/previewdialog.h
  /home/babsdevsys/BankingApp/user_registrationwidget.cpp
  /home/babsdevsys/BankingApp/user_registrationwidget.h
  /home/babsdevsys/BankingApp/user_registrationwidget.ui

@@ -1,7 +1,6 @@
-CMakeFiles/BankingApp.dir/user_registrationwidget.cpp.o: \
- /home/babsdevsys/BankingApp/user_registrationwidget.cpp \
- /usr/include/stdc-predef.h \
- /home/babsdevsys/BankingApp/user_registrationwidget.h \
+CMakeFiles/BankingApp.dir/previewdialog.cpp.o: \
+ /home/babsdevsys/BankingApp/previewdialog.cpp /usr/include/stdc-predef.h \
+ /home/babsdevsys/BankingApp/previewdialog.h \
  /usr/include/qt/QtWidgets/QDialog /usr/include/qt/QtWidgets/qdialog.h \
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
  /usr/include/qt/QtGui/qtguiglobal.h /usr/include/qt/QtCore/qglobal.h \
@@ -240,41 +239,16 @@ CMakeFiles/BankingApp.dir/user_registrationwidget.cpp.o: \
  /usr/include/qt/QtGui/qfont.h /usr/include/qt/QtGui/qfontmetrics.h \
  /usr/include/qt/QtGui/qfontinfo.h \
  /usr/include/qt/QtWidgets/qsizepolicy.h /usr/include/qt/QtGui/qcursor.h \
- /usr/include/qt/QtGui/qkeysequence.h /usr/include/qt/QtWidgets/QLabel \
+ /usr/include/qt/QtGui/qkeysequence.h /usr/include/qt/QtWidgets/QWidget \
+ /usr/include/qt/QtWidgets/qwidget.h /usr/include/qt/QtWidgets/QLabel \
  /usr/include/qt/QtWidgets/qlabel.h /usr/include/qt/QtWidgets/qframe.h \
- /usr/include/qt/QtWidgets/QLineEdit \
- /usr/include/qt/QtWidgets/qlineedit.h \
- /usr/include/qt/QtGui/qtextcursor.h /usr/include/qt/QtGui/qtextformat.h \
- /usr/include/qt/QtCore/qvariant.h /usr/include/qt/QtCore/qmap.h \
- /usr/include/c++/13.2.1/variant /usr/include/qt/QtGui/qpen.h \
- /usr/include/qt/QtGui/qtextoption.h \
- /usr/include/qt/QtWidgets/QPushButton \
- /usr/include/qt/QtWidgets/qpushbutton.h \
- /usr/include/qt/QtWidgets/qabstractbutton.h \
- /usr/include/qt/QtGui/qicon.h \
- /home/babsdevsys/BankingApp/build/ui_user_registrationwidget.h \
- /usr/include/qt/QtCore/QVariant /usr/include/qt/QtCore/qvariant.h \
- /usr/include/qt/QtWidgets/QApplication \
- /usr/include/qt/QtWidgets/qapplication.h \
- /usr/include/qt/QtCore/qcoreapplication.h \
- /usr/include/qt/QtCore/qcoreevent.h /usr/include/qt/QtCore/qeventloop.h \
- /usr/include/qt/QtGui/qguiapplication.h \
- /usr/include/qt/QtGui/qinputmethod.h /usr/include/qt/QtCore/qlocale.h \
- /usr/include/qt/QtWidgets/QDialog \
- /home/babsdevsys/BankingApp/UserRegistrationWidget.h \
- /usr/include/qt/QtWidgets/QWidget /usr/include/qt/QtWidgets/qwidget.h \
  /usr/include/qt/QtWidgets/QVBoxLayout \
  /usr/include/qt/QtWidgets/qboxlayout.h \
  /usr/include/qt/QtWidgets/qlayout.h \
  /usr/include/qt/QtWidgets/qlayoutitem.h \
  /usr/include/qt/QtWidgets/qboxlayout.h \
  /usr/include/qt/QtWidgets/qgridlayout.h \
- /usr/include/qt/QtSql/QSqlDatabase /usr/include/qt/QtSql/qsqldatabase.h \
- /usr/include/qt/QtSql/qtsqlglobal.h /usr/include/qt/QtSql/qtsql-config.h \
- /usr/include/qt/QtWidgets/QLabel /usr/include/qt/QtSql/QSqlQuery \
- /usr/include/qt/QtSql/qsqlquery.h /usr/include/qt/QtSql/qsqldatabase.h \
- /home/babsdevsys/BankingApp/previewdialog.h \
- /usr/include/qt/QtWidgets/QLayout /usr/include/qt/QtWidgets/qlayout.h \
- /usr/include/qt/QtWidgets/QFormLayout \
- /usr/include/qt/QtWidgets/qformlayout.h \
- /usr/include/qt/QtWidgets/QLayout
+ /usr/include/qt/QtWidgets/QPushButton \
+ /usr/include/qt/QtWidgets/qpushbutton.h \
+ /usr/include/qt/QtWidgets/qabstractbutton.h \
+ /usr/include/qt/QtGui/qicon.h

@@ -63,6 +63,7 @@ else()
             customcolormanager.h customcolormanager.cpp
             aboutusdialogbox.h aboutusdialogbox.cpp
             custombackground.h custombackground.cpp
+            previewdialog.h previewdialog.cpp
         )
     endif()
 

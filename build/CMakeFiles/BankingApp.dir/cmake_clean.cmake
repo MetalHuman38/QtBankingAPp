@@ -22,6 +22,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/BankingApp.dir/main.cpp.o.d"
   "CMakeFiles/BankingApp.dir/mainwindow.cpp.o"
   "CMakeFiles/BankingApp.dir/mainwindow.cpp.o.d"
+  "CMakeFiles/BankingApp.dir/previewdialog.cpp.o"
+  "CMakeFiles/BankingApp.dir/previewdialog.cpp.o.d"
   "CMakeFiles/BankingApp.dir/user_registrationwidget.cpp.o"
   "CMakeFiles/BankingApp.dir/user_registrationwidget.cpp.o.d"
   "ui_user_registrationwidget.h"

@@ -748,5 +748,7 @@ CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt/QtWidgets/QStackedWidget \
  /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/../../../user_registrationwidget.h \
  /usr/include/qt/QtWidgets/QMainWindow \
+ /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/moc_previewdialog.cpp \
+ /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/../../../previewdialog.h \
  /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/moc_user_registrationwidget.cpp \
  /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/../../../user_registrationwidget.h

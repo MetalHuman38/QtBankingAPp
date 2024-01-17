@@ -42,7 +42,5 @@ private:
     // Private function to add QLabel to QGraphicsView
     QPushButton *btnRegister;
     user_RegistrationWidget registrationWidget;
-
-
 };
 #endif // MAINWINDOW_H

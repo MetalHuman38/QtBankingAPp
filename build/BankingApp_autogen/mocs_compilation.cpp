@@ -3,4 +3,5 @@
 #include "EWIEGA46WW/moc_custombackground.cpp"
 #include "EWIEGA46WW/moc_customevent.cpp"
 #include "EWIEGA46WW/moc_mainwindow.cpp"
+#include "EWIEGA46WW/moc_previewdialog.cpp"
 #include "EWIEGA46WW/moc_user_registrationwidget.cpp"

@@ -75,6 +75,8 @@ void MainWindow::addLabelToGraphicsView()
         aboutUsButton->setGeometry(aboutUsButtonX, aboutUsButtonY, aboutUsButtonWidth, aboutUsButtonHeight);
         aboutUsButton->show();
 
+
+
         // Create a QPushButton
         QPushButton *button = new QPushButton("Log On", this);
         button->setFont(QFont("Arial", 16));
@@ -99,6 +101,8 @@ void MainWindow::addLabelToGraphicsView()
                               "    border-style: inset;"
                               "}");
 
+        connect(button, &QPushButton::clicked, this, &MainWindow::handleButtonClick);
+        button->show();
 
         //Button to Register
         QPushButton *btnRegister = new QPushButton("Register", this);
@@ -125,11 +129,6 @@ void MainWindow::addLabelToGraphicsView()
                               "}");
 
 
-
-        connect(button, &QPushButton::clicked, this, &MainWindow::handleButtonClick);
-        button->show();
-
-
         connect(btnRegister, &QPushButton::clicked, this, &MainWindow::handleRegisterButtonClick);
         btnRegister->show();
 
@@ -137,8 +136,6 @@ void MainWindow::addLabelToGraphicsView()
         qDebug() << "Error: QLabel 'BankMadeEasy' not found";
     }
 }
-
-
 
 
 void MainWindow::handleButtonClick()

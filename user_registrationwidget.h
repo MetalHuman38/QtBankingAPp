@@ -22,15 +22,21 @@ public:
 
 private slots:
     void cancelButtonClick();
-    void previewDetailsButtonClick();
+    void previewButtonClick();
 
 private:
     Ui::user_RegistrationWidget *ui;
-
     //Helper functions..
     QLabel* createLabel(const QString &text, int fontSize, const QColor &color, Qt::Alignment alignment, int leftMargin = 0, int topMargin = 0, int rightMargin = 0, int bottomMargin = 0);
     QLineEdit* createLineEdit(const QString &placeholder, int fontSize, int width, int height);
     QPushButton* createButton(const QString &text, int fontSize, int width, int height, const QString &backgroundColor, const QString &borderColor);
+    QLineEdit *firstNameLineEdit;
+    QLineEdit *lastNameLineEdit;
+    QLineEdit *usernameLineEdit;
+    QLineEdit *passwordLineEdit;
+    QLineEdit *emailLineEdit;
+    QLineEdit *dateOfBirthLineEdit;
+    QLineEdit *phoneNumberLineEdit;
 };
 
 

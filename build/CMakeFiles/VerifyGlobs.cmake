@@ -49,6 +49,7 @@ set(OLD_GLOB
   "/home/babsdevsys/BankingApp/customevent.cpp"
   "/home/babsdevsys/BankingApp/main.cpp"
   "/home/babsdevsys/BankingApp/mainwindow.cpp"
+  "/home/babsdevsys/BankingApp/previewdialog.cpp"
   "/home/babsdevsys/BankingApp/user_registrationwidget.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
@@ -74,6 +75,7 @@ set(OLD_GLOB
   "/home/babsdevsys/BankingApp/customcolormanager.h"
   "/home/babsdevsys/BankingApp/customevent.h"
   "/home/babsdevsys/BankingApp/mainwindow.h"
+  "/home/babsdevsys/BankingApp/previewdialog.h"
   "/home/babsdevsys/BankingApp/user_registrationwidget.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
