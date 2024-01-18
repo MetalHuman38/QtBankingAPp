@@ -64,36 +64,36 @@ user_RegistrationWidget::user_RegistrationWidget(QWidget *parent)
 
 
 
-    QLineEdit *firstNameLineEdit = createLineEdit("Enter your First Name...", 12,200,30);
+    firstNameLineEdit = createLineEdit("Enter your First Name...", 12,200,30);
     QLabel *firstNameLabel = createLabel("First Name:", 12, Qt::yellow, Qt::AlignCenter);
     formLayout->addRow(firstNameLabel, firstNameLineEdit);
 
 
-    QLineEdit *lastNameLineEdit = createLineEdit("Enter your Last Name...", 12,200,30);
+    lastNameLineEdit = createLineEdit("Enter your Last Name...", 12,200,30);
     QLabel *lastNameLabel = createLabel("Last Name:", 12, Qt::yellow, Qt::AlignCenter);
     formLayout->addRow(lastNameLabel, lastNameLineEdit);
 
 
-    QLineEdit *usernameLineEdit = createLineEdit("Enter your desired username...", 12,200,30);
+    usernameLineEdit = createLineEdit("Enter your desired username...", 12,200,30);
     QLabel *usernameLabel = createLabel("Username:", 12, Qt::yellow, Qt::AlignCenter);
     formLayout->addRow(usernameLabel, usernameLineEdit);
 
 
-    QLineEdit *passwordLineEdit = createLineEdit("Create a Password...", 12,200,30);
+    passwordLineEdit = createLineEdit("Create a Password...", 12,200,30);
     QLabel *passwordLabel = createLabel("Password:", 12, Qt::yellow, Qt::AlignCenter);
     formLayout->addRow(passwordLabel, passwordLineEdit);
 
 
-    QLineEdit *emailLineEdit = createLineEdit("Enter your Email Address...", 12,200,30);
+    emailLineEdit = createLineEdit("Enter your Email Address...", 12,200,30);
     QLabel *emailLabel = createLabel("Email:", 12, Qt::yellow, Qt::AlignCenter);
     formLayout->addRow(emailLabel, emailLineEdit);
 
 
-    QLineEdit *dateOfBirthLineEdit = createLineEdit("Enter Date of Birth...", 12,200,30);
+    dateOfBirthLineEdit = createLineEdit("Enter Date of Birth...", 12,200,30);
     QLabel *dateOfBirthLabel = createLabel("Date of Birth:", 12, Qt::yellow, Qt::AlignCenter);
     formLayout->addRow(dateOfBirthLabel, dateOfBirthLineEdit);
 
-    QLineEdit *phoneNumberLineEdit = createLineEdit("Enter your phone number...", 12,200,30);
+    phoneNumberLineEdit = createLineEdit("Enter your phone number...", 12,200,30);
     QLabel *phoneNumberLabel = createLabel("Phone No:", 12, Qt::yellow, Qt::AlignCenter);
     formLayout->addRow(phoneNumberLabel, phoneNumberLineEdit);
 

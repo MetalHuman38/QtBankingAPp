@@ -12,7 +12,7 @@
 
 UserRegistrationWidget::UserRegistrationWidget(QWidget *parent) : QDialog(parent), ui(new Ui::user_RegistrationWidget) {
     ui->setupUi(this);
-    setupConnections();
+    //setupConnections();
 }
 
 void UserRegistrationWidget::registerUser() {
@@ -64,40 +64,10 @@ void UserRegistrationWidget::registerUser() {
 }
 
 
-void UserRegistrationWidget::setupUi() {
-    // Create GUI elements (QLineEdit, QPushButton, QLabel, etc.) and layout
-    // Add them to the layout using QVBoxLayout or other layout managers
-
-    firstNameLineEdit = new QLineEdit(this);
-    lastNameLineEdit = new QLineEdit(this);
-    usernameLineEdit = new QLineEdit(this);
-    passwordLineEdit = new QLineEdit(this);
-    dateOfBirthLineEdit = new QLineEdit(this);
-    emailLineEdit = new QLineEdit(this);
-    phoneNumberLineEdit = new QLineEdit(this);
-    addressLineEdit = new QLineEdit(this);
-
-    QPushButton *registerButton = new QPushButton("Register", this);
-
-    statusLabel = new QLabel(this);
-
-    QVBoxLayout *layout = new QVBoxLayout(this);
-    layout->addWidget(firstNameLineEdit);
-    layout->addWidget(lastNameLineEdit);
-    layout->addWidget(usernameLineEdit);
-    layout->addWidget(passwordLineEdit);
-    layout->addWidget(dateOfBirthLineEdit);
-    layout->addWidget(emailLineEdit);
-    layout->addWidget(phoneNumberLineEdit);
-    layout->addWidget(addressLineEdit);
-    layout->addWidget(registerButton);
-    layout->addWidget(statusLabel);
-}
-
-void UserRegistrationWidget::setupConnections() {
-    // Connect the registerButton's clicked signal to the registerUser slot
-    connect(registerButton, &QPushButton::clicked, this, &UserRegistrationWidget::registerUser);
-}
+// void UserRegistrationWidget::setupConnections() {
+//     // Connect the registerButton's clicked signal to the registerUser slot
+//     connect(registerButton, &QPushButton::clicked, this, &UserRegistrationWidget::registerUser);
+// }
 
 UserRegistrationWidget::~UserRegistrationWidget() {
     // Destructor implementation, if needed

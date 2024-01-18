@@ -42,8 +42,7 @@ private:
     QLineEdit *addressLineEdit;
     QLabel *statusLabel;
     QPushButton *registerButton;
-    void setupUi();
-    void setupConnections();
+    //void setupConnections();
 };
 
 #endif // USERREGISTRATIONWIDGET_H

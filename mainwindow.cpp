@@ -42,16 +42,13 @@ void MainWindow::addLabelToGraphicsView()
         titleLabel->setText("Banking Made Easy.");
         titleLabel->setFont(QFont("Arial", 28, QFont::Bold));
         titleLabel->setAlignment(Qt::AlignCenter);
-        //titleLabel->setStyleSheet("color: White");
         titleLabel->setStyleSheet("QLabel { color: " + textColor.name() + "; }");
-        titleLabel->move(150, 150); // Adjust the position as needed
-        titleLabel->show(); // Make sure to call show() to make the QLabel visible
-
+        titleLabel->move(150, 150);
+        titleLabel->show();
 
         QLabel *secondLabel = new QLabel("Empowering Finances, Enabling Dreams: Your Money, Your Solution", this);
         secondLabel->setFont(QFont("Arial", 14, QFont::DemiBold));
         secondLabel->setStyleSheet("color: Yellow");
-        //secondLabel->setWordWrap(true);
         secondLabel->setAlignment(Qt::AlignLeft);
 
         int secondLabelX = 150;
@@ -150,9 +147,6 @@ void MainWindow::handleRegisterButtonClick()
 
     user_RegistrationWidget registrationDialog(this);
     registrationDialog.exec();
-    // Add your button click handling code here
-    //registrationWidget.resize(1000, 700);
-    //registrationWidget.exec();
     qDebug() << "Successfully Registered!";
 }
 

@@ -22,6 +22,8 @@ public:
                      const QString &emailText, const QString &dateOfBirthText,
                      const QString &phoneNumberText);
 
+    void setLabelWithMargins(QLabel *label, const QString &text);
+
 private slots:
     // Function called when the user clicks "Confirm"
     void confirmDetails();
