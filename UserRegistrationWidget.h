@@ -12,6 +12,7 @@
 #include <QtWidgets/QLabel>
 #include <QtSql/QSqlQuery>
 #include <QDialog>
+#include <QDate>
 
 
 namespace Ui{
@@ -27,6 +28,8 @@ public:
 
 public slots:
     void registerUser();
+public slots:
+
 
 private:
 
@@ -37,12 +40,18 @@ private:
     QLineEdit *usernameLineEdit;
     QLineEdit *passwordLineEdit;
     QLineEdit *dateOfBirthLineEdit;
+    //QDateEdit* dateOfBirthDateEdit;
     QLineEdit *emailLineEdit;
     QLineEdit *phoneNumberLineEdit;
     QLineEdit *addressLineEdit;
     QLabel *statusLabel;
     QPushButton *registerButton;
     //void setupConnections();
+
+signals:
+    void userRegistrationRequested(const QString &firstName, const QString &lastName, const QString &username,
+                                   const QString &password, const QString &email, const QString &dateOfBirth,
+                                   const QString &phoneNumber);
 };
 
 #endif // USERREGISTRATIONWIDGET_H

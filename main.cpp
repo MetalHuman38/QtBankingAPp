@@ -14,6 +14,32 @@
 #include <QtGui>
 #include <QtCore>
 #include <QtWidgets>
+#include <QFile>
+#include <QTextStream>
+#include <QDebug>
+#include <QCoreApplication>
+
+
+void customMessageHandler(QtMsgType type, const QMessageLogContext &context, const QString &msg) {
+    Q_UNUSED(context);
+
+    switch (type) {
+    case QtDebugMsg:
+        fprintf(stderr, "Debug: %s\n", msg.toUtf8().constData());
+        break;
+    case QtWarningMsg:
+        fprintf(stderr, "Warning: %s\n", msg.toUtf8().constData());
+        break;
+    case QtCriticalMsg:
+        fprintf(stderr, "Critical: %s\n", msg.toUtf8().constData());
+        break;
+    case QtFatalMsg:
+        fprintf(stderr, "Fatal: %s\n", msg.toUtf8().constData());
+        abort();
+    case QtInfoMsg:
+        break;
+    }
+}
 
 
 int main(int argc, char *argv[])
@@ -28,7 +54,10 @@ int main(int argc, char *argv[])
             a.installTranslator(&translator);
             break;
         }
+
     }
+
+    qInstallMessageHandler(customMessageHandler);
 
     MainWindow w;
     w.show();

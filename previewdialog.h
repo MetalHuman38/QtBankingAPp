@@ -7,6 +7,8 @@
 #include <QLabel>
 #include <QVBoxLayout>
 #include <QPushButton>
+#include <QtSql/QSqlDatabase>
+#include <QtSql/QSqlQuery>
 
 
 
@@ -24,9 +26,12 @@ public:
 
     void setLabelWithMargins(QLabel *label, const QString &text);
 
+
 private slots:
     // Function called when the user clicks "Confirm"
     void confirmDetails();
+    void confirmAndInsertDetails();
+
 
     // Function called when the user clicks "Edit"
     void editDetails();
@@ -42,14 +47,18 @@ private:
     QLabel *phoneNumberLabel;
     // Add more labels as needed
 
+    QLabel *statusLabel;
     // Add a layout to arrange the labels
     QVBoxLayout *mainLayout;
 
     // Add buttons for confirmation and editing
     QPushButton *confirmButton;
     QPushButton *editButton;
+    QSqlDatabase db_Connection;
 
 signals:
+    void userDetailsConfirmed(QString firstName, QString lastName, QString username, QString password,
+                              QString email, QString dateOfBirth, QString phoneNumber);
 };
 
 #endif // PREVIEWDIALOG_H

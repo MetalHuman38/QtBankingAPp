@@ -10,6 +10,8 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+set(MYSQL_CONNECTOR_CPP_DIR ../mysql-connector-c++-8.3.0-linux-glibc2.28-x86-64bit)
+
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets LinguistTools)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets LinguistTools)
 find_package(Qt NAMES Qt6 Qt5 REQUIRED COMPONENTS Core Sql)
@@ -18,6 +20,8 @@ find_package(Qt6 REQUIRED COMPONENTS Widgets Gui)
 
 # Include directories
 include_directories(${Qt${QT_VERSION_MAJOR}_INCLUDE_DIRS})
+
+include_directories(${MYSQL_CONNECTOR_CPP_DIR}/include)
 
 # Assuming your UI file is named userregistrationwidget.ui
 qt5_wrap_ui(UI_FILES user_registrationwidget.ui)
@@ -74,6 +78,9 @@ endif()
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     target_link_libraries(BankingApp PRIVATE Qt6::Widgets Qt6::Gui)
     target_link_libraries(BankingApp PRIVATE Qt6::Widgets Qt6::Sql)
+    target_link_libraries(BankingApp PRIVATE Qt${QT_VERSION_MAJOR}::QMYSQL)
+    target_include_directories(BankingApp PRIVATE ../mysql-connector-c++-8.3.0-linux-glibc2.28-x86-64bit/include/jdbc)
+    target_link_libraries(BankingApp PRIVATE ../mysql-connector-c++-8.3.0-linux-glibc2.28-x86-64bit/lib/libmysqlcppconn8.so)
 else()
     target_link_libraries(BankingApp PRIVATE Qt${QT_VERSION_MAJOR}::Widgets Qt${QT_VERSION_MAJOR}::Sql)
 endif()

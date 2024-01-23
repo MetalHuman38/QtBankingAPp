@@ -1,6 +1,17 @@
 #include "previewdialog.h"
-
+#include <QtSql/QSqlDatabase>
+#include <QtSql/QSqlQuery>
 #include <QWidget>
+#include <QDialog>
+#include <QVariant>
+#include <QMessageBox>
+#include <QDebug>
+#include <QSqlError>
+#include <QDate>
+
+
+
+
 
 previewDialog::previewDialog(QWidget *parent)
     : QDialog {parent}
@@ -31,7 +42,7 @@ previewDialog::previewDialog(QWidget *parent)
     confirmButton->setFixedWidth(150);  // Adjust the width as needed
     editButton->setFixedWidth(150);      // Adjust the width as needed
 
-    connect(confirmButton, &QPushButton::clicked, this, &previewDialog::confirmDetails);
+    connect(confirmButton, &QPushButton::clicked, this, &previewDialog::confirmAndInsertDetails);
     connect(editButton, &QPushButton::clicked, this, &previewDialog::editDetails);
 
     mainLayout = new QVBoxLayout(this);
@@ -50,25 +61,22 @@ previewDialog::previewDialog(QWidget *parent)
     buttonLayout->addWidget(confirmButton);
     mainLayout->addLayout(buttonLayout);
 
-    // Apply stylesheets
     setStyleSheet("QDialog { background-color: blue; }"
-                  "QLabel { color: gold;"
-                  "         font: 18px"
-                  "         }"
-                  "QPushButton {"
-                  "    background-color: gold;"
-                  "    border-style: outset;"
-                  "    border-width: 1px;"
-                  "    border-radius: 5px;"
-                  "    border-color: blue;"
-                  "    font: bold 16px;"
-                  "    min-width: 5em;"
-                  "    padding: 6px;"
-                  "}"
-                  "QPushButton:pressed {"
-                  "    background-color: rgb(224, 0, 0);"
-                  "    border-style: inset;"
-                  "}");
+                  "QLabel { color: gold; font: 18px; }"  // Style for input text
+                  "QPushButton { background-color: gold; "
+                  "border-style: outset;"
+                  "border-width: 1px; "
+                  "border-radius: 5px; "
+                  "border-color: blue; "
+                  "font: bold 16px; "
+                  "min-width: 5em; "
+                  "padding: 6px; }"
+                  "QPushButton:pressed { background-color: rgb(224, 0, 0); border-style: inset; }");
+
+    statusLabel = new QLabel(this);
+    statusLabel->setAlignment(Qt::AlignCenter);
+    statusLabel->setStyleSheet("color: green;");  // You can customize the style as needed
+
 
     // Set dialog size
     setFixedSize(1000, 600);
@@ -81,23 +89,111 @@ void previewDialog::setUserData(const QString &firstNameText, const QString &las
                                    const QString &emailText, const QString &dateOfBirthText,
                                    const QString &phoneNumberText)
 {
-    firstNameLabel->setText("First Name: " + firstNameText);
-    lastNameLabel->setText("Last Name: " + lastNameText);
-    usernameLabel->setText("Username: " + usernameText);
-    passwordLabel->setText("Password: " + passwordText);
-    emailLabel->setText("Email: " + emailText);
-    dateOfBirthLabel->setText("Date of Birth: " + dateOfBirthText);
-    phoneNumberLabel->setText("Phone Number: " + phoneNumberText);
+
+    firstNameLabel->setText("First Name:   " + firstNameText);
+    lastNameLabel->setText("Last Name:   " + lastNameText);
+    usernameLabel->setText("Username:   " + usernameText);
+    passwordLabel->setText("Password:   " + passwordText);
+    emailLabel->setText("Email:   " + emailText);
+    dateOfBirthLabel->setText("Date of Birth:   " + dateOfBirthText);
+    phoneNumberLabel->setText("Phone Number:   " + phoneNumberText);
 }
+
+QString extractLabelText(const QLabel* label) {
+    if (label) {
+
+        QString fullText = label->text().trimmed();
+
+        QStringList parts = fullText.split("  ");
+        if (parts.size() > 1){
+            return parts.at(1);
+        }
+    }
+    return QString();  // Return an empty string if the label is null
+}
+
+// Helper function to convert date format
+QString convertDateFormat(const QString &inputDate, const QString &inputFormat, const QString &outputFormat) {
+    QDate date = QDate::fromString(inputDate, inputFormat);
+    if (!date.isValid()) {
+        qDebug() << "Invalid date format:" << inputDate;
+        return QString();  // Return an empty string for invalid date
+    }
+
+    return date.toString(outputFormat);
+}
+
+
+
+void previewDialog::confirmAndInsertDetails() {
+    // Retrieve user details from labels
+    QString firstName = extractLabelText(firstNameLabel);
+    QString lastName = extractLabelText(lastNameLabel);
+    QString username = extractLabelText(usernameLabel);
+    QString password = extractLabelText(passwordLabel);
+    QString email = extractLabelText(emailLabel);
+    QString dateOfBirth = extractLabelText(dateOfBirthLabel);
+    QString phoneNumber = extractLabelText(phoneNumberLabel);
+
+    QString formattedDateOfBirth = convertDateFormat(dateOfBirth, "dd/mm/yyyy", "yyyy-MM-dd");
+
+
+    // Connect to the database (ensure QSqlDatabase is properly set up)
+    QSqlDatabase db = QSqlDatabase::addDatabase("QMYSQL");
+    db.setHostName("localhost");
+    db.setDatabaseName("BankingSystem");
+    db.setUserName("root");
+    db.setPassword("London1983@@@!");
+    bool ok = db.open();
+
+
+    if (!ok) {
+        // Handle database connection error
+        qDebug() << "Database connection error:" << db.lastError().text();
+        QMessageBox::critical(this, "Error", "Failed to connect to the database. Check connection details.");
+        return;
+    }
+
+
+
+    // Execute SQL query to insert user into the database
+    QSqlQuery query;
+    query.prepare("INSERT INTO UserRegistration (firstName, lastName, username, password, eMail, dateOfBirth, phoneNumber) "
+                  "VALUES (:firstName, :lastName, :username, :password, :email, :dateOfBirth, :phoneNumber)");
+    query.bindValue(":firstName", firstName);
+    query.bindValue(":lastName", lastName);
+    query.bindValue(":username", username);
+    query.bindValue(":password", password);
+    query.bindValue(":email", email);
+    query.bindValue(":dateOfBirth", formattedDateOfBirth);
+    query.bindValue(":phoneNumber", phoneNumber);
+
+    if (!query.exec()) {
+        // Handle SQL query error
+        qDebug() << "SQL query error:" << query.lastError().text();
+        QMessageBox::critical(this, "Error", "Failed to insert data into the database.");
+    } else {
+        // Display a message or update the GUI to indicate success
+        statusLabel->setText("Registration successful!");
+    }
+
+    // Close the database connection
+    db.close();
+
+    accept();  // Close the dialog after confirming details
+}
+
 
 void previewDialog::setLabelWithMargins(QLabel *label, const QString &text)
 {
     label->setText(text);
 
     // Set contents margins to add space around the label
-    label->setContentsMargins(0, 0, 0, 10);  // Adjust the bottom margin as needed
+    label->setContentsMargins(0, 0, 0, 5);  // Adjust the bottom margin as needed
 
-    // Apply additional styling if desired
+    label->setStyleSheet("QLabel {color: gold; font: 18px;}");
+
+    // Apply additional styling if desireds
     label->setStyleSheet("color: white;");
 }
 
