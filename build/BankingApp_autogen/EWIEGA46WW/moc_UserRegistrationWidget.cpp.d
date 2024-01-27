@@ -1,5 +1,7 @@
 /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/moc_UserRegistrationWidget.cpp: /home/babsdevsys/BankingApp/UserRegistrationWidget.h \
   /home/babsdevsys/BankingApp/build/BankingApp_autogen/moc_predefs.h \
+  /home/babsdevsys/BankingApp/errorhandler.h \
+  /home/babsdevsys/BankingApp/namevalidator.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm/errno.h \
@@ -229,6 +231,10 @@
   /usr/include/linux/errno.h \
   /usr/include/locale.h \
   /usr/include/pthread.h \
+  /usr/include/qt/QtCore/QDate \
+  /usr/include/qt/QtCore/QMap \
+  /usr/include/qt/QtCore/QObject \
+  /usr/include/qt/QtCore/QString \
   /usr/include/qt/QtCore/qalgorithms.h \
   /usr/include/qt/QtCore/qarraydata.h \
   /usr/include/qt/QtCore/qatomic.h \
@@ -244,6 +250,7 @@
   /usr/include/qt/QtCore/qcoreapplication.h \
   /usr/include/qt/QtCore/qcoreevent.h \
   /usr/include/qt/QtCore/qdatastream.h \
+  /usr/include/qt/QtCore/qdatetime.h \
   /usr/include/qt/QtCore/qeventloop.h \
   /usr/include/qt/QtCore/qflags.h \
   /usr/include/qt/QtCore/qgenericatomic.h \

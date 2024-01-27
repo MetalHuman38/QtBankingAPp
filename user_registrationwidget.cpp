@@ -89,7 +89,7 @@ user_RegistrationWidget::user_RegistrationWidget(QWidget *parent)
     formLayout->addRow(emailLabel, emailLineEdit);
 
 
-    dateOfBirthLineEdit = createLineEdit("Enter Date of Birth...", 12,200,30);
+    dateOfBirthLineEdit = createLineEdit("Enter dob in yyyy/MM/dd...", 12,200,30);
     QLabel *dateOfBirthLabel = createLabel("Date of Birth:", 12, Qt::yellow, Qt::AlignCenter);
     formLayout->addRow(dateOfBirthLabel, dateOfBirthLineEdit);
 

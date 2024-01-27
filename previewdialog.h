@@ -9,6 +9,9 @@
 #include <QPushButton>
 #include <QtSql/QSqlDatabase>
 #include <QtSql/QSqlQuery>
+#include "errorhandler.h"
+#include "namevalidator.h"
+#include "usernamevalidator.h"
 
 
 
@@ -45,8 +48,10 @@ private:
     QLabel *emailLabel;
     QLabel *dateOfBirthLabel;
     QLabel *phoneNumberLabel;
+    ErrorHandler errorHandler;
+    NameValidator nameValidator;
+    usernameValidator usernamevalidator;
     // Add more labels as needed
-
     QLabel *statusLabel;
     // Add a layout to arrange the labels
     QVBoxLayout *mainLayout;

@@ -738,4 +738,6 @@ CMakeFiles/BankingApp.dir/main.cpp.o: \
  /usr/include/qt/QtWidgets/qwhatsthis.h \
  /usr/include/qt/QtWidgets/qwidgetaction.h \
  /usr/include/qt/QtWidgets/qwizard.h \
- /usr/include/qt/QtWidgets/qtwidgetsversion.h
+ /usr/include/qt/QtWidgets/qtwidgetsversion.h \
+ /usr/include/qt/QtCore/QFile /usr/include/qt/QtCore/QTextStream \
+ /usr/include/qt/QtCore/QCoreApplication

@@ -1,4 +1,6 @@
 #include "previewdialog.h"
+#include "errorhandler.h"
+#include "namevalidator.h"
 #include <QtSql/QSqlDatabase>
 #include <QtSql/QSqlQuery>
 #include <QWidget>
@@ -14,7 +16,9 @@
 
 
 previewDialog::previewDialog(QWidget *parent)
-    : QDialog {parent}
+    : QDialog {parent}, nameValidator(&errorHandler)
+                      , usernamevalidator(&errorHandler)
+
 {
     //Initialize Labels
     firstNameLabel = new QLabel(this);
@@ -24,6 +28,8 @@ previewDialog::previewDialog(QWidget *parent)
     emailLabel = new QLabel(this);
     dateOfBirthLabel = new QLabel(this);
     phoneNumberLabel = new QLabel(this);
+
+
 
 
     // Create a QLabel for the title
@@ -132,10 +138,47 @@ void previewDialog::confirmAndInsertDetails() {
     QString username = extractLabelText(usernameLabel);
     QString password = extractLabelText(passwordLabel);
     QString email = extractLabelText(emailLabel);
-    QString dateOfBirth = extractLabelText(dateOfBirthLabel);
+    QString dateString = extractLabelText(dateOfBirthLabel);
     QString phoneNumber = extractLabelText(phoneNumberLabel);
 
-    QString formattedDateOfBirth = convertDateFormat(dateOfBirth, "dd/mm/yyyy", "yyyy-MM-dd");
+
+    firstName = firstName.trimmed();
+    lastName = lastName.trimmed();
+
+    NameValidator nameValidator(&errorHandler);
+    ErrorCode firstAndLastNameValidation = nameValidator.validate(firstName, lastName);
+    if (firstAndLastNameValidation != ErrorCode::NoError) {
+        QString errorMessages = errorHandler.getErrorMessage(firstAndLastNameValidation);
+        qDebug() << errorMessages;
+        QMessageBox::critical(this, "Error", errorMessages);
+        return;
+    }
+
+
+    username = username.trimmed();
+
+    usernameValidator usernameValidator(&errorHandler);
+    ErrorCode UsernameValidation = usernameValidator.validate(username);
+    if (UsernameValidation != ErrorCode::NoError) {
+        QString errorMessages = errorHandler.getErrorMessage(UsernameValidation);
+        qDebug() << errorMessages;
+        QMessageBox::critical(this, "Error", errorMessages);
+        return;
+    }
+
+    // Trim leading and trailing whitespaces from dateString
+    dateString = dateString.trimmed();
+
+    QDate dateOfBirth = QDate::fromString(dateString, "MM/dd/yyyy");
+
+    if (!dateOfBirth.isValid()) {
+        // Handle the case where the date is not valid
+        qDebug() << "Invalid date format:" << dateString;
+        QMessageBox::critical(this, "Error", "Invalid date format. Check the date of birth.");
+        return;
+    }
+
+    QString sqlFormattedDate = dateOfBirth.toString("yyyy-MM-dd");
 
 
     // Connect to the database (ensure QSqlDatabase is properly set up)
@@ -165,16 +208,19 @@ void previewDialog::confirmAndInsertDetails() {
     query.bindValue(":username", username);
     query.bindValue(":password", password);
     query.bindValue(":email", email);
-    query.bindValue(":dateOfBirth", formattedDateOfBirth);
+    query.bindValue(":dateOfBirth", sqlFormattedDate);
     query.bindValue(":phoneNumber", phoneNumber);
 
     if (!query.exec()) {
         // Handle SQL query error
         qDebug() << "SQL query error:" << query.lastError().text();
-        QMessageBox::critical(this, "Error", "Failed to insert data into the database.");
+        statusLabel->setText("Failed to insert Data into Database!");
+        QMessageBox::critical(this, "Error", "Failed to insert data into the Database.");
     } else {
+        qDebug() << "Registration Successful!";
         // Display a message or update the GUI to indicate success
         statusLabel->setText("Registration successful!");
+        QMessageBox::information(this, "success", "Registration Successful!");
     }
 
     // Close the database connection

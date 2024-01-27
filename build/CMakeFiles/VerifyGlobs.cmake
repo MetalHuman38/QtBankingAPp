@@ -47,10 +47,17 @@ set(OLD_GLOB
   "/home/babsdevsys/BankingApp/custombackground.cpp"
   "/home/babsdevsys/BankingApp/customcolormanager.cpp"
   "/home/babsdevsys/BankingApp/customevent.cpp"
+  "/home/babsdevsys/BankingApp/dateofbirthvalidator.cpp"
+  "/home/babsdevsys/BankingApp/emailvalidator.cpp"
+  "/home/babsdevsys/BankingApp/errorhandler.cpp"
   "/home/babsdevsys/BankingApp/main.cpp"
   "/home/babsdevsys/BankingApp/mainwindow.cpp"
+  "/home/babsdevsys/BankingApp/namevalidator.cpp"
+  "/home/babsdevsys/BankingApp/passwordvalidator.cpp"
+  "/home/babsdevsys/BankingApp/phonenumbervalidator.cpp"
   "/home/babsdevsys/BankingApp/previewdialog.cpp"
   "/home/babsdevsys/BankingApp/user_registrationwidget.cpp"
+  "/home/babsdevsys/BankingApp/usernamevalidator.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -74,9 +81,16 @@ set(OLD_GLOB
   "/home/babsdevsys/BankingApp/custombackground.h"
   "/home/babsdevsys/BankingApp/customcolormanager.h"
   "/home/babsdevsys/BankingApp/customevent.h"
+  "/home/babsdevsys/BankingApp/dateofbirthvalidator.h"
+  "/home/babsdevsys/BankingApp/emailvalidator.h"
+  "/home/babsdevsys/BankingApp/errorhandler.h"
   "/home/babsdevsys/BankingApp/mainwindow.h"
+  "/home/babsdevsys/BankingApp/namevalidator.h"
+  "/home/babsdevsys/BankingApp/passwordvalidator.h"
+  "/home/babsdevsys/BankingApp/phonenumbervalidator.h"
   "/home/babsdevsys/BankingApp/previewdialog.h"
   "/home/babsdevsys/BankingApp/user_registrationwidget.h"
+  "/home/babsdevsys/BankingApp/usernamevalidator.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

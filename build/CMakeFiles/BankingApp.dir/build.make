@@ -220,6 +220,104 @@ CMakeFiles/BankingApp.dir/previewdialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BankingApp.dir/previewdialog.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/babsdevsys/BankingApp/previewdialog.cpp -o CMakeFiles/BankingApp.dir/previewdialog.cpp.s
 
+CMakeFiles/BankingApp.dir/namevalidator.cpp.o: CMakeFiles/BankingApp.dir/flags.make
+CMakeFiles/BankingApp.dir/namevalidator.cpp.o: /home/babsdevsys/BankingApp/namevalidator.cpp
+CMakeFiles/BankingApp.dir/namevalidator.cpp.o: CMakeFiles/BankingApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/babsdevsys/BankingApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/BankingApp.dir/namevalidator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BankingApp.dir/namevalidator.cpp.o -MF CMakeFiles/BankingApp.dir/namevalidator.cpp.o.d -o CMakeFiles/BankingApp.dir/namevalidator.cpp.o -c /home/babsdevsys/BankingApp/namevalidator.cpp
+
+CMakeFiles/BankingApp.dir/namevalidator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BankingApp.dir/namevalidator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/babsdevsys/BankingApp/namevalidator.cpp > CMakeFiles/BankingApp.dir/namevalidator.cpp.i
+
+CMakeFiles/BankingApp.dir/namevalidator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BankingApp.dir/namevalidator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/babsdevsys/BankingApp/namevalidator.cpp -o CMakeFiles/BankingApp.dir/namevalidator.cpp.s
+
+CMakeFiles/BankingApp.dir/usernamevalidator.cpp.o: CMakeFiles/BankingApp.dir/flags.make
+CMakeFiles/BankingApp.dir/usernamevalidator.cpp.o: /home/babsdevsys/BankingApp/usernamevalidator.cpp
+CMakeFiles/BankingApp.dir/usernamevalidator.cpp.o: CMakeFiles/BankingApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/babsdevsys/BankingApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/BankingApp.dir/usernamevalidator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BankingApp.dir/usernamevalidator.cpp.o -MF CMakeFiles/BankingApp.dir/usernamevalidator.cpp.o.d -o CMakeFiles/BankingApp.dir/usernamevalidator.cpp.o -c /home/babsdevsys/BankingApp/usernamevalidator.cpp
+
+CMakeFiles/BankingApp.dir/usernamevalidator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BankingApp.dir/usernamevalidator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/babsdevsys/BankingApp/usernamevalidator.cpp > CMakeFiles/BankingApp.dir/usernamevalidator.cpp.i
+
+CMakeFiles/BankingApp.dir/usernamevalidator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BankingApp.dir/usernamevalidator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/babsdevsys/BankingApp/usernamevalidator.cpp -o CMakeFiles/BankingApp.dir/usernamevalidator.cpp.s
+
+CMakeFiles/BankingApp.dir/passwordvalidator.cpp.o: CMakeFiles/BankingApp.dir/flags.make
+CMakeFiles/BankingApp.dir/passwordvalidator.cpp.o: /home/babsdevsys/BankingApp/passwordvalidator.cpp
+CMakeFiles/BankingApp.dir/passwordvalidator.cpp.o: CMakeFiles/BankingApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/babsdevsys/BankingApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/BankingApp.dir/passwordvalidator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BankingApp.dir/passwordvalidator.cpp.o -MF CMakeFiles/BankingApp.dir/passwordvalidator.cpp.o.d -o CMakeFiles/BankingApp.dir/passwordvalidator.cpp.o -c /home/babsdevsys/BankingApp/passwordvalidator.cpp
+
+CMakeFiles/BankingApp.dir/passwordvalidator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BankingApp.dir/passwordvalidator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/babsdevsys/BankingApp/passwordvalidator.cpp > CMakeFiles/BankingApp.dir/passwordvalidator.cpp.i
+
+CMakeFiles/BankingApp.dir/passwordvalidator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BankingApp.dir/passwordvalidator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/babsdevsys/BankingApp/passwordvalidator.cpp -o CMakeFiles/BankingApp.dir/passwordvalidator.cpp.s
+
+CMakeFiles/BankingApp.dir/emailvalidator.cpp.o: CMakeFiles/BankingApp.dir/flags.make
+CMakeFiles/BankingApp.dir/emailvalidator.cpp.o: /home/babsdevsys/BankingApp/emailvalidator.cpp
+CMakeFiles/BankingApp.dir/emailvalidator.cpp.o: CMakeFiles/BankingApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/babsdevsys/BankingApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/BankingApp.dir/emailvalidator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BankingApp.dir/emailvalidator.cpp.o -MF CMakeFiles/BankingApp.dir/emailvalidator.cpp.o.d -o CMakeFiles/BankingApp.dir/emailvalidator.cpp.o -c /home/babsdevsys/BankingApp/emailvalidator.cpp
+
+CMakeFiles/BankingApp.dir/emailvalidator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BankingApp.dir/emailvalidator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/babsdevsys/BankingApp/emailvalidator.cpp > CMakeFiles/BankingApp.dir/emailvalidator.cpp.i
+
+CMakeFiles/BankingApp.dir/emailvalidator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BankingApp.dir/emailvalidator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/babsdevsys/BankingApp/emailvalidator.cpp -o CMakeFiles/BankingApp.dir/emailvalidator.cpp.s
+
+CMakeFiles/BankingApp.dir/dateofbirthvalidator.cpp.o: CMakeFiles/BankingApp.dir/flags.make
+CMakeFiles/BankingApp.dir/dateofbirthvalidator.cpp.o: /home/babsdevsys/BankingApp/dateofbirthvalidator.cpp
+CMakeFiles/BankingApp.dir/dateofbirthvalidator.cpp.o: CMakeFiles/BankingApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/babsdevsys/BankingApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/BankingApp.dir/dateofbirthvalidator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BankingApp.dir/dateofbirthvalidator.cpp.o -MF CMakeFiles/BankingApp.dir/dateofbirthvalidator.cpp.o.d -o CMakeFiles/BankingApp.dir/dateofbirthvalidator.cpp.o -c /home/babsdevsys/BankingApp/dateofbirthvalidator.cpp
+
+CMakeFiles/BankingApp.dir/dateofbirthvalidator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BankingApp.dir/dateofbirthvalidator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/babsdevsys/BankingApp/dateofbirthvalidator.cpp > CMakeFiles/BankingApp.dir/dateofbirthvalidator.cpp.i
+
+CMakeFiles/BankingApp.dir/dateofbirthvalidator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BankingApp.dir/dateofbirthvalidator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/babsdevsys/BankingApp/dateofbirthvalidator.cpp -o CMakeFiles/BankingApp.dir/dateofbirthvalidator.cpp.s
+
+CMakeFiles/BankingApp.dir/phonenumbervalidator.cpp.o: CMakeFiles/BankingApp.dir/flags.make
+CMakeFiles/BankingApp.dir/phonenumbervalidator.cpp.o: /home/babsdevsys/BankingApp/phonenumbervalidator.cpp
+CMakeFiles/BankingApp.dir/phonenumbervalidator.cpp.o: CMakeFiles/BankingApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/babsdevsys/BankingApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/BankingApp.dir/phonenumbervalidator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BankingApp.dir/phonenumbervalidator.cpp.o -MF CMakeFiles/BankingApp.dir/phonenumbervalidator.cpp.o.d -o CMakeFiles/BankingApp.dir/phonenumbervalidator.cpp.o -c /home/babsdevsys/BankingApp/phonenumbervalidator.cpp
+
+CMakeFiles/BankingApp.dir/phonenumbervalidator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BankingApp.dir/phonenumbervalidator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/babsdevsys/BankingApp/phonenumbervalidator.cpp > CMakeFiles/BankingApp.dir/phonenumbervalidator.cpp.i
+
+CMakeFiles/BankingApp.dir/phonenumbervalidator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BankingApp.dir/phonenumbervalidator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/babsdevsys/BankingApp/phonenumbervalidator.cpp -o CMakeFiles/BankingApp.dir/phonenumbervalidator.cpp.s
+
+CMakeFiles/BankingApp.dir/errorhandler.cpp.o: CMakeFiles/BankingApp.dir/flags.make
+CMakeFiles/BankingApp.dir/errorhandler.cpp.o: /home/babsdevsys/BankingApp/errorhandler.cpp
+CMakeFiles/BankingApp.dir/errorhandler.cpp.o: CMakeFiles/BankingApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/babsdevsys/BankingApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/BankingApp.dir/errorhandler.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BankingApp.dir/errorhandler.cpp.o -MF CMakeFiles/BankingApp.dir/errorhandler.cpp.o.d -o CMakeFiles/BankingApp.dir/errorhandler.cpp.o -c /home/babsdevsys/BankingApp/errorhandler.cpp
+
+CMakeFiles/BankingApp.dir/errorhandler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BankingApp.dir/errorhandler.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/babsdevsys/BankingApp/errorhandler.cpp > CMakeFiles/BankingApp.dir/errorhandler.cpp.i
+
+CMakeFiles/BankingApp.dir/errorhandler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BankingApp.dir/errorhandler.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/babsdevsys/BankingApp/errorhandler.cpp -o CMakeFiles/BankingApp.dir/errorhandler.cpp.s
+
 # Object files for target BankingApp
 BankingApp_OBJECTS = \
 "CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.o" \
@@ -231,7 +329,14 @@ BankingApp_OBJECTS = \
 "CMakeFiles/BankingApp.dir/customcolormanager.cpp.o" \
 "CMakeFiles/BankingApp.dir/aboutusdialogbox.cpp.o" \
 "CMakeFiles/BankingApp.dir/custombackground.cpp.o" \
-"CMakeFiles/BankingApp.dir/previewdialog.cpp.o"
+"CMakeFiles/BankingApp.dir/previewdialog.cpp.o" \
+"CMakeFiles/BankingApp.dir/namevalidator.cpp.o" \
+"CMakeFiles/BankingApp.dir/usernamevalidator.cpp.o" \
+"CMakeFiles/BankingApp.dir/passwordvalidator.cpp.o" \
+"CMakeFiles/BankingApp.dir/emailvalidator.cpp.o" \
+"CMakeFiles/BankingApp.dir/dateofbirthvalidator.cpp.o" \
+"CMakeFiles/BankingApp.dir/phonenumbervalidator.cpp.o" \
+"CMakeFiles/BankingApp.dir/errorhandler.cpp.o"
 
 # External object files for target BankingApp
 BankingApp_EXTERNAL_OBJECTS =
@@ -246,13 +351,20 @@ BankingApp: CMakeFiles/BankingApp.dir/customcolormanager.cpp.o
 BankingApp: CMakeFiles/BankingApp.dir/aboutusdialogbox.cpp.o
 BankingApp: CMakeFiles/BankingApp.dir/custombackground.cpp.o
 BankingApp: CMakeFiles/BankingApp.dir/previewdialog.cpp.o
+BankingApp: CMakeFiles/BankingApp.dir/namevalidator.cpp.o
+BankingApp: CMakeFiles/BankingApp.dir/usernamevalidator.cpp.o
+BankingApp: CMakeFiles/BankingApp.dir/passwordvalidator.cpp.o
+BankingApp: CMakeFiles/BankingApp.dir/emailvalidator.cpp.o
+BankingApp: CMakeFiles/BankingApp.dir/dateofbirthvalidator.cpp.o
+BankingApp: CMakeFiles/BankingApp.dir/phonenumbervalidator.cpp.o
+BankingApp: CMakeFiles/BankingApp.dir/errorhandler.cpp.o
 BankingApp: CMakeFiles/BankingApp.dir/build.make
 BankingApp: /usr/lib/libQt5Widgets.so.5.15.12
 BankingApp: /usr/lib/libQt5Sql.so.5.15.12
 BankingApp: /usr/lib/libQt5Gui.so.5.15.12
 BankingApp: /usr/lib/libQt5Core.so.5.15.12
 BankingApp: CMakeFiles/BankingApp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/babsdevsys/BankingApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable BankingApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/babsdevsys/BankingApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable BankingApp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BankingApp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

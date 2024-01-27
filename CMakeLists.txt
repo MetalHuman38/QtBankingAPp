@@ -68,6 +68,13 @@ else()
             aboutusdialogbox.h aboutusdialogbox.cpp
             custombackground.h custombackground.cpp
             previewdialog.h previewdialog.cpp
+            namevalidator.h namevalidator.cpp
+            usernamevalidator.h usernamevalidator.cpp
+            passwordvalidator.h passwordvalidator.cpp
+            emailvalidator.h emailvalidator.cpp
+            dateofbirthvalidator.h dateofbirthvalidator.cpp
+            phonenumbervalidator.h phonenumbervalidator.cpp
+            errorhandler.h errorhandler.cpp
         )
     endif()
 

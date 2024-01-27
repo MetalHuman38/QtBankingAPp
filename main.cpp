@@ -1,7 +1,4 @@
 #include "mainwindow.h"
-//#include "user_registrationwidget.h"
-
-
 #include <QApplication>
 #include <QLocale>
 #include <QTranslator>

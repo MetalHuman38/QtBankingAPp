@@ -13,6 +13,8 @@
 #include <QtSql/QSqlQuery>
 #include <QDialog>
 #include <QDate>
+#include "errorhandler.h"
+#include "namevalidator.h"
 
 
 namespace Ui{
@@ -34,19 +36,19 @@ public slots:
 private:
 
     Ui::user_RegistrationWidget *ui;
-
     QLineEdit *firstNameLineEdit;
     QLineEdit *lastNameLineEdit;
     QLineEdit *usernameLineEdit;
     QLineEdit *passwordLineEdit;
     QLineEdit *dateOfBirthLineEdit;
-    //QDateEdit* dateOfBirthDateEdit;
     QLineEdit *emailLineEdit;
     QLineEdit *phoneNumberLineEdit;
     QLineEdit *addressLineEdit;
     QLabel *statusLabel;
     QPushButton *registerButton;
-    //void setupConnections();
+    ErrorHandler errorHandler;
+    NameValidator nameValidator;
+
 
 signals:
     void userRegistrationRequested(const QString &firstName, const QString &lastName, const QString &username,

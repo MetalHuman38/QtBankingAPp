@@ -273,7 +273,14 @@ CMakeFiles/BankingApp.dir/user_registrationwidget.cpp.o: \
  /usr/include/qt/QtSql/qtsqlglobal.h /usr/include/qt/QtSql/qtsql-config.h \
  /usr/include/qt/QtWidgets/QLabel /usr/include/qt/QtSql/QSqlQuery \
  /usr/include/qt/QtSql/qsqlquery.h /usr/include/qt/QtSql/qsqldatabase.h \
+ /usr/include/qt/QtCore/QDate /usr/include/qt/QtCore/qdatetime.h \
+ /home/babsdevsys/BankingApp/errorhandler.h \
+ /usr/include/qt/QtCore/QObject /usr/include/qt/QtCore/qobject.h \
+ /usr/include/qt/QtCore/QMap /usr/include/qt/QtCore/qmap.h \
+ /home/babsdevsys/BankingApp/namevalidator.h \
+ /usr/include/qt/QtCore/QString /usr/include/qt/QtCore/qstring.h \
  /home/babsdevsys/BankingApp/previewdialog.h \
+ /home/babsdevsys/BankingApp/usernamevalidator.h \
  /usr/include/qt/QtWidgets/QLayout /usr/include/qt/QtWidgets/qlayout.h \
  /usr/include/qt/QtWidgets/QFormLayout \
  /usr/include/qt/QtWidgets/qformlayout.h \

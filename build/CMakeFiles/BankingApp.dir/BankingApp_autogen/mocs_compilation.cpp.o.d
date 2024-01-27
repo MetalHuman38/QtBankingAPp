@@ -266,7 +266,13 @@ CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt/QtSql/qtsql-config.h /usr/include/qt/QtWidgets/QLabel \
  /usr/include/qt/QtSql/QSqlQuery /usr/include/qt/QtSql/qsqlquery.h \
  /usr/include/qt/QtSql/qsqldatabase.h /usr/include/qt/QtWidgets/QDialog \
- /usr/include/qt/QtWidgets/qdialog.h \
+ /usr/include/qt/QtWidgets/qdialog.h /usr/include/qt/QtCore/QDate \
+ /usr/include/qt/QtCore/qdatetime.h \
+ /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/../../../errorhandler.h \
+ /usr/include/qt/QtCore/QObject /usr/include/qt/QtCore/qobject.h \
+ /usr/include/qt/QtCore/QMap /usr/include/qt/QtCore/qmap.h \
+ /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/../../../namevalidator.h \
+ /usr/include/qt/QtCore/QString /usr/include/qt/QtCore/qstring.h \
  /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/moc_custombackground.cpp \
  /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/../../../custombackground.h \
  /usr/include/qt/QtGui/QPaintEvent /usr/include/qt/QtGui/qevent.h \
@@ -320,7 +326,7 @@ CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt/QtCore/qcoreapplication.h \
  /usr/include/qt/QtCore/qcoreevent.h \
  /usr/include/qt/QtCore/qcryptographichash.h \
- /usr/include/qt/QtCore/qdatastream.h /usr/include/qt/QtCore/qdatetime.h \
+ /usr/include/qt/QtCore/qdatastream.h \
  /usr/include/qt/QtCore/qdeadlinetimer.h \
  /usr/include/qt/QtCore/qelapsedtimer.h /usr/include/qt/QtCore/qdebug.h \
  /usr/include/qt/QtCore/qdir.h /usr/include/qt/QtCore/qfileinfo.h \
@@ -335,8 +341,7 @@ CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt/QtCore/qfile.h /usr/include/qt/QtCore/qfiledevice.h \
  /usr/include/qt/QtCore/qfileinfo.h \
  /usr/include/qt/QtCore/qfileselector.h /usr/include/qt/QtCore/QObject \
- /usr/include/qt/QtCore/qobject.h /usr/include/qt/QtCore/QStringList \
- /usr/include/qt/QtCore/qstringlist.h \
+ /usr/include/qt/QtCore/QStringList /usr/include/qt/QtCore/qstringlist.h \
  /usr/include/qt/QtCore/qfilesystemwatcher.h \
  /usr/include/qt/QtCore/qfinalstate.h \
  /usr/include/qt/QtCore/qabstractstate.h /usr/include/qt/QtCore/qflags.h \
@@ -366,7 +371,7 @@ CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt/QtCore/qversionnumber.h /usr/include/qt/QtCore/qline.h \
  /usr/include/qt/QtCore/qlinkedlist.h /usr/include/qt/QtCore/qlist.h \
  /usr/include/qt/QtCore/qlocale.h /usr/include/qt/QtCore/qlockfile.h \
- /usr/include/qt/QtCore/qloggingcategory.h /usr/include/qt/QtCore/qmap.h \
+ /usr/include/qt/QtCore/qloggingcategory.h \
  /usr/include/qt/QtCore/qmargins.h /usr/include/qt/QtCore/qmath.h \
  /usr/include/c++/13.2.1/cmath /usr/include/math.h \
  /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
@@ -436,7 +441,6 @@ CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt/QtCore/qstack.h /usr/include/qt/QtCore/qstandardpaths.h \
  /usr/include/qt/QtCore/qstate.h /usr/include/qt/QtCore/qstatemachine.h \
  /usr/include/qt/QtCore/qstate.h /usr/include/qt/QtCore/qstorageinfo.h \
- /usr/include/qt/QtCore/qstring.h \
  /usr/include/qt/QtCore/qstringalgorithms.h \
  /usr/include/qt/QtCore/qstringbuilder.h \
  /usr/include/qt/QtCore/qstringlistmodel.h \
@@ -741,6 +745,12 @@ CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.o: \
  /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/moc_customevent.cpp \
  /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/../../../customevent.h \
  /usr/include/qt/QtGui/QtGui /usr/include/qt/QtCore/QtCore \
+ /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/moc_dateofbirthvalidator.cpp \
+ /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/../../../dateofbirthvalidator.h \
+ /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/moc_emailvalidator.cpp \
+ /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/../../../emailvalidator.h \
+ /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/moc_errorhandler.cpp \
+ /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/../../../errorhandler.h \
  /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/moc_mainwindow.cpp \
  /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/../../../mainwindow.h \
  /usr/include/qt/QtWidgets/QGraphicsView \
@@ -748,7 +758,12 @@ CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt/QtWidgets/QStackedWidget \
  /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/../../../user_registrationwidget.h \
  /usr/include/qt/QtWidgets/QMainWindow \
+ /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/moc_passwordvalidator.cpp \
+ /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/../../../passwordvalidator.h \
+ /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/moc_phonenumbervalidator.cpp \
+ /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/../../../phonenumbervalidator.h \
  /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/moc_previewdialog.cpp \
  /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/../../../previewdialog.h \
+ /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/../../../usernamevalidator.h \
  /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/moc_user_registrationwidget.cpp \
  /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/../../../user_registrationwidget.h

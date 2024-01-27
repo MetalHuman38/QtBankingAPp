@@ -251,4 +251,23 @@ CMakeFiles/BankingApp.dir/previewdialog.cpp.o: \
  /usr/include/qt/QtWidgets/QPushButton \
  /usr/include/qt/QtWidgets/qpushbutton.h \
  /usr/include/qt/QtWidgets/qabstractbutton.h \
- /usr/include/qt/QtGui/qicon.h
+ /usr/include/qt/QtGui/qicon.h /usr/include/qt/QtSql/QSqlDatabase \
+ /usr/include/qt/QtSql/qsqldatabase.h /usr/include/qt/QtSql/qtsqlglobal.h \
+ /usr/include/qt/QtSql/qtsql-config.h /usr/include/qt/QtSql/QSqlQuery \
+ /usr/include/qt/QtSql/qsqlquery.h /usr/include/qt/QtSql/qsqldatabase.h \
+ /home/babsdevsys/BankingApp/errorhandler.h \
+ /usr/include/qt/QtCore/QObject /usr/include/qt/QtCore/qobject.h \
+ /usr/include/qt/QtCore/QMap /usr/include/qt/QtCore/qmap.h \
+ /home/babsdevsys/BankingApp/namevalidator.h \
+ /usr/include/qt/QtCore/QString /usr/include/qt/QtCore/qstring.h \
+ /home/babsdevsys/BankingApp/usernamevalidator.h \
+ /usr/include/qt/QtCore/QVariant /usr/include/qt/QtCore/qvariant.h \
+ /usr/include/qt/QtCore/qmap.h /usr/include/c++/13.2.1/variant \
+ /usr/include/qt/QtWidgets/QMessageBox \
+ /usr/include/qt/QtWidgets/qmessagebox.h \
+ /usr/include/qt/QtWidgets/qdialog.h /usr/include/qt/QtCore/QDebug \
+ /usr/include/qt/QtCore/qdebug.h /usr/include/qt/QtCore/qtextstream.h \
+ /usr/include/qt/QtCore/qlocale.h /usr/include/qt/QtCore/qvariant.h \
+ /usr/include/qt/QtCore/qset.h /usr/include/qt/QtCore/qcontiguouscache.h \
+ /usr/include/qt/QtSql/QSqlError /usr/include/qt/QtSql/qsqlerror.h \
+ /usr/include/qt/QtCore/QDate /usr/include/qt/QtCore/qdatetime.h
