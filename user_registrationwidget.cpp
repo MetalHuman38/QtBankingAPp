@@ -79,6 +79,7 @@ user_RegistrationWidget::user_RegistrationWidget(QWidget *parent)
     formLayout->addRow(usernameLabel, usernameLineEdit);
 
 
+    //Gui for taking password
     passwordLineEdit = createLineEdit("Create a Password...", 12,200,30);
     QLabel *passwordLabel = createLabel("Password:", 12, Qt::yellow, Qt::AlignCenter);
     formLayout->addRow(passwordLabel, passwordLineEdit);

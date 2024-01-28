@@ -280,8 +280,12 @@ CMakeFiles/BankingApp.dir/user_registrationwidget.cpp.o: \
  /home/babsdevsys/BankingApp/namevalidator.h \
  /usr/include/qt/QtCore/QString /usr/include/qt/QtCore/qstring.h \
  /home/babsdevsys/BankingApp/previewdialog.h \
+ /home/babsdevsys/BankingApp/passwordvalidator.h \
+ /usr/include/qt/QtCore/QCryptographicHash \
+ /usr/include/qt/QtCore/qcryptographichash.h \
  /home/babsdevsys/BankingApp/usernamevalidator.h \
- /usr/include/qt/QtWidgets/QLayout /usr/include/qt/QtWidgets/qlayout.h \
+ /usr/include/qt/QtSql/QSqlDatabase /usr/include/qt/QtWidgets/QLayout \
+ /usr/include/qt/QtWidgets/qlayout.h \
  /usr/include/qt/QtWidgets/QFormLayout \
  /usr/include/qt/QtWidgets/qformlayout.h \
  /usr/include/qt/QtWidgets/QLayout

@@ -21,7 +21,9 @@ enum class ErrorCode{
     UserNameCannotContainOnlyIntegerOrSpecialChar,
     UserNameAcceptCharacters,
     PasswordTooshort,
+    InvalidPassword,
     PasswordMustContainSpecialChar,
+    PasswordMustContainUppercaseDigitSpecialChar,
     EmailNotValid,
     PhoneNumberNotValid,
 };

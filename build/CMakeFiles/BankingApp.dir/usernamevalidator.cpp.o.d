@@ -212,16 +212,17 @@ CMakeFiles/BankingApp.dir/usernamevalidator.cpp.o: \
  /usr/include/qt/QtCore/QString /usr/include/qt/QtCore/qstring.h \
  /usr/include/qt/QtSql/QSqlDatabase /usr/include/qt/QtSql/qsqldatabase.h \
  /usr/include/qt/QtSql/qtsqlglobal.h /usr/include/qt/QtSql/qtsql-config.h \
- /usr/include/qt/QtSql/QSqlQuery /usr/include/qt/QtSql/qsqlquery.h \
- /usr/include/qt/QtSql/qsqldatabase.h /usr/include/qt/QtSql/QSqlError \
- /usr/include/qt/QtSql/qsqlerror.h /usr/include/qt/QtCore/QVariant \
- /usr/include/qt/QtCore/qvariant.h /usr/include/qt/QtCore/qmap.h \
- /usr/include/qt/QtCore/qhash.h /usr/include/qt/QtCore/qobject.h \
- /usr/include/c++/13.2.1/variant /usr/include/qt/QtCore/QDebug \
- /usr/include/qt/QtCore/qdebug.h /usr/include/qt/QtCore/qtextstream.h \
- /usr/include/qt/QtCore/qiodevice.h /usr/include/qt/QtCore/qlocale.h \
- /usr/include/qt/QtCore/qvariant.h /usr/include/qt/QtCore/qshareddata.h \
- /usr/include/qt/QtCore/qset.h /usr/include/qt/QtCore/qcontiguouscache.h \
+ /usr/include/qt/QtSql/QSqlDatabase /usr/include/qt/QtSql/QSqlQuery \
+ /usr/include/qt/QtSql/qsqlquery.h /usr/include/qt/QtSql/qsqldatabase.h \
+ /usr/include/qt/QtSql/QSqlError /usr/include/qt/QtSql/qsqlerror.h \
+ /usr/include/qt/QtCore/QVariant /usr/include/qt/QtCore/qvariant.h \
+ /usr/include/qt/QtCore/qmap.h /usr/include/qt/QtCore/qhash.h \
+ /usr/include/qt/QtCore/qobject.h /usr/include/c++/13.2.1/variant \
+ /usr/include/qt/QtCore/QDebug /usr/include/qt/QtCore/qdebug.h \
+ /usr/include/qt/QtCore/qtextstream.h /usr/include/qt/QtCore/qiodevice.h \
+ /usr/include/qt/QtCore/qlocale.h /usr/include/qt/QtCore/qvariant.h \
+ /usr/include/qt/QtCore/qshareddata.h /usr/include/qt/QtCore/qset.h \
+ /usr/include/qt/QtCore/qcontiguouscache.h \
  /usr/include/qt/QtCore/qsharedpointer.h \
  /usr/include/qt/QtCore/qsharedpointer_impl.h \
  /usr/include/c++/13.2.1/memory \

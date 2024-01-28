@@ -2,6 +2,7 @@
   /home/babsdevsys/BankingApp/build/BankingApp_autogen/moc_predefs.h \
   /home/babsdevsys/BankingApp/errorhandler.h \
   /home/babsdevsys/BankingApp/namevalidator.h \
+  /home/babsdevsys/BankingApp/passwordvalidator.h \
   /home/babsdevsys/BankingApp/usernamevalidator.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -232,6 +233,7 @@
   /usr/include/linux/errno.h \
   /usr/include/locale.h \
   /usr/include/pthread.h \
+  /usr/include/qt/QtCore/QCryptographicHash \
   /usr/include/qt/QtCore/QMap \
   /usr/include/qt/QtCore/QObject \
   /usr/include/qt/QtCore/QString \
@@ -247,6 +249,7 @@
   /usr/include/qt/QtCore/qconfig.h \
   /usr/include/qt/QtCore/qcontainerfwd.h \
   /usr/include/qt/QtCore/qcontainertools_impl.h \
+  /usr/include/qt/QtCore/qcryptographichash.h \
   /usr/include/qt/QtCore/qdatastream.h \
   /usr/include/qt/QtCore/qflags.h \
   /usr/include/qt/QtCore/qgenericatomic.h \

@@ -760,10 +760,13 @@ CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt/QtWidgets/QMainWindow \
  /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/moc_passwordvalidator.cpp \
  /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/../../../passwordvalidator.h \
+ /usr/include/qt/QtCore/QCryptographicHash \
  /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/moc_phonenumbervalidator.cpp \
  /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/../../../phonenumbervalidator.h \
  /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/moc_previewdialog.cpp \
  /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/../../../previewdialog.h \
+ /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/../../../passwordvalidator.h \
  /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/../../../usernamevalidator.h \
+ /usr/include/qt/QtSql/QSqlDatabase \
  /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/moc_user_registrationwidget.cpp \
  /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/../../../user_registrationwidget.h

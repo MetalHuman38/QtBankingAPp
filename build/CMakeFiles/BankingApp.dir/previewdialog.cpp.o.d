@@ -260,10 +260,13 @@ CMakeFiles/BankingApp.dir/previewdialog.cpp.o: \
  /usr/include/qt/QtCore/QMap /usr/include/qt/QtCore/qmap.h \
  /home/babsdevsys/BankingApp/namevalidator.h \
  /usr/include/qt/QtCore/QString /usr/include/qt/QtCore/qstring.h \
+ /home/babsdevsys/BankingApp/passwordvalidator.h \
+ /usr/include/qt/QtCore/QCryptographicHash \
+ /usr/include/qt/QtCore/qcryptographichash.h \
  /home/babsdevsys/BankingApp/usernamevalidator.h \
- /usr/include/qt/QtCore/QVariant /usr/include/qt/QtCore/qvariant.h \
- /usr/include/qt/QtCore/qmap.h /usr/include/c++/13.2.1/variant \
- /usr/include/qt/QtWidgets/QMessageBox \
+ /usr/include/qt/QtSql/QSqlDatabase /usr/include/qt/QtCore/QVariant \
+ /usr/include/qt/QtCore/qvariant.h /usr/include/qt/QtCore/qmap.h \
+ /usr/include/c++/13.2.1/variant /usr/include/qt/QtWidgets/QMessageBox \
  /usr/include/qt/QtWidgets/qmessagebox.h \
  /usr/include/qt/QtWidgets/qdialog.h /usr/include/qt/QtCore/QDebug \
  /usr/include/qt/QtCore/qdebug.h /usr/include/qt/QtCore/qtextstream.h \

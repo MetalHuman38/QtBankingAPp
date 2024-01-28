@@ -11,6 +11,7 @@
 #include <QtSql/QSqlQuery>
 #include "errorhandler.h"
 #include "namevalidator.h"
+#include "passwordvalidator.h"
 #include "usernamevalidator.h"
 
 
@@ -51,6 +52,7 @@ private:
     ErrorHandler errorHandler;
     NameValidator nameValidator;
     usernameValidator usernamevalidator;
+    PasswordValidator passwordvalidator;
     // Add more labels as needed
     QLabel *statusLabel;
     // Add a layout to arrange the labels

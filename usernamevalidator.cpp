@@ -15,13 +15,16 @@ usernameValidator::usernameValidator(ErrorHandler* errorHandler)
 {
 }
 
+void usernameValidator::setTableName(const QString& tableName){
+    this->tableName = tableName;
+}
 
-ErrorCode usernameValidator::validate(const QString& username) const {
 
 
+ErrorCode usernameValidator::validate(const QString& username, const QSqlDatabase& db) const {
 
     // Check if username already exists in the database.
-    if (isUsernameExists(username)) {
+    if (isUsernameExists(username, db)) {
         return ErrorCode::UserNameAlreadyExists;
     }
 
@@ -53,26 +56,19 @@ ErrorCode usernameValidator::validate(const QString& username) const {
     return ErrorCode::NoError;
 }
 
-bool usernameValidator::isValid(const QString &username) const {
-    return validate(username) == ErrorCode::NoError;
+
+
+bool usernameValidator::isValid(const QString &username, const QSqlDatabase& db) const {
+    return validate(username, db) == ErrorCode::NoError;
 }
 
 
-bool usernameValidator::isUsernameExists(const QString& username) const {
+bool usernameValidator::isUsernameExists(const QString& username, const QSqlDatabase& db) const {
     // Implement your database query logic to check if the username exists
     // Return true if the username exists, false otherwise
 
-    QSqlDatabase db = QSqlDatabase::addDatabase("QMYSQL");
-
-
-    // Check if the database is open
-    if (!db.isOpen()) {
-        qDebug() << "Database not open";
-        return false;
-    }
-
     // Placeholder code, replace it with actual database query logic
-    QSqlQuery query;
+    QSqlQuery query (db);
     query.prepare("SELECT COUNT(*) FROM UserRegistration WHERE username = :username");
     query.bindValue(":username", username);
 

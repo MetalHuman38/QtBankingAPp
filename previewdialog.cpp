@@ -1,6 +1,7 @@
 #include "previewdialog.h"
 #include "errorhandler.h"
 #include "namevalidator.h"
+#include "passwordvalidator.h"
 #include <QtSql/QSqlDatabase>
 #include <QtSql/QSqlQuery>
 #include <QWidget>
@@ -18,6 +19,7 @@
 previewDialog::previewDialog(QWidget *parent)
     : QDialog {parent}, nameValidator(&errorHandler)
                       , usernamevalidator(&errorHandler)
+                      , passwordvalidator(&errorHandler)
 
 {
     //Initialize Labels
@@ -154,17 +156,18 @@ void previewDialog::confirmAndInsertDetails() {
         return;
     }
 
+    password = password.trimmed();
+    PasswordValidator passwordValidator(&errorHandler);
+    ErrorCode passwordValidation = passwordValidator.validate(password);
+    if(passwordValidation != ErrorCode::NoError){
 
-    username = username.trimmed();
-
-    usernameValidator usernameValidator(&errorHandler);
-    ErrorCode UsernameValidation = usernameValidator.validate(username);
-    if (UsernameValidation != ErrorCode::NoError) {
-        QString errorMessages = errorHandler.getErrorMessage(UsernameValidation);
+        QString errorMessages = errorHandler.getErrorMessage(passwordValidation);
         qDebug() << errorMessages;
         QMessageBox::critical(this, "Error", errorMessages);
         return;
     }
+
+
 
     // Trim leading and trailing whitespaces from dateString
     dateString = dateString.trimmed();
@@ -197,6 +200,18 @@ void previewDialog::confirmAndInsertDetails() {
         return;
     }
 
+    username = username.trimmed();
+
+    usernameValidator usernameValidator(&errorHandler);
+    ErrorCode UsernameValidation = usernameValidator.validate(username, db);
+
+    if (UsernameValidation != ErrorCode::NoError) {
+        QString errorMessages = errorHandler.getErrorMessage(UsernameValidation);
+        qDebug() << errorMessages;
+        QMessageBox::critical(this, "Error", errorMessages);
+        return;
+    }
+
 
 
     // Execute SQL query to insert user into the database
@@ -210,6 +225,7 @@ void previewDialog::confirmAndInsertDetails() {
     query.bindValue(":email", email);
     query.bindValue(":dateOfBirth", sqlFormattedDate);
     query.bindValue(":phoneNumber", phoneNumber);
+
 
     if (!query.exec()) {
         // Handle SQL query error

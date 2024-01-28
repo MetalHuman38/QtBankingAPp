@@ -1,5 +1,6 @@
 /home/babsdevsys/BankingApp/build/BankingApp_autogen/EWIEGA46WW/moc_passwordvalidator.cpp: /home/babsdevsys/BankingApp/passwordvalidator.h \
   /home/babsdevsys/BankingApp/build/BankingApp_autogen/moc_predefs.h \
+  /home/babsdevsys/BankingApp/errorhandler.h \
   /usr/include/assert.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/cpu-set.h \
@@ -185,7 +186,10 @@
   /usr/include/gnu/stubs.h \
   /usr/include/locale.h \
   /usr/include/pthread.h \
+  /usr/include/qt/QtCore/QCryptographicHash \
+  /usr/include/qt/QtCore/QMap \
   /usr/include/qt/QtCore/QObject \
+  /usr/include/qt/QtCore/QString \
   /usr/include/qt/QtCore/qalgorithms.h \
   /usr/include/qt/QtCore/qarraydata.h \
   /usr/include/qt/QtCore/qatomic.h \
@@ -198,6 +202,7 @@
   /usr/include/qt/QtCore/qconfig.h \
   /usr/include/qt/QtCore/qcontainerfwd.h \
   /usr/include/qt/QtCore/qcontainertools_impl.h \
+  /usr/include/qt/QtCore/qcryptographichash.h \
   /usr/include/qt/QtCore/qflags.h \
   /usr/include/qt/QtCore/qgenericatomic.h \
   /usr/include/qt/QtCore/qglobal.h \
@@ -206,6 +211,7 @@
   /usr/include/qt/QtCore/qiterator.h \
   /usr/include/qt/QtCore/qlist.h \
   /usr/include/qt/QtCore/qlogging.h \
+  /usr/include/qt/QtCore/qmap.h \
   /usr/include/qt/QtCore/qmetatype.h \
   /usr/include/qt/QtCore/qnamespace.h \
   /usr/include/qt/QtCore/qnumeric.h \
